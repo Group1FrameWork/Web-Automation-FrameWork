@@ -9,6 +9,6 @@ public class searchItems extends CommonAPI {
 
     @Test
     public void search(){
-        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Note 8", Keys.ENTER);
+        driver.findElement(By.cssSelector("#gh-ac")).sendKeys("Note 8", Keys.ENTER);
     }
 }

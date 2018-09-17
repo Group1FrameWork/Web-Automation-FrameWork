@@ -16,7 +16,7 @@ public class CommonAPI {
 
     @Parameters({"url"})
     @BeforeMethod
-    public void setUp(@Optional("https://www.amazon.com/") String url)throws Exception{
+    public void setUp(@Optional("https://www.eBay.com/") String url)throws Exception{
         System.setProperty("webdriver.chrome.driver","/Users/subhra/WebPageAutomation/Generic/Browser-Driver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

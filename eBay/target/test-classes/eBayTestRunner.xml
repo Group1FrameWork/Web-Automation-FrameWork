@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Amazon API Automation Script " parallel="false">
+<suite name="eBay API Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -8,7 +8,7 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.amazon.com/"/>
+    <parameter name="url" value="https://www.eBay.com/"/>
 
 <test name="Search Items">
     <classes>
