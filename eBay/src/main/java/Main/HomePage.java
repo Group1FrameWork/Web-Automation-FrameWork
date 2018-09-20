@@ -1,11 +1,12 @@
 package Main;
 
 
-import common.CommonAPI;
+import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
 import reporting.TestLogger;
 
 import java.io.IOException;
@@ -20,24 +21,29 @@ public class HomePage extends CommonAPI {
     public  static WebElement submitButtonWebElement;
 
     public WebElement getSearchInputWebElement(){
-      TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+     // TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     return searchInputWebElement;
     }
     public WebElement getSubmitButtonWebElement(){
-        TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        //TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     return submitButtonWebElement;
     }
     public void serachFor(String value){
-        TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        //TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     getSearchInputWebElement().sendKeys(value);
     }
     public void submitSearchButton(){
-       TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+      // TestLogger.log(getClass().getSimpleName()+":" + ommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     getSubmitButtonWebElement().click();
     }
-
+    public void viewMultipleByCSS() {
+        List<WebElement> menu = getListOfWebElementsByCss("[aria-label='Select a category for search']");
+        for (WebElement search : menu) {
+            System.out.println(search.getText());
+        }
+    }
     public void clearInput(){
-        TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       // TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     getSearchInputWebElement().clear();
     }
     public List<String> getMenuData(){
@@ -47,6 +53,8 @@ public class HomePage extends CommonAPI {
         data.add("Watch");
         return data;
     }
+
+
     public void searchItemsAndSubmitButton() throws IOException{
         //TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list = getItemValue();
@@ -58,14 +66,14 @@ public class HomePage extends CommonAPI {
 
     }
     public WebElement getSearchInputField() {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        //TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return searchInputWebElement;
     }
     public void setSearchInputField(WebElement searchInputField) {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       // TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         this.searchInputWebElement = searchInputField;
     }
-    public void searchItems()throws InterruptedException{
+    public void searchItems() throws InterruptedException, IOException {
         List<String> itemList = getItemValue();
         for(String st: itemList) {
             getSearchInputField().sendKeys(st, Keys.ENTER);
@@ -74,7 +82,7 @@ public class HomePage extends CommonAPI {
     }
 
     public List<String> getItemValue(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       // TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> itemsList = new ArrayList<String>();
         itemsList.add("Java Book");
         itemsList.add("Selenium Book");

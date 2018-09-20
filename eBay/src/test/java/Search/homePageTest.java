@@ -2,8 +2,11 @@ package Search;
 
 import Main.HomePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
 
 public class homePageTest extends HomePage {
 
@@ -16,32 +19,20 @@ public class homePageTest extends HomePage {
 
         Assert.assertEquals(actual,expected);
     }
-
-    // TC#2 User is registering/signing up for eBay
+//TC#2 User can search any thing on the home page
     @Test
-    public  void signUpForeBay() {
-        clickOnCss("#gh-ug-flex > a");
-
-        //typing the first name on the FirstName field
-
-        typeByCss("#firstname", "Subhra");
-
-        // typing the last name on the FirstName field
-
-        typeByCss("#lastname","Roy");
-
-        // typing the last name on the FirstName field
-
-        typeByCss("#email","roysubhraroy1988@gmail.com");
-
-        // typing the last name on the FirstName field
-
-        typeByCss("#PASSWORD","Tanu01011988");
-
-        // Click on Create account Button
-        waitUntilClickAble(By.cssSelector("#ppaFormSbtBtn"));
-        clickOnCss("#ppaFormSbtBtn");
-
+    public void searchItems() throws IOException {
+HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+homePage.searchItemsAndSubmitButton();
 
     }
+
+    //TC#3 Get all the list from  all categories
+    @Test
+    public void getCategories(){
+        mouseHoverByCSS("#gh-cat");
+        viewMultipleByCSS();
+    }
+
+    //TC#4
 }

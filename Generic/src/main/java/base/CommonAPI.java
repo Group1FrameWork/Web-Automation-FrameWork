@@ -209,7 +209,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void cleanUp() {
-      //  driver.close();
+       driver.close();
     }
 
     public void clickOnCss(String locator) {

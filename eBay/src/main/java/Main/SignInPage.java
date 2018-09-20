@@ -23,9 +23,7 @@ public class SignInPage extends CommonAPI {
         boolean expected = true;
         boolean actual = driver.findElement(By.cssSelector("#GREET-HELLO")).isDisplayed();
        Assert.assertEquals(actual,expected);
-
-
-
+        System.out.println("WE are in right page");
 
     }
 
