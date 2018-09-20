@@ -20,6 +20,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
 import java.io.IOException;
@@ -36,7 +37,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
-    //ExtentReport
+    /*//ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) {
@@ -87,7 +88,7 @@ public class CommonAPI {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
-    }
+    }*/
 
     public WebDriver driver = null;
     public String browserstack_username = "your user name";
@@ -99,7 +100,7 @@ public class CommonAPI {
         Thread.sleep(sec * 1000);
     }
 
-    public static void captureScreenshot(WebDriver driver, String screenshotName) {
+   /* public static void captureScreenshot(WebDriver driver, String screenshotName) {
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
@@ -114,7 +115,7 @@ public class CommonAPI {
         }
 
     }
-
+*/
     public static String convertToString(String st) {
         String splitString;
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
@@ -137,16 +138,29 @@ public class CommonAPI {
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
+<<<<<<< HEAD:Generic/src/main/java/common/CommonAPI.java
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName, @Optional("OS X") String os, @Optional("Sierra") String os_version, @Optional("chrome-options") String browsername, @Optional("69") String browserVersion, @Optional("https://www.eBay.com/") String url) throws Exception {
+=======
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName, @Optional("OS X") String os, @Optional("Sierra") String os_version, @Optional("chrome") String browsername, @Optional("69") String browserVersion, @Optional("https://www.eBay.com/") String url) throws Exception {
+        //System.setProperty("webdriver.chrome.driver", "/Users/subhra/WebPageAutomation/Generic/Browser-Driver/chromedriver");
+>>>>>>> master:Generic/src/main/java/base/CommonAPI.java
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browsername, browserVersion);
             } else if (cloudEnvName.equalsIgnoreCase("saucelabs")) {
                 getCloudDriver(cloudEnvName, saucelabs_username, saucelabs_accesskey, os, os_version, browsername, browserVersion);
             }
+<<<<<<< HEAD:Generic/src/main/java/common/CommonAPI.java
         } else {
                 getLocalDriver(os, browsername);
               }
+=======
+        }
+        else {
+            getLocalDriver(os,browsername);
+        }
+        //driver = new ChromeDriver();
+>>>>>>> master:Generic/src/main/java/base/CommonAPI.java
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
@@ -161,7 +175,8 @@ public class CommonAPI {
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/Browser-Driver/chromedriver.exe");
             }
-            driver = new ChromeDriver();
+                driver = new ChromeDriver();
+
         } else if (browserName.equalsIgnoreCase("chrome-options")) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disabled-notifications");
@@ -173,14 +188,14 @@ public class CommonAPI {
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "../Generic/Browser-Driver/geckodriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "../Generic/Browser-Driver/geckodriver.exe");
             }
             driver = new FirefoxDriver();
 
         } else if (browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "../Generic/browser-driver/IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "../Generic/Browser-Driver/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;
@@ -204,7 +219,11 @@ public class CommonAPI {
 
     @AfterMethod
     public void cleanUp() {
+<<<<<<< HEAD:Generic/src/main/java/common/CommonAPI.java
         //driver.close();
+=======
+      //  driver.close();
+>>>>>>> master:Generic/src/main/java/base/CommonAPI.java
     }
 
     public void clickOnCss(String locator) {

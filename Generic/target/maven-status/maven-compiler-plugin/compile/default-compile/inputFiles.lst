@@ -1,10 +1,17 @@
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/reporting/ExtentManager.java
+<<<<<<< HEAD
+=======
+/Users/admin/Web-Automation-FrameWork/Generic/src/main/java/base/CommonAPI.java
+>>>>>>> master
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/databases/ConnectToMongoDB.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/reporting/ApplicationLog.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/databases/User.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/databases/ConnectToSqlDB.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/reporting/TestLogger.java
+<<<<<<< HEAD
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/common/CommonAPI.java
+=======
+>>>>>>> master
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/reporting/ExtentTestManager.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/utility/DataReader.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/databases/Student.java

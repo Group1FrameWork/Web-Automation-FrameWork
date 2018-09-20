@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+base/CommonAPI.class
+>>>>>>> master
 reporting/ExtentManager.class
 databases/ConnectToMongoDB.class
 databases/Student.class
@@ -6,5 +10,8 @@ reporting/ExtentTestManager.class
 utility/DataReader.class
 databases/User.class
 reporting/TestLogger.class
+<<<<<<< HEAD
 common/CommonAPI.class
+=======
+>>>>>>> master
 databases/ConnectToSqlDB.class

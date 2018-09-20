@@ -1,4 +1,4 @@
-package HomePage;
+package Main;
 
 
 import common.CommonAPI;
@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchPage extends CommonAPI {
+public class HomePage extends CommonAPI {
     @FindBy(how = How.CSS, using = "#gh-ac")
     public static WebElement searchInputWebElement;
 
@@ -20,7 +20,7 @@ public class SearchPage extends CommonAPI {
     public  static WebElement submitButtonWebElement;
 
     public WebElement getSearchInputWebElement(){
-        TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+      TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     return searchInputWebElement;
     }
     public WebElement getSubmitButtonWebElement(){
@@ -32,7 +32,7 @@ public class SearchPage extends CommonAPI {
     getSearchInputWebElement().sendKeys(value);
     }
     public void submitSearchButton(){
-        TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     getSubmitButtonWebElement().click();
     }
 
@@ -48,7 +48,7 @@ public class SearchPage extends CommonAPI {
         return data;
     }
     public void searchItemsAndSubmitButton() throws IOException{
-        TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        //TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list = getItemValue();
         for (int i =0; i<list.size(); i++){
             serachFor(list.get(i));

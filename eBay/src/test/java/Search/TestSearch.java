@@ -1,7 +1,12 @@
 package Search;
 
+<<<<<<< HEAD
 import HomePage.SearchPage;
 import common.CommonAPI;
+=======
+import Main.HomePage;
+import base.CommonAPI;
+>>>>>>> master
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
@@ -12,7 +17,7 @@ public class TestSearch extends CommonAPI {
     @Test
     public void searchData()throws IOException{
         TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        SearchPage  searchPage = PageFactory.initElements(driver, SearchPage.class);
-    searchPage.searchItemsAndSubmitButton();
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+    homePage.searchItemsAndSubmitButton();
     }
 }
