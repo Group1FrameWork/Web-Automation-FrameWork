@@ -10,12 +10,11 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.eBay.com/"/>
 
-<test name="Search Items">
-    <classes>
-<class name="Search.InputSearch"/>
-        <class name="Search.TestSearch"/>
-    </classes>
-</test>
+    <test name="Search Items">
+        <classes>
+            <class name="Search.InputSearch"/>
+        </classes>
+    </test>
 
 
 </suite>

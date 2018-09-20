@@ -1,6 +1,6 @@
 package Search;
 
-import base.CommonAPI;
+import common.CommonAPI;
 import org.testng.annotations.Test;
 
 public class InputSearch extends CommonAPI {
