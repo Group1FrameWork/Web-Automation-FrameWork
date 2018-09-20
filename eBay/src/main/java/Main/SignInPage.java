@@ -11,8 +11,8 @@ import org.testng.Assert;
 public class SignInPage extends CommonAPI {
 
 
-    public static String userName = "";
-    public static String passWord = "";
+    //public static String userName = "";
+    //public static String passWord = "";
 // Click on Sign in Link
     public  void clickSignIn(){
         clickByXpath("//*[@id=\"gh-ug\"]/a");
@@ -21,9 +21,12 @@ public class SignInPage extends CommonAPI {
     // verifying the we are in sign in page
     public  void verifySignIn(){
         boolean expected = true;
+        boolean actual = driver.findElement(By.cssSelector("#GREET-HELLO")).isDisplayed();
+       Assert.assertEquals(actual,expected);
 
-       boolean actual = driver.findElement(By.cssSelector("#GREET-HELLO")).isDisplayed();
-        Assert.assertEquals(actual,expected);
+
+
+
     }
 
     //Positive testing
@@ -58,4 +61,12 @@ public class SignInPage extends CommonAPI {
         typeByCss("#pass",passWord);
         clickOnCss("#sgnBt");
     }
+
+    //Sign in with no email And No password
+    public void noEmailNoPasswordUse(String userName,String passWord){
+        clickOnCss("#userid");
+        clickOnCss("#pass");
+        clickOnCss("#sgnBt");
+    }
+
 }

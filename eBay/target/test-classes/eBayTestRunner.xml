@@ -13,7 +13,7 @@
 <test name="Search Items">
     <classes>
 
-<class name="Search.searchPageTest"/>
+<class name="Search.SignInPageTest"/>
 
     </classes>
 </test>
