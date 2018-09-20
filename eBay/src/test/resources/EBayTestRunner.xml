@@ -10,6 +10,13 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.eBay.com/"/>
 
+<<<<<<< HEAD:eBay/src/test/resources/EBayTestRunner.xml
+    <test name="Search Items">
+        <classes>
+            <class name="Search.InputSearch"/>
+        </classes>
+    </test>
+=======
 <test name="Search Items">
     <classes>
 
@@ -17,6 +24,7 @@
 
     </classes>
 </test>
+>>>>>>> master:eBay/src/test/resources/EBayTestRunner.xml
 
 
 </suite>

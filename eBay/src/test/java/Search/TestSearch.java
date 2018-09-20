@@ -1,7 +1,12 @@
 package Search;
 
+<<<<<<< HEAD
+import HomePage.SearchPage;
+import common.CommonAPI;
+=======
 import Main.HomePage;
 import base.CommonAPI;
+>>>>>>> master
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import reporting.TestLogger;

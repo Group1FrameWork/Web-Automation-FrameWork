@@ -19,6 +19,8 @@
     </dependencies>
 
 
+<<<<<<< HEAD
+=======
     <build>
         <plugins>
             <plugin>
@@ -45,4 +47,5 @@
     </build>
 
 
+>>>>>>> master
 </project>
