@@ -12,8 +12,9 @@
 
 <test name="Search Items">
     <classes>
-<class name="Search.InputSearch"/>
-        <class name="Search.TestSearch"/>
+
+<class name="Search.homePageTest"/>
+
     </classes>
 </test>
 
