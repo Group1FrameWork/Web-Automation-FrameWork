@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>eBay</module>
         <module>MSNBC</module>
+        <module>NYTimes</module>
     </modules>
     <dependencyManagement>
     <dependencies>

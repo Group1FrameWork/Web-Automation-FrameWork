@@ -9,7 +9,12 @@
         <module name="eBay" />
         <module name="Generic" />
         <module name="MSNBC" />
+        <module name="NYTimes" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="NYTImes" target="1.8" />
+      <module name="NYTimes" target="1.10" />
+    </bytecodeTargetLevel>
   </component>
 </project>
