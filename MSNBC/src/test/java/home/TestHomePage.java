@@ -8,5 +8,6 @@ public class TestHomePage extends CommonAPI {
     @Test
     public void homeUrl(){
         getCurrentPageUrl();
+        navigateForward();
     }
 }
