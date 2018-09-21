@@ -469,5 +469,13 @@ public class CommonAPI {
             System.out.println("CSS locator didn't work");
         }
     }
+    //switch tabs
+    public void switchTabs(Integer toClose, Integer toKeep) {
+        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(toClose));
+        driver.close();
+        driver.switchTo().window(tabs.get(toKeep));
+
+    }
 
 }

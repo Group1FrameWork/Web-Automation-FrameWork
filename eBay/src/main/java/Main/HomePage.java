@@ -2,6 +2,7 @@ package Main;
 
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -54,7 +55,12 @@ public class HomePage extends CommonAPI {
         return data;
     }
 
-
+    //handeling new tab
+    public void newTab() {
+        String newTabTest = Keys.chord(Keys.COMMAND, Keys.RETURN);
+        driver.findElement(By.cssSelector("#mainContent > div.hl-cat-nav > ul > li:nth-child(9) > a")).sendKeys(newTabTest);
+        switchTabs(0, 1);
+    }
     public void searchItemsAndSubmitButton() throws IOException{
         //TestLogger.log(getClass().getSimpleName()+":" + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list = getItemValue();
