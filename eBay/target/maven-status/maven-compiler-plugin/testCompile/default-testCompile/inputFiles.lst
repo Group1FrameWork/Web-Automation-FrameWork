@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-/Users/admin/Web-Automation-FrameWork/eBay/src/test/java/Search/InputSearch.java
+/Users/admin/Web-Automation-FrameWork/eBay/src/test/java/Search/homePageTest.java
+/Users/admin/Web-Automation-FrameWork/eBay/src/test/java/Search/SignUpPageTest.java
+/Users/admin/Web-Automation-FrameWork/eBay/src/test/java/Search/InputHome.java
+/Users/admin/Web-Automation-FrameWork/eBay/src/test/java/Search/SignInPageTest.java
 /Users/admin/Web-Automation-FrameWork/eBay/src/test/java/Search/TestSearch.java
-=======
-/Users/subhra/WebPageAutomation/eBay/src/test/java/Search/InputSearch.java
-/Users/subhra/WebPageAutomation/eBay/src/test/java/Search/searchPageTest.java
-/Users/subhra/WebPageAutomation/eBay/src/test/java/Search/TestSearch.java
->>>>>>> master

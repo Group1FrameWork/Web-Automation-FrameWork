@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eBay" />
         <module name="Generic" />
+        <module name="MSNBC" />
       </profile>
     </annotationProcessing>
   </component>

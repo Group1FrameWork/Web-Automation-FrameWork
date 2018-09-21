@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-/Users/admin/Web-Automation-FrameWork/eBay/src/main/java/HomePage/SearchPage.java
-=======
-/Users/subhra/WebPageAutomation/eBay/src/main/java/HomePage/SearchPage.java
->>>>>>> master
+/Users/admin/Web-Automation-FrameWork/eBay/src/main/java/Main/SignInPage.java
+/Users/admin/Web-Automation-FrameWork/eBay/src/main/java/Main/HomePage.java
+/Users/admin/Web-Automation-FrameWork/eBay/src/main/java/Main/SignUpPage.java
