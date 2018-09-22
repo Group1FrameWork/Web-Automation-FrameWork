@@ -212,9 +212,15 @@ public class CommonAPI {
        driver.close();
     }
 
+
     public void clickOnCss(String locator) {
         driver.findElement(By.cssSelector(locator)).click();
     }
+
+    public void clickOnLinkText(String locator) {
+        driver.findElement(By.linkText(locator)).click();
+    }
+
 
     public void clickByXpath(String locator) {
 
@@ -314,20 +320,25 @@ public class CommonAPI {
 
     public String getTextByCss(String locator) {
         String st = driver.findElement(By.cssSelector(locator)).getText();
+        System.out.println(st);
         return st;
     }
 
     public String getTextByXpath(String locator) {
         String st = driver.findElement(By.xpath(locator)).getText();
+        System.out.println(st);
         return st;
     }
 
     public String getTextById(String locator) {
-        return driver.findElement(By.id(locator)).getText();
+        String st = driver.findElement(By.id(locator)).getText();
+        System.out.println(st);
+        return st;
     }
 
     public String getTextByName(String locator) {
         String st = driver.findElement(By.name(locator)).getText();
+        System.out.println(st);
         return st;
     }
 
@@ -361,7 +372,7 @@ public class CommonAPI {
         try {
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
-            Actions hover = action.moveToElement(element);
+            action.moveToElement(element).perform();
         } catch (Exception ex) {
             System.out.println("First attempt has been done, This is second try");
             WebElement element = driver.findElement(By.cssSelector(locator));
@@ -371,20 +382,34 @@ public class CommonAPI {
         }
 
     }
+    public void mouseHoverByLinkText(String locator) {
+        try {
+            WebElement element = driver.findElement(By.linkText(locator));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).perform();
+        } catch (Exception ex) {
+            System.out.println("First attempt has been done, This is second try");
+            WebElement element = driver.findElement(By.linkText(locator));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).perform();
+
+        }}
 
     public void mouseHoverByXpath(String locator) {
         try {
             WebElement element = driver.findElement(By.xpath(locator));
             Actions action = new Actions(driver);
             Actions hover = action.moveToElement(element);
+            hover.clickAndHold();
         } catch (Exception ex) {
             System.out.println("First attempt has been done, This is second try");
-            WebElement element = driver.findElement(By.cssSelector(locator));
+            WebElement element = driver.findElement(By.xpath(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
 
         }
     }
+
 
     // Handling Alert
     public void okAlert() {

@@ -101,5 +101,10 @@ public class HomePage extends CommonAPI {
 
         return itemsList;
     }
+    public void getCategories(){
+        clickOnCss("#gh-cat");
+        WebElement menu = driver.findElement(By.xpath("//*[@id=\"gh-cat\"]/option[34]"));
+        System.out.println(menu.getText());
+    }
 
 }

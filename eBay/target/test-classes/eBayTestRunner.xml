@@ -16,7 +16,7 @@
 
     <classes>
 
-<class name="Search.SignUpPageTest"/>
+<class name="Search.homePageTest"/>
 
     </classes>
 </test>
