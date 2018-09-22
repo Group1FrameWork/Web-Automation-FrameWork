@@ -1,0 +1,35 @@
+package search;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import pages.SmallBusiness;
+
+public class TestSmallBusiness extends SmallBusiness {
+    SmallBusiness ObjOfSmallBusiness;
+
+    @BeforeMethod
+    public void elementsOfSmallBusiness(){
+        ObjOfSmallBusiness = PageFactory.initElements(driver,SmallBusiness.class);
+
+    }
+    @Test
+    public void TestSmallBusiness() throws InterruptedException {
+        ObjOfSmallBusiness.SearchSmallBusiness();
+        navigateBack();
+        refresh();
+        navigateForward();
+        getCurrentPageUrl();
+        selectByVisibletext(OpenAnCheckingAccountSubmitButton," New York ");
+
+
+
+        Thread.sleep(2000);
+    }
+
+
+}

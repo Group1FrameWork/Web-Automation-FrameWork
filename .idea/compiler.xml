@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eBay" />
+        <module name="BankOfAmerica" />
         <module name="Generic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Ebay" target="1.10" />
+      <module name="eBay" target="1.10" />
     </bytecodeTargetLevel>
   </component>
 </project>
