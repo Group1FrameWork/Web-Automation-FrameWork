@@ -138,7 +138,7 @@ public class CommonAPI {
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName, @Optional("OS X") String os, @Optional("Sierra") String os_version, @Optional("chrome") String browsername, @Optional("69") String browserVersion, @Optional("https://www.eBay.com/") String url) throws Exception {
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName, @Optional("OS X") String os, @Optional("Sierra") String os_version, @Optional("chrome") String browsername, @Optional("69") String browserVersion, @Optional("https://www.intagram.com/") String url) throws Exception {
         //System.setProperty("webdriver.chrome.driver", "/Users/subhra/WebPageAutomation/Generic/Browser-Driver/chromedriver");
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -208,9 +208,9 @@ public class CommonAPI {
     }
 
     @AfterMethod
-    public void cleanUp() {
-       driver.close();
-    }
+ //   public void cleanUp() {
+   //    driver.close();
+    //}
 
     public void clickOnCss(String locator) {
         driver.findElement(By.cssSelector(locator)).click();

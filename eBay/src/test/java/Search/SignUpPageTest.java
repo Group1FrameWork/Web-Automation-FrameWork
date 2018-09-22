@@ -1,7 +1,6 @@
 package Search;
 
-import Main.SignUpPage;
-import org.openqa.selenium.By;
+import EBAY.SignUpPage;
 import org.testng.annotations.Test;
 
 public class SignUpPageTest extends SignUpPage {

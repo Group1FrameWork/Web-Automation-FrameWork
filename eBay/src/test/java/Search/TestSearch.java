@@ -3,7 +3,7 @@ package Search;
 
 
 
-import Main.HomePage;
+import EBAY.HomePage;
 import base.CommonAPI;
 
 import org.openqa.selenium.support.PageFactory;

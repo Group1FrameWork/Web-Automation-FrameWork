@@ -12,6 +12,8 @@
         <module>Generic</module>
         <module>eBay</module>
         <module>MSNBC</module>
+        <module>instagram</module>
+        <module>Facebook</module>
     </modules>
     <dependencyManagement>
     <dependencies>

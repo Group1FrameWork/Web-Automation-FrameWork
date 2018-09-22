@@ -5,6 +5,6 @@ databases/Student.class
 reporting/ApplicationLog.class
 reporting/ExtentTestManager.class
 utility/DataReader.class
-databases/User.class
 reporting/TestLogger.class
+databases/User.class
 databases/ConnectToSqlDB.class

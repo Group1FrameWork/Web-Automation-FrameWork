@@ -1,6 +1,6 @@
 package Search;
 
-import Main.SignInPage;
+import EBAY.SignInPage;
 import org.testng.annotations.Test;
 
 public class SignInPageTest extends SignInPage {
