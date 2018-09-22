@@ -16,7 +16,7 @@
 
     <classes>
 
-<class name="Search.homePageTest"/>
+<class name="Search.HelpAndContactTest"/>
 
     </classes>
 </test>
