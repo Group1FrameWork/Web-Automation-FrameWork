@@ -1,3 +1,6 @@
-/Users/admin/Web-Automation-FrameWork/eBay/src/main/java/Main/SignInPage.java
-/Users/admin/Web-Automation-FrameWork/eBay/src/main/java/Main/HomePage.java
-/Users/admin/Web-Automation-FrameWork/eBay/src/main/java/Main/SignUpPage.java
+/Users/subhra/Maven/Group1_Web_automation/Web-Automation-FrameWork/eBay/src/main/java/PageObjectModel/SignInPage.java
+/Users/subhra/Maven/Group1_Web_automation/Web-Automation-FrameWork/eBay/src/main/java/PageObjectModel/DailyDeals.java
+/Users/subhra/Maven/Group1_Web_automation/Web-Automation-FrameWork/eBay/src/main/java/PageObjectModel/SignUpPage.java
+/Users/subhra/Maven/Group1_Web_automation/Web-Automation-FrameWork/eBay/src/main/java/PageObjectModel/HelpAndContact.java
+/Users/subhra/Maven/Group1_Web_automation/Web-Automation-FrameWork/eBay/src/main/java/PageObjectModel/GiftCards.java
+/Users/subhra/Maven/Group1_Web_automation/Web-Automation-FrameWork/eBay/src/main/java/PageObjectModel/HomePage.java

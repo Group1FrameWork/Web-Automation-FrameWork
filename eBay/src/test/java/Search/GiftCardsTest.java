@@ -1,6 +1,6 @@
 package Search;
 
-import Main.GiftCards;
+import PageObjectModel.GiftCards;
 import org.testng.annotations.Test;
 
 public class GiftCardsTest extends GiftCards {
@@ -11,7 +11,6 @@ public class GiftCardsTest extends GiftCards {
         clickOnGiftCards();
         clickOnCoupons();
         results("#w7-w0 > div:nth-child(2) > div:nth-child(1) > div > h2");
-
     }
     //TC#2 Click on Digital Gifts & Coupons and find out how many coupons are there
     @Test

@@ -20,7 +20,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
-import org.openqa.selenium.chrome.ChromeDriver;
+import reporting.TestLogger;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,7 +37,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
-    /*//ExtentReport
+    //ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) {
@@ -88,7 +88,7 @@ public class CommonAPI {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
-    }*/
+    }
 
     public WebDriver driver = null;
     public String browserstack_username = "your user name";
@@ -100,22 +100,22 @@ public class CommonAPI {
         Thread.sleep(sec * 1000);
     }
 
-   /* public static void captureScreenshot(WebDriver driver, String screenshotName) {
-        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
-        Date date = new Date();
-        df.format(date);
+     public static void captureScreenshot(WebDriver driver, String screenshotName) {
+         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
+         Date date = new Date();
+         df.format(date);
 
-        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        try {
-            FileUtils.copyFile(file, new File(System.getProperty("user.dir") + "/screenshots/" + screenshotName + " " + df.format(date) + ".png"));
-            System.out.println("Screenshot captured");
-        } catch (Exception e) {
-            System.out.println("Exception while taking screenshot " + e.getMessage());
-            ;
-        }
+         File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+         try {
+             FileUtils.copyFile(file, new File(System.getProperty("user.dir") + "/screenshots/" + screenshotName + " " + df.format(date) + ".png"));
+             System.out.println("Screenshot captured");
+         } catch (Exception e) {
+             System.out.println("Exception while taking screenshot " + e.getMessage());
+             ;
+         }
 
-    }
-*/
+     }
+
     public static String convertToString(String st) {
         String splitString;
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
@@ -146,9 +146,8 @@ public class CommonAPI {
             } else if (cloudEnvName.equalsIgnoreCase("saucelabs")) {
                 getCloudDriver(cloudEnvName, saucelabs_username, saucelabs_accesskey, os, os_version, browsername, browserVersion);
             }
-        }
-        else {
-            getLocalDriver(os,browsername);
+        } else {
+            getLocalDriver(os, browsername);
         }
         //driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -165,7 +164,7 @@ public class CommonAPI {
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/Browser-Driver/chromedriver.exe");
             }
-                driver = new ChromeDriver();
+            driver = new ChromeDriver();
 
         } else if (browserName.equalsIgnoreCase("chrome-options")) {
             ChromeOptions options = new ChromeOptions();
@@ -192,36 +191,54 @@ public class CommonAPI {
     }
 
     public WebDriver getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String os_version, String browserName, String browserVersion) throws IOException {
-        DesiredCapabilities cap = new DesiredCapabilities();
+        /*DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("browser", browserName);
         cap.setCapability("browser_version", browserVersion);
         cap.setCapability("os", os);
-        cap.setCapability("os_version", os_version);
+        cap.setCapability("os_version", os_version);*/
+        DesiredCapabilities cap = null;
         if (envName.equalsIgnoreCase("Saucelabs")) {
+            cap = getSauceLabsPlatform(os,os_version,browserName,browserVersion);
             driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey + "@ondemand.saucelabs.com:80/wd/hub"), cap);
         } else if (envName.equalsIgnoreCase("Browserstack")) {
-            cap.setCapability("resolution", "1024x768");
+            cap = getBrowserStackPlatform(os,os,browserName,browserVersion);
             driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
                     "@hub-cloud.browserstack.com/wd/hub"), cap);
         }
         return driver;
     }
 
-    @AfterMethod
-    public void cleanUp() {
-       driver.close();
+    public static DesiredCapabilities getSauceLabsPlatform(String OS, String OS_Version, String browserName, String browserVersion){
+        DesiredCapabilities caps = DesiredCapabilities.chrome();
+        caps.setCapability("platform",OS);
+        caps.setCapability("version", "60.0");
+        caps.setCapability("screenResolution","1024x768");
+        return caps;
+    }
+    public static DesiredCapabilities getBrowserStackPlatform(String OS, String OS_Version, String browserName, String browserVersion){
+        DesiredCapabilities cap =   new DesiredCapabilities();
+        cap.setCapability("browser",browserName);
+        cap.setCapability("browser_version",browserVersion);
+        cap.setCapability("os",OS);
+        cap.setCapability("os_version",OS_Version);
+        cap.setCapability("resolution","1024x768");
+        return cap;
     }
 
 
-
+    @AfterMethod
+    public void cleanUp()throws InterruptedException {
+        Thread.sleep(10000);
+            driver.quit();
+    }
     public void clickOnCss(String locator) {
+
         driver.findElement(By.cssSelector(locator)).click();
     }
 
     public void clickOnLinkText(String locator) {
         driver.findElement(By.linkText(locator)).click();
     }
-
 
     public void clickByXpath(String locator) {
 
@@ -379,10 +396,9 @@ public class CommonAPI {
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
         }
-
     }
+
     public void mouseHoverByLinkText(String locator) {
         try {
             WebElement element = driver.findElement(By.linkText(locator));
@@ -393,8 +409,8 @@ public class CommonAPI {
             WebElement element = driver.findElement(By.linkText(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
-        }}
+        }
+    }
 
     public void mouseHoverByXpath(String locator) {
         try {
@@ -407,11 +423,8 @@ public class CommonAPI {
             WebElement element = driver.findElement(By.xpath(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
         }
     }
-
-
     // Handling Alert
     public void okAlert() {
         Alert alert = driver.switchTo().alert();
@@ -501,7 +514,21 @@ public class CommonAPI {
         driver.switchTo().window(tabs.get(toClose));
         driver.close();
         driver.switchTo().window(tabs.get(toKeep));
-
+    }
+    public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
+        webElement.sendKeys(value + Keys.ENTER);
+    }
+    public String getTextByWebElement(WebElement webElement){
+        String text = webElement.getText();
+        return text;
+    }
+    public void clearInputBox(WebElement webElement){
+        webElement.clear();
+    }
+    public void SendKeys(WebElement element, String keys, String elementName){
+        TestLogger.log("Sending Keys to " + elementName);
+        element.sendKeys(keys);
+        TestLogger.log("Keys Sent Successfully to "+ elementName);
     }
 
 }

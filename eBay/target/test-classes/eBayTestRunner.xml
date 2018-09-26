@@ -15,9 +15,7 @@
     <parameter name="browserName" value="chrome"/>
 
     <classes>
-
-<class name="Search.HelpAndContactTest"/>
-
+        <class name="TestExcel.InputFromExcelTest"/>
     </classes>
 </test>
 

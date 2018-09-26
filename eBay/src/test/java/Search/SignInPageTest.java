@@ -1,6 +1,6 @@
 package Search;
 
-import Main.SignInPage;
+import PageObjectModel.SignInPage;
 import org.testng.annotations.Test;
 
 public class SignInPageTest extends SignInPage {

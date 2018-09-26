@@ -1,13 +1,16 @@
 package Search;
 
-import Main.DailyDeals;
+import PageObjectModel.DailyDeals;
+import base.CommonAPI;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class DailyDealsTest extends DailyDeals {
 
     //TC#1 User will be able to see the more featured deals
     @Test
     public void features(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickDailyDeals();
         moveCursor("Featured");
         clickLink("#s2 > nav > ul > li.selected.navigation-desktop-with-flyout > div > div:nth-child(1) > a:nth-child(1)");
