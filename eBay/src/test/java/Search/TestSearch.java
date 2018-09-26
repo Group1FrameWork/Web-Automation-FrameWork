@@ -3,7 +3,7 @@ package Search;
 
 
 
-import Main.HomePage;
+import MainPage.HomePage;
 import base.CommonAPI;
 
 import org.openqa.selenium.support.PageFactory;

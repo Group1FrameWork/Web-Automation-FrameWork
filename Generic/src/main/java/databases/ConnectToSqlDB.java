@@ -1,5 +1,7 @@
 package databases;
 
+import org.testng.annotations.AfterClass;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -55,6 +57,7 @@ public class ConnectToSqlDB {
         return data;
     }
 
+    @AfterClass
     private void close() {
         try{
             if(resultSet != null){

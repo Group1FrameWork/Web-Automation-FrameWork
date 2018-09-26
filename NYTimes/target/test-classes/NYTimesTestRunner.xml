@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="eBay API Automation Script " parallel="false">
+<suite name="NYTimes API Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
-    <parameter name="cloudEnvName" value="Saucelabs"/>
-    <parameter name="os" value="macOS 10.12"/>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.eBay.com/"/>
+    <parameter name="url" value="https://www.nytimes.com/"/>
 
 
 <test name="Search Items">
@@ -16,7 +16,7 @@
 
     <classes>
 
-<class name="Search.InputHome"/>
+<class name="front.TestTabsPage"/>
 
     </classes>
 </test>

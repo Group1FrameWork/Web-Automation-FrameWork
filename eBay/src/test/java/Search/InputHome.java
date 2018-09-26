@@ -2,7 +2,7 @@ package Search;
 
 
 
-import Main.HomePage;
+import MainPage.HomePage;
 
 import org.testng.annotations.Test;
 

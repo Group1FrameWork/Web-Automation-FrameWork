@@ -1,11 +1,7 @@
-package Main;
+package MainPage;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 import org.testng.Assert;
 
 public class SignInPage extends CommonAPI {

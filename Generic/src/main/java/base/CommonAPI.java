@@ -37,7 +37,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
-    /*//ExtentReport
+    //ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) {
@@ -88,19 +88,19 @@ public class CommonAPI {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
-    }*/
+    }
 
     public WebDriver driver = null;
     public String browserstack_username = "your user name";
     public String browserstack_accesskey = "your access key";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "mursalin3152";
+    public String saucelabs_accesskey = "771b22f0-2a70-4565-a661-866e70cf029f";
 
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
     }
 
-   /* public static void captureScreenshot(WebDriver driver, String screenshotName) {
+    public static void captureScreenshot(WebDriver driver, String screenshotName) {
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
@@ -115,7 +115,7 @@ public class CommonAPI {
         }
 
     }
-*/
+
     public static String convertToString(String st) {
         String splitString;
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
@@ -139,7 +139,7 @@ public class CommonAPI {
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName, @Optional("OS X") String os, @Optional("Sierra") String os_version, @Optional("chrome") String browsername, @Optional("69") String browserVersion, @Optional("https://www.nytimes.com/") String url) throws Exception {
-        //System.setProperty("webdriver.chrome.driver", "/Users/subhra/WebPageAutomation/Generic/Browser-Driver/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "../Generic/Browser-Driver/chromedriver");
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName, browserstack_username, browserstack_accesskey, os, os_version, browsername, browserVersion);
@@ -192,24 +192,44 @@ public class CommonAPI {
     }
 
     public WebDriver getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String os_version, String browserName, String browserVersion) throws IOException {
-        DesiredCapabilities cap = new DesiredCapabilities();
+        /*DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("browser", browserName);
         cap.setCapability("browser_version", browserVersion);
         cap.setCapability("os", os);
-        cap.setCapability("os_version", os_version);
+        cap.setCapability("os_version", os_version); */
+        DesiredCapabilities cap = null;
         if (envName.equalsIgnoreCase("Saucelabs")) {
+            cap = getSauceLabsPlatform(os,os_version,browserName,browserVersion);
             driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey + "@ondemand.saucelabs.com:80/wd/hub"), cap);
         } else if (envName.equalsIgnoreCase("Browserstack")) {
-            cap.setCapability("resolution", "1024x768");
+            cap = getBrowserStackPlatform(os, os_version,browserName, browserVersion);
             driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
                     "@hub-cloud.browserstack.com/wd/hub"), cap);
         }
         return driver;
     }
+    public static DesiredCapabilities getSauceLabsPlatform(String OS, String OS_Version, String browserName, String browserVersion){
+        DesiredCapabilities caps = DesiredCapabilities.chrome();
+        caps.setCapability("platform", OS);
+        caps.setCapability("version", "60.0");
+        caps.setCapability("screenResolution", "1024x768");
 
+        return caps;
+    }
+
+    public static DesiredCapabilities getBrowserStackPlatform(String OS, String OS_Version, String browserName, String browserVersion){
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setCapability("browser", browserName);
+        cap.setCapability("browser_version", browserVersion);
+        cap.setCapability("os", OS);
+        cap.setCapability("os_version", OS_Version);
+        cap.setCapability("resolution", "1024x768");
+
+        return cap;
+    }
     @AfterMethod
     public void cleanUp() {
-       driver.close();
+     //  driver.close();
     }
 
     public void clickOnCss(String locator) {
@@ -402,6 +422,10 @@ public class CommonAPI {
 
         driver.switchTo().frame(element);
     }
+   /* //Handle popUp
+    public void handlePopUp(){
+        clickOnElement("closeButton");
+    }*/
 
     public void goBackToHomeWindow() {
 

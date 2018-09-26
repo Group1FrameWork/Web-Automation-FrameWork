@@ -16,7 +16,7 @@
 
     <classes>
 
-<class name="front.TestTabsPage"/>
+<class name="Front.TestTopPage"/>
 
     </classes>
 </test>
