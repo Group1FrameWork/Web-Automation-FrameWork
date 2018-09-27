@@ -12,11 +12,14 @@
 
     <test name="Search Items">
         <classes>
-            <!--<class name="search.InputSearch"/>-->
-            <!--<class name="search.TestChecking"/>-->
-            <!--<class name="search.TestSmallBusiness"/>-->
-            <!--<class name="search.TestAboutUs"/>-->
+            <class name="search.InputSearch"/>
+            <class name="search.TestChecking"/>
+            <class name="search.TestSmallBusiness"/>
+            <class name="search.TestAboutUs"/>
             <class name="search.TestSignIn"/>
+            <class name="search.TestHomeLone"/>
+            <class name="search.TestBusinessesAndInstitution"/>
+            <class name="search.TestContuctUs"/>
 
 
         </classes>

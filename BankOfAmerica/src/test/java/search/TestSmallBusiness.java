@@ -15,8 +15,8 @@ public class TestSmallBusiness extends SmallBusiness {
     @BeforeMethod
     public void elementsOfSmallBusiness(){
         ObjOfSmallBusiness = PageFactory.initElements(driver,SmallBusiness.class);
+        }
 
-    }
     @Test
     public void TestSmallBusiness() throws InterruptedException {
         ObjOfSmallBusiness.SearchSmallBusiness();
@@ -24,10 +24,7 @@ public class TestSmallBusiness extends SmallBusiness {
         refresh();
         navigateForward();
         getCurrentPageUrl();
-        selectByVisibletext(OpenAnCheckingAccountSubmitButton," New York ");
-
-
-
+        selectOptionByVisibleText(OpenAnCheckingAccountSubmitButton," New York ");
         Thread.sleep(2000);
     }
 

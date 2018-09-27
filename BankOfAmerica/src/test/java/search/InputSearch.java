@@ -15,16 +15,6 @@ public class InputSearch extends CommonAPI {
         searchPages.setSearchPages();
 
     }
-    /*public void search() throws InterruptedException {
-        driver.findElement(By.cssSelector("#nav-search-query")).sendKeys("mobile banking",Keys.ENTER);
-        Thread.sleep(5000);
-    }*/
 
-    /*@Test
-    public void Checking() throws InterruptedException {
-        driver.findElement(By.cssSelector("#navChecking > span.title")).click();
-        Thread.sleep(5000);
-
-    }*/
 }
 

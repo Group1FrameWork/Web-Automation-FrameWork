@@ -1,18 +1,19 @@
 package search;
 
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.Checking;
 
 public class TestChecking extends Checking {
 
+    Checking objOfChecking;
 
-    @Test
+    @BeforeMethod
     public void clickChecking(){
-        Checking checking = PageFactory.initElements(driver,Checking.class);
-        checking.getclicInChecking();
-
-
-    }
+        objOfChecking = PageFactory.initElements(driver,Checking.class);
+        }
+     @Test
+    public void CompareAccout(){clickInCecking();}
 
 }

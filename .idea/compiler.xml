@@ -12,6 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BankOfAmerica" target="1.5" />
       <module name="Ebay" target="1.10" />
     </bytecodeTargetLevel>
   </component>

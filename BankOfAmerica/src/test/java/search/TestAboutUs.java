@@ -12,33 +12,19 @@ import pages.SmallBusiness;
 import javax.swing.*;
 
 public class TestAboutUs extends AboutUs {
-
-        AboutUs ObjOfAboutUS ;
+    AboutUs ObjOfAboutUS ;
     @BeforeMethod
     public void elementsOfAboutUs(){
         ObjOfAboutUS = PageFactory.initElements(driver, AboutUs.class);
-
-    }
-
-
+        }
     @Test
     public void hoverWhoAreYou(){
         WebElement element = WhoWeAreCss;
         Actions action = new Actions(driver);
         ObjOfAboutUS.clickAboutUs();
         action.moveToElement(element).perform();
-
-
         }
+
     @Test
     public void Company(){OurCompany();}
-
-/*
-
-    @Test
-    public void GuidesUs(){guides();}
-*/
-
-
-
 }

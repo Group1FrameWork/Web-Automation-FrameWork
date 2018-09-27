@@ -13,14 +13,12 @@ public class SignIn extends CommonAPI {
     @FindBy(css = "#passcode1")
     public static WebElement Passcode;
 
-    public void ClickInSignIn(){
+    public void clickInSignIn() {
+       OnlineIdbox.sendKeys("abcd", Keys.ENTER);
+        Passcode.sendKeys("1234", Keys.ENTER);
         SingnInButton.click();
-        OnlineIdbox.sendKeys("abcd",Keys.ENTER);
-        Passcode.sendKeys("1234",Keys.ENTER);
     }
-
-
-    }
+}
 
 
 
