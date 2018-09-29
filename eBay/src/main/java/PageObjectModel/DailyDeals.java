@@ -10,7 +10,7 @@ public class DailyDeals extends CommonAPI {
     }
 
     //Click on Daily Deals Link
-    public void clickDailyDeals() {
+    public void clickDailyDeals() throws InterruptedException {
         clickOnCss(".gh-p");
     }
 

@@ -69,7 +69,12 @@ public class HomePage extends CommonAPI {
 
     }
     public void clickSignIn() {
-        clickOnCss("#gh-ug > a");
+        try {
+            clickOnCss("#gh-ug > a");
+        }catch (Exception e){
+            clickByXpath("//*[@id=\"gh-ug\"]/a");
+            System.out.println(e);
+        }
     }
     public WebElement getSearchInputField() {
         //TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -100,7 +105,7 @@ public class HomePage extends CommonAPI {
         itemsList.add("macAir");
         return itemsList;
     }
-    public void getCategories(){
+    public void getCategories() throws InterruptedException {
         clickOnCss("#gh-cat");
         WebElement menu = driver.findElement(By.xpath("//*[@id=\"gh-cat\"]/option[34]"));
         System.out.println(menu.getText());

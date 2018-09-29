@@ -9,7 +9,7 @@ public class DailyDealsTest extends DailyDeals {
 
     //TC#1 User will be able to see the more featured deals
     @Test
-    public void features(){
+    public void features() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickDailyDeals();
         moveCursor("Featured");
@@ -20,7 +20,7 @@ public class DailyDealsTest extends DailyDeals {
     }
     //TC#2 User will be able to see the tech deals
     @Test
-    public void tech(){
+    public void tech() throws InterruptedException {
         clickDailyDeals();
         moveCursor("Tech");
         clickLink("#s2 > nav > ul > li:nth-child(2) > div > div:nth-child(1) > a:nth-child(1)");
@@ -30,7 +30,7 @@ public class DailyDealsTest extends DailyDeals {
     }
     //TC#3 User will be able to see the fashion deals
     @Test
-    public void fashion(){
+    public void fashion() throws InterruptedException {
         clickDailyDeals();
         moveCursor("Fashion");
         clickLink("#s2 > nav > ul > li:nth-child(3) > div > div:nth-child(1) > a:nth-child(1)");

@@ -1,14 +1,9 @@
 package DataReaderFromExcel;
 
-import PageObjectModel.HomePage;
-import PageObjectModel.SignInPage;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
-import reporting.TestLogger;
 import utility.DataReader;
 
 import java.io.IOException;
@@ -60,7 +55,7 @@ public class InputFromExcel extends CommonAPI {
         Thread.sleep(3000);
         SignInbtn.click();
         String errorMessage = ErrorMessage.getText();
-        TestLogger.log("Error Message: " + errorMessage);
+        //TestLogger.log("Error Message: " + errorMessage);
     }
 
     // LogIn by using excel sheet data

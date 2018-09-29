@@ -42,7 +42,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#5 User can click on antiques from allcategories and go to the antuqes page
     @Test
-    public void goToAntiquesPage(){
+    public void goToAntiquesPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         mouseHoverByCSS("#gh-cat > option:nth-child(2)");
         clickOnCss("#gh-cat > option:nth-child(2)");
@@ -54,7 +54,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#6 User can click on camera & photo from allcategories and go to the Camera & photo page
     @Test
-    public void goToCameraPhotoPage(){
+    public void goToCameraPhotoPage() throws InterruptedException {
         clickOnCss("#gh-cat");
 
         clickOnCss("#gh-cat > option:nth-child(7)");
@@ -66,7 +66,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#7 User can click on Cell Phone from allcategories and go to the Cell Phone page
         @Test
-       public void goToCellPhonePage(){
+       public void goToCellPhonePage() throws InterruptedException {
            clickOnCss("#gh-cat");
            clickOnCss("#gh-cat > option:nth-child(8)");
            clickOnCss("#gh-btn");
@@ -77,7 +77,7 @@ public class HomePageTest extends HomePage {
         }
     //TC#8 User can click on Clothing, Shoes & Accessories from allcategories and go to the Clothing, Shoes & Accessories page
     @Test
-    public void goToClothingShoesAccessoriesPage(){
+    public void goToClothingShoesAccessoriesPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(9)");
         clickOnCss("#gh-btn");
@@ -88,7 +88,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#9 User can click on Clothing, Shoes & Accessories from allcategories and go to the Clothing, Shoes & Accessories page
     @Test
-    public void goToCoinsPaperMoneyPage(){
+    public void goToCoinsPaperMoneyPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(10)");
         clickOnCss("#gh-btn");
@@ -99,7 +99,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#10 User can click on Collectibles from allcategories and go to the Collectibles page
     @Test
-    public void goToCollectiblesPage(){
+    public void goToCollectiblesPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(11)");
         clickOnCss("#gh-btn");
@@ -110,7 +110,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#10 User can click on Computers, Tablets & More from allcategories and go to the Computers, Tablets & More page
     @Test
-    public void goToComputersTabletsMorePage(){
+    public void goToComputersTabletsMorePage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(12)");
         clickOnCss("#gh-btn");
@@ -121,7 +121,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#11 User can click on Electronics from allcategories and go to the Electronics page
     @Test
-    public void goToElectronicsPage(){
+    public void goToElectronicsPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(13)");
         clickOnCss("#gh-btn");
@@ -132,7 +132,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#12 User can click on Crafts from allcategories and go to the Art & Craft Supplies page
     @Test
-    public void goToArtCraftSuppliesPage(){
+    public void goToArtCraftSuppliesPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(14)");
         clickOnCss("#gh-btn");
@@ -143,7 +143,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#13 User can click on Gift Cards & Coupons from allcategories and go to the Gift Cards & Coupons page
     @Test
-    public void goToAGiftCardsCouponsPage(){
+    public void goToAGiftCardsCouponsPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(19)");
         clickOnCss("#gh-btn");
@@ -154,7 +154,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#14 User can click on Health & Beauty from allcategories and go to the Health & Beauty page
     @Test
-    public void goToHealthBeautyPage(){
+    public void goToHealthBeautyPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(20)");
         clickOnCss("#gh-btn");
@@ -165,7 +165,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#15 User can click on Home & Garden from allcategories and go to the Home & Garden page
     @Test
-    public void goToHomeGardenPage(){
+    public void goToHomeGardenPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(21)");
         clickOnCss("#gh-btn");
@@ -176,7 +176,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#16 User can click on Jewelry & Watches from allcategories and go to the Jewelry & Watches page
     @Test
-    public void goToJewelryWatchesPage(){
+    public void goToJewelryWatchesPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(22)");
         clickOnCss("#gh-btn");
@@ -187,7 +187,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#17 User can click on Music from allcategories and go to the Recorded Music page
     @Test
-    public void goToRecordedMusicPage(){
+    public void goToRecordedMusicPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(23)");
         clickOnCss("#gh-btn");
@@ -198,7 +198,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#18 User can click on Real Estate from allcategories and go to the Real Estate page
     @Test
-    public void goToRealEstatePage(){
+    public void goToRealEstatePage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(27)");
         clickOnCss("#gh-btn");
@@ -209,7 +209,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#19 User can click on Sporting Goods from allcategories and go to the Sporting Goods page
     @Test
-    public void goToSportingGoodsPage(){
+    public void goToSportingGoodsPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(29)");
         clickOnCss("#gh-btn");
@@ -220,7 +220,7 @@ public class HomePageTest extends HomePage {
     }
     //TC#20 User can click on Travel from allcategories and go to the Travel page
     @Test
-    public void goToTravelPage(){
+    public void goToTravelPage() throws InterruptedException {
         clickOnCss("#gh-cat");
         clickOnCss("#gh-cat > option:nth-child(34)");
         clickOnCss("#gh-btn");

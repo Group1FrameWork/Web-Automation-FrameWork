@@ -63,11 +63,11 @@ public class HelpAndContact extends CommonAPI {
         }
     }
 
-    public void GetPersonalizedHelp(String locator)  {
+    public void GetPersonalizedHelp(String locator) throws InterruptedException {
         clickOnCss(locator);
     }
 
-    public void clickOnHelp(String locator) {
+    public void clickOnHelp(String locator) throws InterruptedException {
         clickOnCss(locator);
     }
 }

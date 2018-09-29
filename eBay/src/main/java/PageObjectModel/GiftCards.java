@@ -57,7 +57,7 @@ public class GiftCards extends CommonAPI {
         mouseHoverByLinkText(locator);
     }
 
-    public void clickOnGiftCards() {
+    public void clickOnGiftCards() throws InterruptedException {
         try {
             getGiftCards().click();
         } catch (Exception e) {
@@ -66,7 +66,7 @@ public class GiftCards extends CommonAPI {
 
     }
 
-    public void clickOnCoupons() {
+    public void clickOnCoupons() throws InterruptedException {
         try {
             getCoupons().click();
         } catch (Exception e) {
@@ -76,7 +76,7 @@ public class GiftCards extends CommonAPI {
 
     }
 
-    public void clickOnDigitalGiftsAndCoupons() {
+    public void clickOnDigitalGiftsAndCoupons() throws InterruptedException {
         try {
             getDigitalGiftsAndCoupons().click();
         } catch (Exception e) {
@@ -85,7 +85,7 @@ public class GiftCards extends CommonAPI {
 
     }
 
-    public void clickOneBayGiftsCards() {
+    public void clickOneBayGiftsCards() throws InterruptedException {
         try {
             geteBayGiftsCards().click();
         } catch (Exception e) {
@@ -94,7 +94,7 @@ public class GiftCards extends CommonAPI {
 
     }
 
-    public void clickOngCards() {
+    public void clickOngCards() throws InterruptedException {
         try {
             getgCards().click();
         } catch (Exception e) {
@@ -103,7 +103,7 @@ public class GiftCards extends CommonAPI {
 
     }
 
-    public void clickOngiftCertificates() {
+    public void clickOngiftCertificates() throws InterruptedException {
         try {
             getGiftCertificates().click();
         } catch (Exception e) {

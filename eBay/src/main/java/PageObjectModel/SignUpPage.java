@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class SignUpPage extends CommonAPI {
 
     //Creating an account
-    public void createAnAccount()  {
+    public void createAnAccount() throws InterruptedException {
 
         clickOnCss("#gh-ug-flex > a");
 

@@ -93,8 +93,8 @@ public class CommonAPI {
     public WebDriver driver = null;
     public String browserstack_username = "your user name";
     public String browserstack_accesskey = "your access key";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "Subhra2018";
+    public String saucelabs_accesskey = "4516433a-548c-47ff-aa2d-ea0c89dea812";
 
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
@@ -231,8 +231,8 @@ public class CommonAPI {
         Thread.sleep(10000);
             driver.quit();
     }
-    public void clickOnCss(String locator) {
-
+    public void clickOnCss(String locator) throws InterruptedException {
+        Thread.sleep(10000);
         driver.findElement(By.cssSelector(locator)).click();
     }
 
@@ -240,7 +240,7 @@ public class CommonAPI {
         driver.findElement(By.linkText(locator)).click();
     }
 
-    public void clickByXpath(String locator) {
+    public void clickByXpath(String locator)throws NullPointerException {
 
         driver.findElement(By.xpath(locator)).click();
     }
@@ -529,6 +529,13 @@ public class CommonAPI {
         TestLogger.log("Sending Keys to " + elementName);
         element.sendKeys(keys);
         TestLogger.log("Keys Sent Successfully to "+ elementName);
+    }
+    public void typeByXpathNEnter(String locator, String value) {
+        driver.findElement(By.xpath(locator)).sendKeys(value, Keys.ENTER);
+    }
+    //clear Input
+    public void clearInputByXpath(String locator) {
+        driver.findElement(By.xpath(locator)).clear();
     }
 
 }

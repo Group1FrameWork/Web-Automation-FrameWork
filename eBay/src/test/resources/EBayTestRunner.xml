@@ -3,7 +3,7 @@
 <suite name="eBay API Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
-    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="cloudEnvName" value="Saucelabs"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
@@ -15,7 +15,7 @@
     <parameter name="browserName" value="chrome"/>
 
     <classes>
-        <class name="TestExcel.InputFromExcelTest"/>
+        <class name="GoogleSheetTest.TestGoogleSheetsPage"/>
     </classes>
 </test>
 

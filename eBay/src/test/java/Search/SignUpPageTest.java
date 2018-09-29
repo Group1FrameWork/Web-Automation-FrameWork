@@ -7,7 +7,7 @@ public class SignUpPageTest extends SignUpPage {
 
     // TC#1  => User can Sign up
     @Test
-    public void signUpForeBay() {
+    public void signUpForeBay() throws InterruptedException {
         createAnAccount();
     }
 }

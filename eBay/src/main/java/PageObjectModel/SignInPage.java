@@ -22,7 +22,7 @@ public class SignInPage extends CommonAPI {
     }
     //Positive testing
     //Signin with valid credential
-    public void signIn(String userName, String passWord) {
+    public void signIn(String userName, String passWord) throws InterruptedException {
         clickOnCss("#userid");
         typeByCss("#userid", userName);
         typeByCss("#pass", passWord);
@@ -30,27 +30,27 @@ public class SignInPage extends CommonAPI {
     }
     // Negative Testing
     // Sign In with In valid Email and invalid password
-    public void invalidEmailUse(String userName, String passWord) {
+    public void invalidEmailUse(String userName, String passWord) throws InterruptedException {
         clickOnCss("#userid");
         typeByCss("#userid", userName);
         typeByCss("#pass", passWord);
         clickOnCss("#sgnBt");
     }
     //Sign In with valid Email and invalid password
-    public void validEmailAndInvalidPasswordUse(String userName, String passWord) {
+    public void validEmailAndInvalidPasswordUse(String userName, String passWord) throws InterruptedException {
         clickOnCss("#userid");
         typeByCss("#userid", userName);
         typeByCss("#pass", passWord);
         clickOnCss("#sgnBt");
     }
     //Sign In with no Email and valid password
-    public void noEmailAndValidPasswordUse(String userName, String passWord) {
+    public void noEmailAndValidPasswordUse(String userName, String passWord) throws InterruptedException {
         clickOnCss("#pass");
         typeByCss("#pass", passWord);
         clickOnCss("#sgnBt");
     }
     //Sign in with no email And No password
-    public void noEmailNoPasswordUse(String userName, String passWord) {
+    public void noEmailNoPasswordUse(String userName, String passWord) throws InterruptedException {
         clickOnCss("#userid");
         clickOnCss("#pass");
         clickOnCss("#sgnBt");
