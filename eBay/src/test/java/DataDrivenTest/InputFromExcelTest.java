@@ -1,7 +1,7 @@
-package TestExcel;
+package DataDrivenTest;
 
 import DataReader.XlsDataReaderUtil;
-import DataReaderFromExcel.InputFromExcel;
+import DataDriven.InputFromExcel;
 import PageObjectModel.HomePage;
 import PageObjectModel.SignInPage;
 import org.openqa.selenium.support.PageFactory;
@@ -53,7 +53,7 @@ public class InputFromExcelTest extends InputFromExcel {
     }
 
     @Test
-   public void signInWithExcelData()throws IOException, InterruptedException {
+   public void signInWithExcelData()throws IOException, InterruptedException ,Exception{
        //TestLogger.log(getClass().getSimpleName()+":"+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
    sleepFor(3);
     objOfHomePage.clickSignIn();

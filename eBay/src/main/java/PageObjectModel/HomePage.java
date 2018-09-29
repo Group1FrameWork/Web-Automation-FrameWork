@@ -68,12 +68,13 @@ public class HomePage extends CommonAPI {
         }
 
     }
-    public void clickSignIn() {
+    public void clickSignIn() throws Exception{
         try {
             clickOnCss("#gh-ug > a");
         }catch (Exception e){
             clickByXpath("//*[@id=\"gh-ug\"]/a");
             System.out.println(e);
+            e.printStackTrace();
         }
     }
     public WebElement getSearchInputField() {

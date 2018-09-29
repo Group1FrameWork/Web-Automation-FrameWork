@@ -55,4 +55,8 @@ public class SignInPage extends CommonAPI {
         clickOnCss("#pass");
         clickOnCss("#sgnBt");
     }
+    public void SignIn() throws InterruptedException {
+        clickSignIn();
+        signIn("roysubhraroy88@gmail.com","Tanu01011988");
+    }
 }

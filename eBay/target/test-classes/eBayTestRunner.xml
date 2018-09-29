@@ -15,7 +15,7 @@
     <parameter name="browserName" value="chrome"/>
 
     <classes>
-        <class name="GoogleSheetTest.TestGoogleSheetsPage"/>
+        <class name="KeyWordDrivenTest.TestFeatures"/>
     </classes>
 </test>
 

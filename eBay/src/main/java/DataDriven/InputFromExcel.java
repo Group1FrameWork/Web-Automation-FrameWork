@@ -1,4 +1,4 @@
-package DataReaderFromExcel;
+package DataDriven;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;

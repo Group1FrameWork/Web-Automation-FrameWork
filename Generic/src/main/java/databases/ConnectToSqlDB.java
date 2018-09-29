@@ -21,7 +21,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("src/secret.properties");
+        InputStream ism = new FileInputStream("/Users/subhra/Maven/Group1_Web_automation/Web-Automation-FrameWork/Generic/secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -149,6 +149,26 @@ public class ConnectToSqlDB {
                 ps.executeUpdate();
             }
 
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+    public static void insertDataFromArrayListToMySql(List<String> list, String tableName, String columnName) {
+        try {
+            connectToSqlDatabase();
+            ps = connect.prepareStatement("DROP TABLE IF EXISTS `" + tableName + "`;");
+            ps.executeUpdate();
+            ps = connect.prepareStatement("CREATE TABLE `" + tableName + "` (`search` varchar(33) NOT NULL);");
+            ps.executeUpdate();
+            for (Object st : list) {
+                ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName + " ) VALUES(?)");
+                ps.setObject(1, st);
+                ps.executeUpdate();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {

@@ -37,6 +37,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
+
     //ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
@@ -111,7 +112,6 @@ public class CommonAPI {
              System.out.println("Screenshot captured");
          } catch (Exception e) {
              System.out.println("Exception while taking screenshot " + e.getMessage());
-             ;
          }
 
      }
@@ -165,7 +165,6 @@ public class CommonAPI {
                 System.setProperty("webdriver.chrome.driver", "../Generic/Browser-Driver/chromedriver.exe");
             }
             driver = new ChromeDriver();
-
         } else if (browserName.equalsIgnoreCase("chrome-options")) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disabled-notifications");
