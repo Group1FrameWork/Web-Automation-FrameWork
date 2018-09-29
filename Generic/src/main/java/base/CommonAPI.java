@@ -460,7 +460,7 @@ public class CommonAPI {
 
     //Synchronization
     public void waitUntilClickAble(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 15);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 

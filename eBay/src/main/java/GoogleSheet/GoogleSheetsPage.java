@@ -20,6 +20,11 @@ public class GoogleSheetsPage extends CommonAPI {
     public static WebElement password;
     @FindBy(how = XPATH, using = "//*[@id=\"errf\"]")
     public static WebElement signInErrorMesage;
+    @FindBy(how = XPATH, using = "//*[@id=\"gh-ac\"]")
+    public static WebElement searchBox;
+    @FindBy(how = XPATH, using = "//*[@id=\"gh-btn\"]")
+    public static WebElement searchButton;
+
     //ALI_GS_TC1
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
@@ -34,10 +39,6 @@ public class GoogleSheetsPage extends CommonAPI {
             return values;
         }
     }
-
-
-    // ALI_GS_TC1: Verify log in by taking data from a google sheets file
-
 
     // // LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
@@ -58,17 +59,21 @@ public class GoogleSheetsPage extends CommonAPI {
         }
         return actual;
     }
-    public List<String> searchItemsByName() throws IOException, InterruptedException {
-        List<List<Object>> values = getSpreadSheetRecords("1Pk3G4ywe7Uhj_EqRG5tSS8boi0SXVsStMXhMvahYmik", "Sheet2!A2:B");
+    public List<String> searchItemsByName() throws IOException, InterruptedException, Exception {
+        List<List<Object>> values = getSpreadSheetRecords("1HUSUQqCG0SZrXz3BmdOaf7g4ramQfoGiPpZtNW8-k4g", "Sheet1!A2:B");
         List<String> actual = new ArrayList<>();
 
         for (List row : values) {
+            int i = 0;
             sleepFor(2);
-            typeByXpathNEnter("//input[@id='gh-ac']", row.get(1).toString());
-            sleepFor(2);
-            actual.add(getCurrentPageUrl());
-            clearInputByXpath("//input[@id='gh-ac']");
-            sleepFor(2);
+            if (i <= row.size()) {
+                inputValueInTextBoxByWebElement(searchBox, row.get(i).toString());
+                sleepFor(2);
+                //actual.add(getCurrentPageUrl());
+                clearInputBox(searchBox);
+                sleepFor(2);
+                i++;
+            }
         }
         return actual;
     }

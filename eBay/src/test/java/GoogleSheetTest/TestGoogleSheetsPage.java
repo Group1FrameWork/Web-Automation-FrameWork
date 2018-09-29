@@ -3,17 +3,16 @@ package GoogleSheetTest;
 import GoogleSheet.GoogleSheetsPage;
 import PageObjectModel.HomePage;
 import PageObjectModel.SignInPage;
-import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 
 import java.io.IOException;
 import java.util.List;
 
-public class TestGoogleSheetsPage extends CommonAPI {
+public class TestGoogleSheetsPage extends GoogleSheetsPage {
     HomePage objOfHomePage;
     SignInPage objOfSignInPage;
     GoogleSheetsPage objGoogleSheetsPage;
@@ -40,12 +39,16 @@ public class TestGoogleSheetsPage extends CommonAPI {
         List<String> actualErrorMessage = objGoogleSheetsPage.signInByInvalidIdPass(spreadsheetId, range);
         List<List<Object>> expectedErrorMessage = objGoogleSheetsPage.getSpreadSheetRecords(spreadsheetId, range);
         for (List row : expectedErrorMessage) {
-            // Assert.assertTrue(actualErrorMessage.get(i).contains(row.get(3).toString()));
-            //System.out.println("expected"+row.get(3).toString());
+            Assert.assertTrue(actualErrorMessage.get(i).contains(row.get(3).toString()));
+            System.out.println("expected"+row.get(3).toString());
             System.out.println(expectedErrorMessage.get(i) + ": Search - Passed");
             i++;
         }
         System.out.println("testLogInByInvalidIdPassUsingGoogleSheet Passed");
+    }
+    @Test
+    public void SearchItemsFromSearchBox() throws IOException, InterruptedException, Exception {
+        objGoogleSheetsPage.searchItemsByName();
     }
 
 }
