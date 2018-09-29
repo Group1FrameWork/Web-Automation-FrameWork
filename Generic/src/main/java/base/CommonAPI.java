@@ -94,8 +94,8 @@ public class CommonAPI {
     public WebDriver driver = null;
     public String browserstack_username = "your user name";
     public String browserstack_accesskey = "your access key";
-    public String saucelabs_username = "Subhra2018";
-    public String saucelabs_accesskey = "4516433a-548c-47ff-aa2d-ea0c89dea812";
+    public String saucelabs_username = "mursalin3152";
+    public String saucelabs_accesskey = "771b22f0-2a70-4565-a661-866e70cf029f";
 
     public static void sleepFor(int sec) throws InterruptedException {
         Thread.sleep(sec * 1000);
@@ -138,7 +138,7 @@ public class CommonAPI {
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
-    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName, @Optional("OS X") String os, @Optional("Sierra") String os_version, @Optional("chrome") String browsername, @Optional("69") String browserVersion, @Optional("https://www.eBay.com/") String url) throws Exception {
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName, @Optional("OS X") String os, @Optional("Sierra") String os_version, @Optional("chrome") String browsername, @Optional("69") String browserVersion, @Optional("https://www.nytimes.com/") String url) throws Exception {
         //System.setProperty("webdriver.chrome.driver", "/Users/subhra/WebPageAutomation/Generic/Browser-Driver/chromedriver");
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -230,8 +230,11 @@ public class CommonAPI {
         Thread.sleep(10000);
             driver.quit();
     }
-    public void clickOnCss(String locator) throws InterruptedException {
+    /*public void clickOnCss(String locator) throws InterruptedException {
         Thread.sleep(10000);
+        driver.findElement(By.cssSelector(locator)).click();
+    }*/
+    public void clickOnCss(String locator) {
         driver.findElement(By.cssSelector(locator)).click();
     }
 
@@ -440,6 +443,10 @@ public class CommonAPI {
 
         driver.switchTo().frame(element);
     }
+    /* //Handle popUp
+    public void handlePopUp(){
+        clickOnElement("closeButton");
+    }*/
 
     public void goBackToHomeWindow() {
 

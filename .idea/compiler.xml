@@ -9,7 +9,13 @@
         <module name="eBay" />
         <module name="Generic" />
         <module name="MSNBC" />
+        <module name="NYTimes" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="NYTimes" options="" />
+    </option>
   </component>
 </project>
