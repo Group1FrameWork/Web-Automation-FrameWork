@@ -2,50 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6b7705e-ff36-4de6-b36c-5574cfbe7015" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/Java/java/googleSheetSignIn/GoogleSheetSignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/Java/java/keyWordDriven/Features.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/Java/java/pages/BillingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/Java/java/pages/CountrySelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/Java/java/pages/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/Java/java/pages/Grocery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/Java/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/main/Java/java/pages/SignInOrRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/testDataReader/TestSignInWithExcelFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/testGoogleSheet/TestSignInWithGoogleSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestBilling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestCountrySelection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/src/main/Java/pages/TestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/main/Java/pages/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/main/Java/pages/Grocery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/main/Java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/Java/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/main/Java/pages/SignInOrRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestCustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestCustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestGrocery.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestGrocery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/pages/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/pages/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/pages/Grocery.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/pages/Grocery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/pages/SignInOrRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/pages/SignInOrRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testPages/TestCustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testPages/TestCustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testPages/TestGrocery.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testPages/TestGrocery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testPages/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testPages/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testPages/TestSignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testPages/TestSignIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/MSNBC-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/MSNBC-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/test-classes/home/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/test-classes/home/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/Main/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/Main/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/Main/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/Main/SignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/Main/SignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/Main/SignUpPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/eBay-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/eBay-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/InputHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/InputHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/SignInPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/SignInPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/SignUpPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/SignUpPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/homePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/homePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -148,115 +125,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExtentManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <file leaf-file-name="ExtentReport.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/Extent-Report/ExtentReport.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            <state relative-caret-position="30">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectToMongoDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+      <file leaf-file-name="SignInOrRegister.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/SignInOrRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2200#2206#0" expanded="true" />
-                <element signature="e#3045#3054#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectToSqlDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="234" column="5" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
-              <folding>
-                <element signature="e#1526#1534#0" expanded="true" />
-                <element signature="e#2406#2414#0" expanded="true" />
-                <element signature="e#4260#4268#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3739">
-              <caret line="529" column="13" selection-start-line="529" selection-start-column="13" selection-end-line="529" selection-end-column="13" />
-              <folding>
-                <element signature="e#3163#3164#0" expanded="true" />
-                <element signature="e#3193#3194#0" expanded="true" />
-                <element signature="e#4811#4819#0" expanded="true" />
-                <element signature="e#10597#10598#0" expanded="true" />
-                <element signature="e#10661#10662#0" expanded="true" />
-                <element signature="e#11528#11529#0" expanded="true" />
-                <element signature="e#11603#11604#0" expanded="true" />
-                <element signature="e#12463#12464#0" expanded="true" />
-                <element signature="e#12543#12544#0" expanded="true" />
-                <element signature="e#12594#12595#0" expanded="true" />
-                <element signature="e#12661#12662#0" expanded="true" />
-                <element signature="e#12779#12791#0" expanded="true" />
-                <element signature="e#12988#13000#0" expanded="true" />
-                <element signature="e#13045#13053#0" expanded="true" />
-                <element signature="e#13382#13394#0" expanded="true" />
-                <element signature="e#13606#13618#0" expanded="true" />
-                <element signature="e#14556#14557#0" expanded="true" />
-                <element signature="e#14596#14597#0" expanded="true" />
-                <element signature="e#14633#14634#0" expanded="true" />
-                <element signature="e#14676#14677#0" expanded="true" />
-                <element signature="e#14786#14794#0" expanded="true" />
-                <element signature="e#19555#19563#0" expanded="true" />
-                <element signature="e#20053#20054#0" expanded="true" />
-                <element signature="e#20087#20088#0" expanded="true" />
-                <element signature="e#20546#20547#0" expanded="true" />
-                <element signature="e#20607#20608#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XlsDataReaderUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/DataReader/XlsDataReaderUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="e#194#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Xls_Reader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/DataReader/Xls_Reader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+            <state relative-caret-position="115">
+              <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,11 +151,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleSheetReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
+      <file leaf-file-name="TestSignIn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-447">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -276,11 +163,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <file leaf-file-name="GoogleSheetSignIn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/googleSheetSignIn/GoogleSheetSignIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Features.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/keyWordDriven/Features.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BillingSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/BillingSystem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grocery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/Grocery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-110">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391">
+              <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountrySelection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/CountrySelection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -300,14 +238,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/Search/searchItems.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Ebay/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Ebay/pom.xml" />
         <option value="$PROJECT_DIR$/eBay/src/test/java/Search/searchItems.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/eBay/src/main/java/HomePage/HomePage.java" />
         <option value="$PROJECT_DIR$/eBay/src/test/java/Search/InputSearch.java" />
         <option value="$PROJECT_DIR$/eBay/target/test-classes/eBayTestRunner.xml" />
@@ -344,6 +280,15 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/Java/java/pages/CountrySelection.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/Java/java/googleSheetSignIn/GoogleSheetSignIn.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/Java/java/keyWordDriven/Features.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/Java/java/pages/CustomerService.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/Java/java/pages/Grocery.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/Java/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/Java/java/pages/SignInOrRegister.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java" />
       </list>
     </option>
   </component>
@@ -386,10 +331,10 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="31" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
     <option name="y" value="23" />
-    <option name="width" value="1409" />
+    <option name="width" value="1431" />
     <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -415,6 +360,32 @@
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name=".credentials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name=".credentials" type="462c0819:PsiDirectoryNode" />
+              <item name="sheets-googleapis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenShots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenShots" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -439,6 +410,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="googleSheetSignIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="keyWordDriven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -447,6 +448,31 @@
               <item name="Costco" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -571,11 +597,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/MSNBC/src/test" />
-      <recent name="$PROJECT_DIR$/Generic/Browser-Driver/Mac" />
-      <recent name="$PROJECT_DIR$/eBay" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java/reporting" />
+      <recent name="$PROJECT_DIR$/Costco/src/test" />
+      <recent name="$PROJECT_DIR$/Costco/src/main/Java" />
+      <recent name="$PROJECT_DIR$/Costco/ScreenShots" />
+      <recent name="$PROJECT_DIR$/Costco/Extent-Report" />
+      <recent name="$PROJECT_DIR$/Costco/.credentials/sheets-googleapis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utility" />
@@ -797,7 +823,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="23" width="1409" height="826" extended-state="0" />
+    <frame x="9" y="23" width="1431" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
@@ -806,14 +832,14 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.33056325" side_tool="true" weight="0.443038" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18507682" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.66943675" visible="true" weight="0.44192636" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18214543" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.66943675" weight="0.44192636" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" weight="0.4631728" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" visible="true" weight="0.4631728" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23994148" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23614112" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24974924" />
       <window_info id="UI Designer" order="1" />
@@ -889,39 +915,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/test-output/old/index.html" />
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/Search/searchItems.java" />
-    <entry file="file://$PROJECT_DIR$/eBay/target/test-classes/Search/InputSearch.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/base/Preconditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/base/Preconditions.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/service/DriverService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0-sources.jar!/org/openqa/selenium/remote/service/DriverService.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" />
@@ -1055,13 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1158,13 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -1238,6 +1217,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/googleSheetSignIn/GoogleSheetSignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/keyWordDriven/Features.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/BillingSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/CountrySelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/Grocery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/SignInOrRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1255,7 +1319,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1303,7 +1367,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

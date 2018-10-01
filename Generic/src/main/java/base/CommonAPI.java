@@ -92,8 +92,8 @@ public class CommonAPI {
     }
 
     public WebDriver driver = null;
-    public String browserstack_username = "your user name";
-    public String browserstack_accesskey = "your access key";
+    public String browserstack_username = "aliflailanabila1";
+    public String browserstack_accesskey = "";
     public String saucelabs_username = "Subhra2018";
     public String saucelabs_accesskey = "4516433a-548c-47ff-aa2d-ea0c89dea812";
 
@@ -535,5 +535,72 @@ public class CommonAPI {
     //clear Input
     public void clearInputByXpath(String locator) {
         driver.findElement(By.xpath(locator)).clear();
+    }
+
+
+    public String getText(String locator) {
+        try {
+            String st = driver.findElement(By.xpath(locator)).getText();
+            System.out.println("Locator found by ID");
+            System.out.println(st);
+
+        } catch (Exception ex1) {
+            System.out.println("Locator can't be found by ID");
+        }
+        try {
+            String st = driver.findElement(By.cssSelector(locator)).getText();
+            System.out.println("Locator found by CSS");
+            System.out.println(st);
+            return st;
+        } catch (Exception ex2) {
+            System.out.println("Locator can't be found by CSS");
+        }
+        try {
+            String st = driver.findElement(By.xpath(locator)).getText();
+            System.out.println("Locator found by xpath");
+            System.out.println(st);
+            return st;
+        } catch (Exception ex3) {
+            System.out.println("Locator can't be found by xpath");
+        }
+        return locator;
+    }
+
+
+    public void navigateHardCoded() {
+        driver.navigate().to("https://www.costco.com");
+        driver.navigate().to("https://www.costco.com/LogonForm");
+        driver.navigate().to("https://www.costcophotocenter.com/Home?utm_source=costco.com&utm_medium=referral&utm_campaign=Costco.com%20Navigation%20Bar&utm_term=Photo%20Main&utm_content=Photo");
+    }
+
+    public static String showTitle(WebDriver driver) {
+        String title = driver.getTitle();
+        return title;
+    }
+
+    public static boolean isEnableStatus(WebDriver driver, WebElement web) {
+        boolean en = web.isEnabled();
+        System.out.println(en);
+        return en;
+    }
+    public void isDisplayedStatus(WebElement element) {
+        boolean value = element.isDisplayed();
+        System.out.println(value);
+    }
+    public void getSizeOfElement(WebElement element) {
+        Dimension dimension = element.getSize();
+        System.out.println("Width of element: " + dimension.width);
+        System.out.println("Height of element: " + dimension.height);
+    }
+    public String converToString(String st){
+        String splitString ;
+        splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
+        System.out.println(splitString);
+        return splitString;
+    }
+
+    public void isSelectedStatus(WebElement element) {
+        boolean value = element.isSelected();
+        System.out.println(value);
     }
 }
