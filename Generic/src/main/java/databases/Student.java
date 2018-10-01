@@ -57,6 +57,5 @@ public class Student implements Serializable {
     public String toString(){
         return "Student" + "("+"id= "+id+")"+ firstName+" "+lastName+" "+" Grade = "+score;
     }
-
 }
 

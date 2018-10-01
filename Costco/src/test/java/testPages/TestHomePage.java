@@ -63,16 +63,16 @@ public class TestHomePage extends HomePage {
 
   @Test
     public void testNavigate(){
-        navigate();
+        //navigate();
         navigateBack();
         navigateBack();
         //navigateForward();
         //navigateBack();
-        refreshPage();
+        //refreshPage();
   }
   @Test
     public void testCurrentURL(){
-        navigate();
+        //navigate();
         getCurrentPageUrl();
   }
 

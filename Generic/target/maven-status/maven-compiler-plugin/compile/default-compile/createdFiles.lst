@@ -1,10 +1,13 @@
 base/CommonAPI.class
+reporting/ExtentTestManager.class
+GoogleAPIs/GoogleSheetReader.class
+reporting/TestLogger.class
+databases/ConnectToSqlDB.class
 reporting/ExtentManager.class
 databases/ConnectToMongoDB.class
 databases/Student.class
+DataReader/XlsDataReaderUtil.class
 reporting/ApplicationLog.class
-reporting/ExtentTestManager.class
 utility/DataReader.class
 databases/User.class
-reporting/TestLogger.class
-databases/ConnectToSqlDB.class
+DataReader/Xls_Reader.class
