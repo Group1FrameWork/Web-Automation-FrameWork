@@ -1,101 +1,76 @@
 package Search;
 
 import PageObjectModel.HomePage;
+import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.io.IOException;
 
 public class HomePageTest extends HomePage {
 
+    HomePage homePage;
+
+
+    @BeforeMethod
+    public void inIt(){
+        TestLogger.log(getClass().getSimpleName()+" : "+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage = PageFactory.initElements(driver, HomePage.class);
+
+    }
     //TC#1 => User is verifying that he is on the right page
     @Test
     public void verifyEbay() {
-        boolean expected = true;
-        boolean actual = driver.findElement((By.cssSelector("#gh-logo"))).isDisplayed();
-        System.out.println(actual);
-
-        Assert.assertEquals(actual, expected);
+        TestLogger.log(getClass().getSimpleName()+" : "+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.verifyEbay();
     }
-
     //TC#2 User can search any thing on the home page
     @Test
     public void searchItems() throws IOException {
-        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        TestLogger.log(getClass().getSimpleName()+" : "+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage.searchItemsAndSubmitButton();
-
     }
-
     //TC#3 Get all the list from  all categories
     @Test
     public void getCategories() {
-        mouseHoverByCSS("#gh-cat");
-        viewMultipleByCSS();
+        TestLogger.log(getClass().getSimpleName()+" : "+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       //homePage.mouseHoverByCss();
+        homePage.viewMultipleByCSS();
     }
-
     //TC#4 Testing a new Tab
     @Test
     public void testNewTab(){
-        newTab();
+        TestLogger.log(getClass().getSimpleName()+" : "+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePage.newTab();
     }
     //TC#5 User can click on antiques from allcategories and go to the antuqes page
     @Test
     public void goToAntiquesPage() throws InterruptedException {
-        clickOnCss("#gh-cat");
-        mouseHoverByCSS("#gh-cat > option:nth-child(2)");
-        clickOnCss("#gh-cat > option:nth-child(2)");
-        clickOnElement("#gh-btn");
-        String Expected = "Antiques";
-        String Actual = driver.findElement(By.cssSelector("#w5 > div.title-banner__layer > div.title-banner__layer__info > h1")).getText();
-        System.out.println(Actual);
-        Assert.assertEquals(Actual,Expected);
+        homePage.goToAntiquesPage();
     }
     //TC#6 User can click on camera & photo from allcategories and go to the Camera & photo page
     @Test
     public void goToCameraPhotoPage() throws InterruptedException {
-        clickOnCss("#gh-cat");
-
-        clickOnCss("#gh-cat > option:nth-child(7)");
-        clickOnElement("#gh-btn");
-        String Expected = "Cameras & Photo";
-        String Actual = driver.findElement(By.cssSelector("body > div.pagecontainer.srp-main--isLarge > div.pagecontainer__top > h1 > span")).getText();
-        System.out.println(Actual);
-        Assert.assertEquals(Actual,Expected);
+        homePage.goToCameraPhotoPage();
     }
     //TC#7 User can click on Cell Phone from allcategories and go to the Cell Phone page
         @Test
        public void goToCellPhonePage() throws InterruptedException {
-           clickOnCss("#gh-cat");
-           clickOnCss("#gh-cat > option:nth-child(8)");
-           clickOnCss("#gh-btn");
-           String Expected = "Cell Phones, Smart Watches & Accessories";
-            String Actual = driver.findElement(By.cssSelector("#w5 > div.title-banner__layer > div.title-banner__layer__info > h1")).getText();
-           System.out.println(Actual);
-            Assert.assertEquals(Actual,Expected);
+        homePage.goToCellPhonePage();
         }
     //TC#8 User can click on Clothing, Shoes & Accessories from allcategories and go to the Clothing, Shoes & Accessories page
     @Test
     public void goToClothingShoesAccessoriesPage() throws InterruptedException {
-        clickOnCss("#gh-cat");
-        clickOnCss("#gh-cat > option:nth-child(9)");
-        clickOnCss("#gh-btn");
-        String Expected = "Clothing, Shoes & Accessories";
-        String Actual = driver.findElement(By.cssSelector("body > div.pagecontainer.srp-main--isLarge > div.pagecontainer__top > h1 > span")).getText();
-        System.out.println(Actual);
-        Assert.assertEquals(Actual,Expected);
+        homePage.goToClothingShoesAccessoriesPage();
     }
     //TC#9 User can click on Clothing, Shoes & Accessories from allcategories and go to the Clothing, Shoes & Accessories page
     @Test
     public void goToCoinsPaperMoneyPage() throws InterruptedException {
-        clickOnCss("#gh-cat");
-        clickOnCss("#gh-cat > option:nth-child(10)");
-        clickOnCss("#gh-btn");
-        String Expected = "Coins & Paper Money";
-        String Actual = driver.findElement(By.cssSelector("body > div.pagecontainer.srp-main--isLarge > div.pagecontainer__top > h1 > span")).getText();
-        System.out.println(Actual);
-        Assert.assertEquals(Actual,Expected);
+       goToCoinsPaperMoneyPage();
     }
     //TC#10 User can click on Collectibles from allcategories and go to the Collectibles page
     @Test

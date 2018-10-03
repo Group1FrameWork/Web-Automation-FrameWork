@@ -12,10 +12,10 @@ import java.util.List;
 public class HelpAndContact extends CommonAPI {
 
     @FindBy(how = How.CSS, using = "#search_input_element")
-    public static WebElement SearchInputField;
+    public static WebElement searchInputField;
 
     public static WebElement getSearchInputField() {
-        return SearchInputField;
+        return searchInputField;
     }
 
     public void SearchField(String locator) {
@@ -28,7 +28,6 @@ public class HelpAndContact extends CommonAPI {
     }
 
     public List<String> getSearchValue() {
-
         List<String> itemsList = new ArrayList<String>();
         itemsList.add("Paying Tax");
         itemsList.add("Shipping Policy");

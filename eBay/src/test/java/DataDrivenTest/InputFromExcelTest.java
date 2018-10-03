@@ -25,16 +25,10 @@ public class InputFromExcelTest extends InputFromExcel {
         objByInput = PageFactory.initElements(driver, InputFromExcel.class);
         objOfSignInPage = PageFactory.initElements(driver, SignInPage.class);
     }
-
-
     @DataProvider
     public Iterator<Object[]> supplyData(){
-
-        ArrayList<Object[]> testData =
-                XlsDataReaderUtil.getDataFromExcel();
-
+        ArrayList<Object[]> testData = XlsDataReaderUtil.getDataFromExcel();
         return testData.iterator();
-
     }
     @Test(dataProvider = "supplyData")
     public void signIn(String email, String passCode, String message) throws InterruptedException {
@@ -44,17 +38,13 @@ public class InputFromExcelTest extends InputFromExcel {
 
         objByInput.ClickOnSignIn();
         Thread.sleep(50000);
-
-        //objOfSignInPage.switchToSignInForm();
         TestLogger.log("In Sign In Page");
         objByInput.signInUsingDataProvider(email,passCode,message);
         TestLogger.log("Test Passed");
-
     }
-
     @Test
    public void signInWithExcelData()throws IOException, InterruptedException ,Exception{
-       //TestLogger.log(getClass().getSimpleName()+":"+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+      TestLogger.log(getClass().getSimpleName()+":"+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
    sleepFor(3);
     objOfHomePage.clickSignIn();
     sleepFor(3);

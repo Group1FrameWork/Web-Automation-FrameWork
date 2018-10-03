@@ -79,7 +79,7 @@ public class CommonAPI {
         if (result.getStatus() == ITestResult.FAILURE) {
             captureScreenshot(driver, result.getName());
         }
-        driver.quit();
+        //driver.quit();
     }
     @AfterSuite
     public void generateReport() {
@@ -149,7 +149,7 @@ public class CommonAPI {
         } else {
             getLocalDriver(os, browsername);
         }
-        //driver = new ChromeDriver();
+
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
@@ -223,15 +223,13 @@ public class CommonAPI {
         cap.setCapability("resolution","1024x768");
         return cap;
     }
-
-
     @AfterMethod
     public void cleanUp()throws InterruptedException {
-        Thread.sleep(10000);
+        sleepFor(5);
             driver.quit();
     }
     public void clickOnCss(String locator) throws InterruptedException {
-        Thread.sleep(10000);
+        sleepFor(5);
         driver.findElement(By.cssSelector(locator)).click();
     }
 
@@ -537,4 +535,12 @@ public class CommonAPI {
         driver.findElement(By.xpath(locator)).clear();
     }
 
+    public void click(WebElement locator){
+        locator.click();
+    }
+
+    public String getText(String locator){
+        driver.findElement(By.cssSelector(locator)).getText();
+        return locator;
+    }
 }

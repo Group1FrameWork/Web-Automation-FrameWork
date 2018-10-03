@@ -8,12 +8,10 @@ public class DailyDeals extends CommonAPI {
     public void moveCursor(String locator) {
         mouseHoverByLinkText(locator);
     }
-
     //Click on Daily Deals Link
     public void clickDailyDeals() throws InterruptedException {
         clickOnCss(".gh-p");
     }
-
     // Click on the link inside feature
     public void clickLink(String locator) {
         try {

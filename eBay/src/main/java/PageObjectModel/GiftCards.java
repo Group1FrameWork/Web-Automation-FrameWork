@@ -18,7 +18,6 @@ public class GiftCards extends CommonAPI {
     @FindBy(how = How.CSS, using = "#w1-w0 > ul > li:nth-child(2) > a")
     public static WebElement digitalGiftsAndCoupons;
 
-
     @FindBy(how = How.CSS, using = "#w1-w0 > ul > li:nth-child(3) > a")
     public static WebElement eBayGiftsCards;
 
@@ -63,7 +62,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#gh-p-4 > a");
         }
-
     }
 
     public void clickOnCoupons() throws InterruptedException {
@@ -72,8 +70,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#w1-w0 > ul > li:nth-child(1) > a");
         }
-
-
     }
 
     public void clickOnDigitalGiftsAndCoupons() throws InterruptedException {
@@ -82,7 +78,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#w1-w0 > ul > li:nth-child(2) > a");
         }
-
     }
 
     public void clickOneBayGiftsCards() throws InterruptedException {
@@ -91,7 +86,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#w1-w0 > ul > li:nth-child(3) > a");
         }
-
     }
 
     public void clickOngCards() throws InterruptedException {
@@ -100,7 +94,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#w1-w0 > ul > li:nth-child(4) > a");
         }
-
     }
 
     public void clickOngiftCertificates() throws InterruptedException {
@@ -112,14 +105,12 @@ public class GiftCards extends CommonAPI {
     }
 
     public void viewSort(String locator) {
-
         //moveCursor("Best Match");
         List<WebElement> sort = getListOfWebElementsByCss(locator);
         for (WebElement search : sort) {
             System.out.println(search.getSize());
             System.out.println(search.getText());
         }
-
     }
 
     public void results(String locator) {

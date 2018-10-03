@@ -18,25 +18,14 @@ public class Features extends CommonAPI {
     public void clickSignIn() throws InterruptedException ,Exception{
         objOfHomePage.clickSignIn();
     }
-
-    //KeyWord SwitchToSignForm
-    //public void switchToSignInForm() {
-        //objOfSignInPage.switchToSignInForm();
-    //}
-
     //KeyWord SignIn
     public void signIn() throws InterruptedException {
         objOfSignInPage.SignIn();
     }
-
-
     public void selectAction(String featureName) throws IOException, InterruptedException ,Exception{
         switch (featureName) {
             case "ClickSignIn":
                 clickSignIn();
-                break;
-            case "SwitchToSignInForm":
-                //switchToSignInForm();
                 break;
             case "SignIn":
                 signIn();

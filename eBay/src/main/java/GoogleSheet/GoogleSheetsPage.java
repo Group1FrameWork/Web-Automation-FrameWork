@@ -39,16 +39,14 @@ public class GoogleSheetsPage extends CommonAPI {
             return values;
         }
     }
-
-    // // LogIn by using Google Sheet sheet data
+    // LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
-
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();
         for (List row : col2Value) {
             sleepFor(1);
-            inputValueInTextBoxByWebElement(account, row.get(1).toString());
-            inputValueInTextBoxByWebElement(password, row.get(2).toString());
+            inputValueInTextBoxByWebElement(account, row.get(0).toString());
+            inputValueInTextBoxByWebElement(password, row.get(1).toString());
             sleepFor(1);
             //actual.add(getCurrentPageTitle());
             actual.add(getTextByWebElement(signInErrorMesage));
@@ -77,5 +75,4 @@ public class GoogleSheetsPage extends CommonAPI {
         }
         return actual;
     }
-
 }

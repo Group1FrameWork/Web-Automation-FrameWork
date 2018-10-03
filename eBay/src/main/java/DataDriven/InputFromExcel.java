@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 import utility.DataReader;
 
 import java.io.IOException;
@@ -24,24 +25,20 @@ public class InputFromExcel extends CommonAPI {
     @FindBy(how = How.CSS, using = "#gh-ug > a")
     public static WebElement SignInLink;
 
-
     DataReader dtr = new DataReader();
 
-    //
     public String[] getDataCol2(String fileName) throws IOException {
         String path = "../eBay/Data/" + fileName;
         String[] output = dtr.colReader(path, 2); //col 2 = email
         return output;
     }
 
-    //
     public String[] getDataCol3(String fileName) throws IOException {
         String path = "../eBay/Data/" + fileName;
         String[] output = dtr.colReader(path, 3); //col 3 = password
         return output;
     }
 
-    //
     public String[] getAssertData(String fileName) throws IOException {
         String path = "../eBay/Data/" + fileName;
         String[] output = dtr.colReader(path, 4);
@@ -55,9 +52,8 @@ public class InputFromExcel extends CommonAPI {
         Thread.sleep(3000);
         SignInbtn.click();
         String errorMessage = ErrorMessage.getText();
-        //TestLogger.log("Error Message: " + errorMessage);
+        TestLogger.log("Error Message: " + errorMessage);
     }
-
     // LogIn by using excel sheet data
     public String[] getVerificationValue(String fileName) throws IOException, InterruptedException {
         String[] col2Value = getDataCol2(fileName);
@@ -83,10 +79,7 @@ public class InputFromExcel extends CommonAPI {
         String[] output = dtr.colReader(path, 2); //col 2 = email
         return output;
     }
-
     public void ClickOnSignIn(){
         SignInLink.click();
     }
-
-
 }

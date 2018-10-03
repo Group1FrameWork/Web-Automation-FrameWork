@@ -16,6 +16,14 @@
 
     <classes>
         <class name="KeyWordDrivenTest.TestFeatures"/>
+        <class name="DatabaseTest.DBSearchTest"/>
+        <class name="GoogleSheetTest.TestGoogleSheetsPage"/>
+        <class name="Search.SignInPageTest"/>
+        <class name="Search.InputHome"/>
+        <class name="Search.HomePageTest"/>
+        <class name="Search.GiftCardsTest"/>
+        <class name="Search.DailyDealsTest"/>
+        <class name="Search.HelpAndContactTest"/>
     </classes>
 </test>
 

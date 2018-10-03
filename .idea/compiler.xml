@@ -9,6 +9,7 @@
         <module name="eBay" />
         <module name="Generic" />
         <module name="MSNBC" />
+        <module name="RestAPI" />
       </profile>
     </annotationProcessing>
   </component>

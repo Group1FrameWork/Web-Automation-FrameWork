@@ -4,8 +4,6 @@ import PageObjectModel.SignInPage;
 import org.testng.annotations.Test;
 
 public class SignInPageTest extends SignInPage {
-
-
     //TC#1 Clicking on signin link and Verify that we are in sign in page
 
     @Test(priority = 1,enabled = true)
@@ -13,7 +11,6 @@ public class SignInPageTest extends SignInPage {
         clickSignIn();
         verifySignIn();
     }
-
     //TC#2 Sign In to Ebay with valid credentials
     @Test(priority = 2,enabled = true)
     public void SignIn() throws InterruptedException {
@@ -44,6 +41,4 @@ public class SignInPageTest extends SignInPage {
         clickSignIn();
         noEmailNoPasswordUse("","");
     }
-
-
 }

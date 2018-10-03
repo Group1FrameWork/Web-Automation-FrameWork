@@ -162,7 +162,7 @@ public class ConnectToSqlDB {
             connectToSqlDatabase();
             ps = connect.prepareStatement("DROP TABLE IF EXISTS `" + tableName + "`;");
             ps.executeUpdate();
-            ps = connect.prepareStatement("CREATE TABLE `" + tableName + "` (`search` varchar(33) NOT NULL);");
+            ps = connect.prepareStatement("CREATE TABLE `" + tableName + "` (`"+columnName+"` varchar(33) NOT NULL);");
             ps.executeUpdate();
             for (Object st : list) {
                 ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName + " ) VALUES(?)");
