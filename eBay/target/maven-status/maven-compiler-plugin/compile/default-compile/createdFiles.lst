@@ -1,4 +1,3 @@
-Database/DBsearch.class
 PageObjectModel/HomePage$4.class
 PageObjectModel/HomePage$3.class
 KeyWordDriven/Features.class
@@ -8,6 +7,7 @@ PageObjectModel/HomePage$8.class
 PageObjectModel/HomePage$7.class
 PageObjectModel/HomePage.class
 PageObjectModel/SignUpPage.class
+Database/DBSearch.class
 PageObjectModel/HelpAndContact.class
 PageObjectModel/SignInPage.class
 PageObjectModel/HomePage$2.class

@@ -91,7 +91,7 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
     public String browserstack_username = "your user name";
     public String browserstack_accesskey = "your access key";
     public String saucelabs_username = "Subhra2018";
@@ -322,8 +322,7 @@ public class CommonAPI {
     }
 
     public List<WebElement> getListOfWebElementsByCss(String locator) {
-        List<WebElement> list = new ArrayList<WebElement>();
-        list = driver.findElements(By.cssSelector(locator));
+        List<WebElement> list = driver.findElements(By.cssSelector(locator));
         return list;
     }
 
@@ -360,6 +359,10 @@ public class CommonAPI {
     public String getCurrentPageUrl() {
         String url = driver.getCurrentUrl();
         return url;
+    }
+    public String getCurrentPageTitle() {
+        String title = driver.getTitle();
+        return title;
     }
 
     public void navigateBack() {

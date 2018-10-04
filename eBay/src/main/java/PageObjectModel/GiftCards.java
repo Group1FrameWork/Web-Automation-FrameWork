@@ -117,4 +117,37 @@ public class GiftCards extends CommonAPI {
         getTextByCss(locator);
 
     }
+
+    public void coupons() throws InterruptedException {
+        clickOnGiftCards();
+        clickOnCoupons();
+        results("#w7-w0 > div:nth-child(2) > div:nth-child(1) > div > h2");
+    }
+    //TC#2 Click on Digital Gifts & Coupons and find out how many coupons are there
+    public void digitalGiftsCoupons() throws InterruptedException {
+        clickOnGiftCards();
+        clickOnDigitalGiftsAndCoupons();
+        results("#w7-w0 > div:nth-child(2) > div:nth-child(1) > div > h2");
+    }
+    //TC#3 Click on coupons and find out how many coupons are there
+
+    public void giftCards() throws InterruptedException {
+        clickOnGiftCards();
+        clickOngCards();
+        results("#w9-w0 > div:nth-child(2) > div:nth-child(1) > div > h2");
+    }
+    //TC#4 Click on coupons and find out how many coupons are there
+
+    public void eBayGiftCards() throws InterruptedException {
+        clickOnGiftCards();
+        clickOneBayGiftsCards();
+        results("#w5-w0 > div:nth-child(2) > div:nth-child(1) > div > h2");
+    }
+    //TC#5 Click on coupons and find out how many coupons are there
+
+    public void giftCertificates() throws InterruptedException {
+        clickOnGiftCards();
+        clickOngiftCertificates();
+        results("#w8-w0 > div:nth-child(2) > div:nth-child(1) > div > h2");
+    }
 }

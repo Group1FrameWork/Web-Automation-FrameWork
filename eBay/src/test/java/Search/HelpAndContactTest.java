@@ -1,88 +1,106 @@
 package Search;
 
 import PageObjectModel.HelpAndContact;
+import base.CommonAPI;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.io.IOException;
 
 public class HelpAndContactTest extends HelpAndContact {
+
+    HelpAndContact helpAndContact = PageFactory.initElements(CommonAPI.driver,HelpAndContact.class);
     //TC#1
     @Test
-    public void SearchForHelp() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        SearchField("#search_input_element");
+    public void searchForHelp() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.searchForHelp();
     }
     // TC#2
     @Test
-    public void SearForMultipleHelp() throws IOException, InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        SearchMultipleField("#search_input_element");
+    public void searchForMultipleHelp() throws IOException, InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.searchForMultipleHelp();
     }
     //TC#3
     @Test
-    public void GetHelp1() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#popular_solution_1 > span > span.main_title");
+    public void getHelp1() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.getHelp1();
     }
 
     //TC#4
     @Test
-    public void GetHelp2() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#popular_solution_2 > span > span.main_title");
+    public void getHelp2() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.getHelp2();
     }
     //TC#5
     @Test
-    public void GetHelp3() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#popular_solution_3 > span > span.main_title");
+    public void getHelp3() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.getHelp3();
     }
     //TC#6
     @Test
-    public void GetHelp4() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#popular_solution_4 > span > span.main_title");
+    public void getHelp4() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.getHelp4();
     }
     //TC#7
     @Test
-    public void GetHelp5() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#popular_solution_5 > span > span.main_title");
+    public void getHelp5() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.getHelp5();
     }
     //TC#8
     @Test
-    public void GetHelp6() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#popular_solution_6 > span > span.main_title");
+    public void getHelp6() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.getHelp6();
     }
     //TC#9
     @Test
-    public void ReturnAndRefunds() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#returns-refunds > span > span.t2");
+    public void returnAndRefunds() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.returnAndRefunds();
     }
     //TC#10
     @Test
-    public void ShippingAndTracking() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#postage-tracking > span > span.t2");
+    public void shippingAndTracking() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.shippingAndTracking();
     }
     //TC#11
     @Test
-    public void Selling() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#selling > span > span.t2");
+    public void selling() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.selling();
     }
     //TC#12
     @Test
-    public void Buying() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#buying > span > span.t2");
+    public void buying() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.buying();
     }
     //TC#13
     @Test
-    public void Account() throws InterruptedException {
-        clickOnHelp("#gh-p-3 > a");
-        GetPersonalizedHelp("#account > span > span.t2");
+    public void account() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + " : " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        helpAndContact.account();
     }
 }

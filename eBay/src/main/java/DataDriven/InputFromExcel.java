@@ -64,7 +64,7 @@ public class InputFromExcel extends CommonAPI {
             sleepFor(5);
             inputValueInTextBoxByWebElement(Password, col3Value[i]);
             sleepFor(5);
-            // actual[i] = getCurrentPageTitle();
+             actual[i] = getCurrentPageTitle();
             actual[i] = getTextByWebElement(ErrorMessage);
             sleepFor(5);
             System.out.println(actual[i]);

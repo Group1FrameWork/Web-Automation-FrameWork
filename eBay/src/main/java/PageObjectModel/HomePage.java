@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomePage extends CommonAPI {
-    CommonAPI commonAPI = PageFactory.initElements(driver, CommonAPI.class);
+    CommonAPI commonAPI = PageFactory.initElements(CommonAPI.driver, CommonAPI.class);
 
     @FindBy(how = How.CSS, using = "#gh-ac")
     public static WebElement searchInputWebElement;
@@ -57,12 +57,12 @@ public class HomePage extends CommonAPI {
     }
 
     public void viewMultipleByCSS() {
-        List<WebElement> menu = getListOfWebElementsByCss("#gh-cat");
-
+        System.out.println(driver);
         List<String> list = new ArrayList<>();
+        List<WebElement> menu = getListOfWebElementsByCss("#gh-cat");
         for (WebElement search : menu) {
+            System.out.println(search.getText());
             list.add(search.getText());
-
         }
     }
 
@@ -142,7 +142,6 @@ public class HomePage extends CommonAPI {
         itemsList.add("macAir");
         return itemsList;
     }
-
     public void getCategories() throws InterruptedException {
         categories.click();
         WebElement menu = driver.findElement(By.xpath("//*[@id=\"gh-cat\"]/option[34]"));
@@ -152,51 +151,156 @@ public class HomePage extends CommonAPI {
         mouseHoverByCSS("#gh-ac");
     }
     public void goToAntiquesPage() throws InterruptedException {
-
         click(categories);
         click(antiques);
         click(submitButtonWebElement);
         String Expected = "Antiques";
-        String Actual = getText("#w5 > div.title-banner__layer > div.title-banner__layer__info > h1");
-        System.out.println(Actual);
-        Assert.assertEquals(Actual,Expected);
-    }
-    public void goToCameraPhotoPage() throws InterruptedException {
-        clickOnCss("#gh-cat");
-        clickOnCss("#gh-cat > option:nth-child(7)");
-        clickOnElement("#gh-btn");
-        String Expected = "Cameras & Photo";
-        String Actual = driver.findElement(By.cssSelector("body > div.pagecontainer.srp-main--isLarge > div.pagecontainer__top > h1 > span")).getText();
-        System.out.println(Actual);
-        Assert.assertEquals(Actual, Expected);
-    }
-    public void goToCellPhonePage() throws InterruptedException {
-        clickOnCss("#gh-cat");
-        clickOnCss("#gh-cat > option:nth-child(8)");
-        clickOnCss("#gh-btn");
-        String Expected = "Cell Phones, Smart Watches & Accessories";
         String Actual = driver.findElement(By.cssSelector("#w5 > div.title-banner__layer > div.title-banner__layer__info > h1")).getText();
         System.out.println(Actual);
         Assert.assertEquals(Actual,Expected);
     }
+    public void goToCameraPhotoPage() throws InterruptedException {
+       click(categories);
+       clickOnCss("#gh-cat > option:nth-child(7)");
+       click(submitButtonWebElement);
+       String Expected = "Cameras & Photo";
+       String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToCellPhonePage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(8)");
+        click(submitButtonWebElement);
+        String Expected = "Cell Phones, Smart Watches & Accessories";
+        String Actual = driver.findElement(By.xpath("//*[@id=\"w5\"]/div[1]/div[2]/h1")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual,Expected);
+    }
     public void goToClothingShoesAccessoriesPage() throws InterruptedException {
-        clickOnCss("#gh-cat");
+        click(categories);
         clickOnCss("#gh-cat > option:nth-child(9)");
-        clickOnCss("#gh-btn");
+        click(submitButtonWebElement);
         String Expected = "Clothing, Shoes & Accessories";
-        String Actual = driver.findElement(By.cssSelector("body > div.pagecontainer.srp-main--isLarge > div.pagecontainer__top > h1 > span")).getText();
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
         System.out.println(Actual);
         Assert.assertEquals(Actual,Expected);
     }
     public void goToCoinsPaperMoneyPage() throws InterruptedException {
-        clickOnCss("#gh-cat");
+        click(categories);
         clickOnCss("#gh-cat > option:nth-child(10)");
-        clickOnCss("#gh-btn");
+        click(submitButtonWebElement);
         String Expected = "Coins & Paper Money";
-        String Actual = driver.findElement(By.cssSelector("body > div.pagecontainer.srp-main--isLarge > div.pagecontainer__top > h1 > span")).getText();
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
         System.out.println(Actual);
         Assert.assertEquals(Actual,Expected);
     }
-
+    public void goToCollectiblesPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(11)");
+        click(submitButtonWebElement);
+        String Expected = "Collectibles";
+        String Actual = driver.findElement(By.xpath("//*[@id=\"w5\"]/div[1]/div[2]/h1")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToComputersTabletsMorePage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(12)");
+        click(submitButtonWebElement);
+        String Expected = "Computers, Tablets & More";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToElectronicsPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(13)");
+        click(submitButtonWebElement);
+        String Expected = "Electronics";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToArtCraftSuppliesPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(14)");
+        click(submitButtonWebElement);
+        String Expected = "Art & Craft Supplies";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToAGiftCardsCouponsPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(19)");
+        click(submitButtonWebElement);
+        String Expected = "Gift Cards & Coupons";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToHealthBeautyPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(20)");
+        click(submitButtonWebElement);
+        String Expected = "Health & Beauty";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToHomeGardenPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(21)");
+        click(submitButtonWebElement);
+        String Expected = "Home & Garden";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToJewelryWatchesPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(22)");
+        click(submitButtonWebElement);
+        String Expected = "Jewelry & Watches";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToRecordedMusicPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(23)");
+        click(submitButtonWebElement);
+        String Expected = "Recorded Music";
+        String Actual = driver.findElement(By.xpath("//*[@id=\"w5\"]/div[1]/div[2]/h1")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToRealEstatePage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(27)");
+        click(submitButtonWebElement);
+        String Expected = "Real Estate";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToSportingGoodsPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(29)");
+        click(submitButtonWebElement);
+        String Expected = "Sporting Goods";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
+    public void goToTravelPage() throws InterruptedException {
+        click(categories);
+        clickOnCss("#gh-cat > option:nth-child(34)");
+        click(submitButtonWebElement);
+        String Expected = "Travel";
+        String Actual = driver.findElement(By.xpath("/html/body/div[3]/div[2]/h1/span")).getText();
+        System.out.println(Actual);
+        Assert.assertEquals(Actual, Expected);
+    }
 }
 
