@@ -1,10 +1,10 @@
 package java.pages;
-
-import base.CommonAPI;
 import DataReader.XlsDataReaderUtil;
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.DataProvider;
+import reporting.TestLogger;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -12,130 +12,125 @@ import java.util.List;
 
 public class SignInOrRegister extends CommonAPI {
     @FindBy(css = "#header_sign_in")
-    public static WebElement SignIn;
+    public static WebElement signIn;
     @FindBy(css = "#logonId")
-    public static WebElement EmailId;
+    public static WebElement emailId;
     @FindBy(css = "#LogonForm > fieldset > div:nth-child(5) > input")
-    public static WebElement SignInButton;
+    public static WebElement signInButton;
     @FindBy(css = "#logonPassword")
-    public static WebElement PasswordBar;
+    public static WebElement passwordBar;
     @FindBy(css = "#LogonForm > fieldset > div:nth-child(4) > div > label")
-    public static WebElement CheckBox;
+    public static WebElement checkBox;
     @FindBy(css = "#LogonForm > fieldset")
-    public static WebElement RegistrationFrame;
+    public static WebElement registrationFrame;
     @FindBy(css = "#LogonForm > fieldset > div:nth-child(2) > label.error")
-    public static WebElement EmailError;
+    public static WebElement emailError;
     @FindBy(css = "#LogonForm > fieldset > div:nth-child(3) > label.error")
-    public static WebElement BlankPasswordError;
+    public static WebElement blankPasswordError;
     @FindBy(css = "#logon > div > div > div.critical-notification.form-group")
-    public static WebElement InvalidPassError;
-
-    public List<String> openingSignInPage() {
-        SignIn.click();
-        EmailId.click();
-        EmailId.sendKeys("abcd");
-        SignInButton.click();
-        String actual1=(EmailError.getText());
-        String actual2=(BlankPasswordError.getText());
-        List<String> actualList=new ArrayList<String>();
+    public static WebElement invalidPassError;
+    public void signInClick(){
+        signIn.click();
+    }
+    public void inputData(){
+        emailId.sendKeys("agis@gmail.com");
+        passwordBar.sendKeys("sgdjskhgs");
+    }
+    public void signInButtonClick(){
+        signInButton.click();
+    }
+    public List<String>  openingSignInPage() {
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signIn.click();
+        emailId.click();
+        emailId.sendKeys("abcd");
+        signInButton.click();
+        String actual1=(emailError.getText());
+        String actual2=(blankPasswordError.getText());
+        List<String>actualList=new ArrayList<String>();
         actualList.add(actual1);
         actualList.add(actual2);
         System.out.println(actualList);
         return actualList;
     }
-
     public void signInButtonEnableStatus() {
-        SignIn.click();
-        boolean tx = SignInButton.isEnabled();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signIn.click();
+        boolean tx = signInButton.isEnabled();
         System.out.println(tx);
-
     }
-
     public void checkBoxSelectStatus() {
-        SignIn.click();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signIn.click();
     }
-
     public void sizeOfSignIn() {
-        getSizeOfElement(SignIn);
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        getSizeOfElement(signIn);
     }
-
-    /*public List<String> signUpHardCoded(String email, String password) throws InterruptedException {
-        SignIn.click();
+    public List <String> signUpHardCoded(String email, String password) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signIn.click();
         Thread.sleep(900);
-        EmailId.sendKeys(email);
+        emailId.sendKeys(email);
         Thread.sleep(900);
-        PasswordBar.sendKeys(password);
+        passwordBar.sendKeys(password);
         Thread.sleep(900);
-        SignInButton.click();
+        signInButton.click();
         Thread.sleep(900);
-        System.out.println(EmailError.getText());
-        System.out.println(PasswordError.getText());
-
-
-        return ;
-    }*/
-    //String email;
-    //String password;
-
-    public List<String> signUpHardCoded(String email, String password) throws InterruptedException {
-        SignIn.click();
-        Thread.sleep(900);
-        EmailId.sendKeys(email);
-        Thread.sleep(900);
-        PasswordBar.sendKeys(password);
-        Thread.sleep(900);
-        SignInButton.click();
-        Thread.sleep(900);
-        String actual1=(EmailError.getText());
-        String actual2=(BlankPasswordError.getText());
-        List<String> actualList=new ArrayList<String>();
+        String actual1=(emailError.getText());
+        String actual2=(blankPasswordError.getText());
+        List<String>actualList=new ArrayList<String>();
         actualList.add(actual1);
         actualList.add(actual2);
         System.out.println(actualList);
         return actualList;
     }
-    public String invalidPass(String email, String password) throws InterruptedException {
-        SignIn.click();
+    public String invalidPass(String email, String password) throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signIn.click();
         Thread.sleep(900);
-        EmailId.sendKeys(email);
+        emailId.sendKeys(email);
         Thread.sleep(900);
-        PasswordBar.sendKeys(password);
+        passwordBar.sendKeys(password);
         Thread.sleep(900);
-        SignInButton.click();
+        signInButton.click();
         //String actual=InvalidPassError.getText();
-        String actual=(InvalidPassError.getText());
+        String actual=(invalidPassError.getText());
         return actual;
     }
-
     @DataProvider
     public Iterator<Object[]> supplyData(){
-
         ArrayList<Object[]> testData =
                 XlsDataReaderUtil.getDataFromExcel();
         return testData.iterator();
     }
     public void clickSignIn(){
-        SignIn.click();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signIn.click();
     }
-    public void clickEmailId(String email){
-        EmailId.sendKeys(email);
+    public void clickEmailId(String email) {
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        emailId.sendKeys(email);
     }
     public void clickPassword(){
-        PasswordBar.click();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        passwordBar.click();
     }
-    public void clickSignInButton(){
-        SignInButton.click();
+    public void clickSignInButton() {
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signInButton.click();
     }
-    public String testSignInWithExcel(String email, String password, String message) throws InterruptedException {
-        SignIn.click();
+    public String testSignInWithExcel(String email, String password,String message) throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        signIn.click();
         Thread.sleep(900);
-        EmailId.sendKeys(email);
+        emailId.sendKeys(email);
         Thread.sleep(900);
-        PasswordBar.sendKeys(password);
+        passwordBar.sendKeys(password);
         Thread.sleep(900);
-        SignInButton.click();
+        signInButton.click();
         //String actual=InvalidPassError.getText();
-        String actual=(InvalidPassError.getText());
+        String actual=(invalidPassError.getText());
         return actual;
     }
 }

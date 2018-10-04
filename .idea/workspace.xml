@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6b7705e-ff36-4de6-b36c-5574cfbe7015" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,18 +105,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SignInOrRegister.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/pages/SignInOrRegister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestSignIn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testPages/TestSignIn.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -157,11 +145,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElementSearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElementSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/searchBar/ElementSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestElementSearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testSearchBar/TestElementSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-46">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -216,7 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ebay/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Ebay/pom.xml" />
         <option value="$PROJECT_DIR$/eBay/src/test/java/Search/searchItems.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
@@ -267,6 +263,7 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/Java/java/searchBar/ElementSearch.java" />
+        <option value="$PROJECT_DIR$/Costco/src/test/java/testSearchBar/TestElementSearch.java" />
       </list>
     </option>
   </component>
@@ -478,6 +475,15 @@
               <item name="Costco" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testSearchBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Costco" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -589,6 +595,7 @@
       <recent name="$PROJECT_DIR$/Costco/src/main/Java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testSearchBar" />
       <recent name="java.searchBar" />
       <recent name="utility" />
     </key>
@@ -810,7 +817,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="23" width="1360" height="826" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -822,10 +828,10 @@
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.66943675" weight="0.44192636" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" visible="true" weight="0.4631728" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" visible="true" weight="0.4631728" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24886191" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24886191" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24974924" />
       <window_info id="UI Designer" order="1" />
@@ -901,13 +907,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/Search/InputHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eBay/target/test-classes/EBayTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1272,7 +1271,14 @@
     <entry file="file://$PROJECT_DIR$/Costco/src/main/Java/java/searchBar/ElementSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testSearchBar/TestElementSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>

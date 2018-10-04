@@ -91,7 +91,7 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
     public String browserstack_username = "aliflailanabila1";
     public String browserstack_accesskey = "";
     public String saucelabs_username = "Subhra2018";
@@ -602,5 +602,12 @@ public class CommonAPI {
     public void isSelectedStatus(WebElement element) {
         boolean value = element.isSelected();
         System.out.println(value);
+    }
+    //clear Input
+    public void clearInputByXpath1(String locator) {
+        driver.findElement(By.xpath(locator)).clear();
+    }
+    public void clickOnLinkCSS(String locator) {
+        driver.findElement(By.cssSelector(locator)).click();
     }
 }

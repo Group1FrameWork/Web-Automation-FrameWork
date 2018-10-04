@@ -1,67 +1,69 @@
 package java.pages;
-
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
+import reporting.TestLogger;
 public class CustomerService  extends  CommonAPI{
     @FindBy(css = "#customer-service-link")
-    public static WebElement CustomerServiceCSS;
+    public static WebElement customerServiceCSS;
     @FindBy(css = "#rn_SourceSearchField_9_SearchInput")
-    public static WebElement CustomerServiceSearchCSS;
+    public static WebElement customerServiceSearchCSS;
     @FindBy(css = "#rn_SourceSearchButton_10_SubmitButton")
-    public static WebElement CustomerServiceSubmitButtonCSS;
+    public static WebElement customerServiceSubmitButtonCSS;
     @FindBy(css = "#ProductCategoryList > div > ul.rn_LeftColumn > li:nth-child(1) > a")
-    public static WebElement CreditCard;
+    public static WebElement creditCard;
     @FindBy(css = "#ProductCategoryList > div > ul.rn_LeftColumn > li:nth-child(2) > a")
-    public static WebElement Membership;
+    public static WebElement membership;
     @FindBy(css = "#rn_Multiline_14_Content > ol > li:nth-child(1) > span.rn_Element1 > a")
-    public static WebElement HowCanIApply;
+    public static WebElement howCanIApply;
     @FindBy(xpath = "//li[text()='Apply online ']/a")
-    public static WebElement HereLink;
+    public static WebElement hereLink;
     //#search-results > div.c_279101 > div > div > div:nth-child(2) > div:nth-child(2) > div.row > div:nth-child(1) > a > img
     @FindBy(css = "#search-results > div.c_279101 > div > div > div:nth-child(2) > div:nth-child(2) > div.row > div:nth-child(1) > a > img")
-    public static WebElement NextStep;
+    public static WebElement nextStep;
     @FindBy(css = "#costcoModalText")
-    public static WebElement ModalText;
+    public static WebElement modalText;
     //#rn_Multiline_14_Content > ol > li:nth-child(1) > span.rn_Element1 > a
     @FindBy(css = "#rn_Multiline_14_Content > ol > li:nth-child(1) > span.rn_Element1 > a")
-    public static WebElement LinkingMembership;
+    public static WebElement linkingMembership;
     @FindBy(css = "#kirklandvideo")
-    public static WebElement MembershipVideo;
+    public static WebElement membershipVideo;
     //#kirklandvideo
-
     public void searchCustomerService(){
-        CustomerServiceCSS.click();
-        CustomerServiceSearchCSS.sendKeys("Membership");
-        CustomerServiceSubmitButtonCSS.click();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        customerServiceCSS.click();
+        customerServiceSearchCSS.sendKeys("Membership");
+        customerServiceSubmitButtonCSS.click();
     }
     public void creditCardEnd() {
-        CustomerServiceCSS.click();
-        CreditCard.click();
-        HowCanIApply.click();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        customerServiceCSS.click();
+        creditCard.click();
+        howCanIApply.click();
     }
     public void setCreditCard2(){
-        NextStep.click();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        nextStep.click();
     }
     public void membershipEnd() {
-        CustomerServiceCSS.click();
-        Membership.click();
-        LinkingMembership.click();
-        MembershipVideo.click();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        customerServiceCSS.click();
+        membership.click();
+        linkingMembership.click();
+        membershipVideo.click();
     }
     public void popNewWindow(){
-        CustomerServiceCSS.click();
-        CreditCard.click();
-        HowCanIApply.click();
-        HereLink.click();
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        customerServiceCSS.click();
+        creditCard.click();
+        howCanIApply.click();
+        hereLink.click();
     }
     public void tabSwitching(){
-        CustomerServiceCSS.click();
-        CreditCard.click();
-        HowCanIApply.click();
-        HereLink.click();
-
+        TestLogger.log(getClass().getSimpleName()+": "+converToString((new Object(){}.getClass().getEnclosingMethod().getName())));
+        customerServiceCSS.click();
+        creditCard.click();
+        howCanIApply.click();
+        hereLink.click();
     }
-
 }
