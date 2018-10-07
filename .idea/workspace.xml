@@ -2,56 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6b7705e-ff36-4de6-b36c-5574cfbe7015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Facebook/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/HomePageFunction/homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/LoginPackage/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/test/java/HomePageTest/homepagetest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/test/java/LoginPackageTest/logintest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instagram/src/test/resources/instagramtestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestBuy/Browser-Driver/BrowserStackLocal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestBuy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestBuy/src/main/java/BBPackage/bbPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestBuy/src/test/java/SearchPackage/Searhtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/CreateAccountPackageTest/createAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/CreateAccountPackageTest/createAccounttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/HomePageFunctionTest/homePagetestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/XlsDataReaderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/Xls_Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/.credentials/sheets-googleapis/StoredCredential" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/Browser-Driver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/Browser-Driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/Browser-Driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/Browser-Driver/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/Browser-Driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/Data/DataFile2.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/Data/Key.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/main/java/HomePageObjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/main/java/KeyWordDriven/Features.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/main/java/getHelpPageObjects/GetHelpHerePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/main/java/productsPageObjects/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/main/java/signInPageObjects/ByInputFromExls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/main/java/signInPageObjects/GoogleSheetsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/main/java/signInPageObjects/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/test/java/testGetHelPPageObjects/TestGetHelpHerePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/test/java/testHomePageObjects/TestHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/test/java/testKeyWordDriven/TestFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/test/java/testProductsPageObjects/TestProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/SinInUsingDataProviderPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestByInputFromExls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestSignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Walgreen/src/test/resources/WalgreenTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instagram/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/ForgetPackage/forgetPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instagram/src/main/java/HomePageFunction/AppStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instagram/src/test/java/ForgetPackageTest/forgetPagetest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instagram/src/test/java/HomePageTest/AppStoretest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instagram/src/test/java/HomePageTest/IhomePagetest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/CreateAccountPackage/craeteaccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/HomePageFunction/homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/HomePageFunction/homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/LoginPackage/loginpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/LoginPackage/loginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/HomePageFunctionTest/homePagetest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/LoginPackageTest/loginpagetest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/LoginPackageTest/loginPagetest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/Facebook-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/Facebook-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/CreateAccountPackage/craeteaccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/HomePageFunction/homepage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/classes/HomePageFunction/homepage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/LoginPackage/loginpage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/classes/LoginPackage/loginpage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/HomePageFunctionTest/homepagetest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/LoginPackageTest/loginpagetest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/LoginPackageTest/loginpagetest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/MSNBC-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/MSNBC-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/test-classes/home/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/test-classes/home/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/Main/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/EBAY/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/Main/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/EBAY/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/main/java/Main/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/main/java/EBAY/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/Search/InputHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/Search/InputHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/Search/SignInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/Search/SignInPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/Search/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/Search/SignUpPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/Search/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/Search/TestSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/java/Search/homePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/java/Search/homePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/Main/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/Main/SignInPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/Main/SignUpPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eBay/target/eBay-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/eBay-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/InputHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/InputHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/SignInPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/SignInPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/SignUpPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/SignUpPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/homePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/homePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/Browser-Driver/IEDriverServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BestBuy/Browser-Driver/IEDriverServer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/Browser-Driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/BestBuy/Browser-Driver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/Browser-Driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BestBuy/Browser-Driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/Browser-Driver/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/BestBuy/Browser-Driver/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/Browser-Driver/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BestBuy/Browser-Driver/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/main/java/HomePageFunction/homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/src/main/java/HomePageFunction/IhomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/main/java/LoginPackage/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/src/main/java/LoginPackage/Ilogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/test/java/HomePageTest/homepagetest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/test/java/LoginPackageTest/logintest.java" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/src/test/java/LoginPackageTest/Ilogintest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/test/resources/instagramtestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/src/test/resources/instagramtestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/classes/HomePageFunction/homepage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/classes/LoginPackage/login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/instagram-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/target/instagram-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/test-classes/HomePageTest/homepagetest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/test-classes/LoginPackageTest/logintest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/target/test-classes/instagramtestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/instagram/target/test-classes/instagramtestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,14 +108,21 @@
     <ignored path="$PROJECT_DIR$/MSNBC/target/" />
     <ignored path="$PROJECT_DIR$/instagram/target/" />
     <ignored path="$PROJECT_DIR$/Facebook/target/" />
+    <ignored path="$PROJECT_DIR$/BestBuy/target/" />
+    <ignored path="$PROJECT_DIR$/Walgreens/target/" />
+    <ignored path="$PROJECT_DIR$/Walgreen/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/WebPageAutomation$_Users_subhra_WebPageAutomation_eBay_src_test_resources_eBayTestRunner_xml.ic" NAME="$PROJECT_DIR$/eBay/src/test/resources/eBayTestRunner.xml Coverage Results" MODIFIED="1537293696014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Web_Automation_FrameWork$_Users_ismayatikiran_Documents_Web_Automation_FrameWork_group1_Web_Automation_FrameWork_Walgreen_src_test_resources_WalgreenTestRunner_xml.ic" NAME="$PROJECT_DIR$/Walgreen/src/test/resources/WalgreenTestRunner.xml Coverage Results" MODIFIED="1538610098500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="176" />
@@ -160,49 +213,72 @@
     <session id="1961907520">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="geckodriver" value="1" />
-          <entry key="java" value="24" />
-          <entry key="xml" value="10" />
+          <entry key="StoredCredential" value="3" />
+          <entry key="class" value="14" />
+          <entry key="dump" value="1" />
+          <entry key="fxml" value="1" />
+          <entry key="geckodriver" value="3" />
+          <entry key="html" value="18" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="453" />
+          <entry key="loginfbtest" value="4" />
+          <entry key="png" value="79" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="86" />
           <entry key="xsl" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="12" />
+          <entry key="CLASS" value="13" />
+          <entry key="HTML" value="18" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="Image" value="79" />
+          <entry key="JAVA" value="453" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Properties" value="2" />
+          <entry key="SVG" value="4" />
+          <entry key="XML" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1736" />
-          <entry key="xml" value="84" />
+          <entry key="dummy" value="31" />
+          <entry key="java" value="10080" />
+          <entry key="xml" value="247" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1736" />
-          <entry key="XML" value="84" />
+          <entry key="JAVA" value="10080" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="XML" value="247" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Web-Automation-FrameWork" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instagram/src/test/java/HomePageTest/homepagetest.java">
+        <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testGetHelPPageObjects/TestGetHelpHerePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+            <state relative-caret-position="268">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,46 +287,104 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObject/SignInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+            <state relative-caret-position="15">
+              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instagram/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/CreateAccountPackageTest/createAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instagram/src/test/resources/instagramtestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testHomePageObjects/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="453">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/LoginPackage/loginpage.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/HomePageFunction/homePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="332">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#1446#1447#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/LoginPackage/loginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObject/GoogleSheetsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/instagram/src/test/java/LoginPackageTest/logintest.java">
+        <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/SinInUsingDataProviderPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="397">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,22 +393,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instagram/src/main/java/LoginPackage/login.java">
+        <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestSignInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="-252">
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/LoginPackageTest/loginpagetest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -285,7 +410,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XSLT Stylesheet" />
+        <option value="HTML File" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -295,54 +423,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/Search/searchItems.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/resources/AmazonTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Ebay/pom.xml" />
-        <option value="$PROJECT_DIR$/eBay/src/test/java/Search/searchItems.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObject/TestGoogleSheetsPage.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObject/TestSignInPage.java" />
+        <option value="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" />
+        <option value="$PROJECT_DIR$/Walgreens/src/main/java/HomePage/PageObjects.java" />
+        <option value="$PROJECT_DIR$/Walgreens/src/test/java/HomeTest/SearchBox.java" />
+        <option value="$PROJECT_DIR$/Walgreens/src/test/java/testsignInpagePackage/TestByInputFromExls.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/testSignInPageObjects/SinInUsingDataProviderPageTest.java" />
+        <option value="$PROJECT_DIR$/Walgreens/src/test/java/testSignInPageObjects/TestSignInPage.java" />
+        <option value="$PROJECT_DIR$/Walgreens/pom.xml" />
+        <option value="$PROJECT_DIR$/Walgreens/src/test/java/HomeTest/PageObjectTest.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/resources/FacebookTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/testHomePageObjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/signInPageObjects/ByInputFromExlsTest.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/testKeyWordDriven/TestFeatures.java" />
+        <option value="$PROJECT_DIR$/Walgreens/src/test/java/testSignInPageObjects/SinInUsingDataProviderPageTest.java" />
+        <option value="$PROJECT_DIR$/Walgreens/src/main/java/signInpagePackage/SignInPage.java" />
+        <option value="$PROJECT_DIR$/Walgreens/src/main/java/signInpagePackage/ByInputFromExls.java" />
+        <option value="$PROJECT_DIR$/Walgreens/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/XlsDataReaderUtil.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/Xls_Reader.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/main/java/testGetHelPPageObjects/TestGetHelpHerePage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/eBay/src/main/java/HomePage/HomePage.java" />
-        <option value="$PROJECT_DIR$/eBay/src/test/java/Search/InputSearch.java" />
-        <option value="$PROJECT_DIR$/eBay/target/test-classes/eBayTestRunner.xml" />
-        <option value="$PROJECT_DIR$/eBay/src/main/java/HomePage/SearchPage.java" />
-        <option value="$PROJECT_DIR$/eBay/src/test/resources/eBayTestRunner.xml" />
-        <option value="$PROJECT_DIR$/eBay/src/test/java/Search/searchPageTest.java" />
-        <option value="$PROJECT_DIR$/eBay/src/main/java/HomePage/SignInPage.java" />
-        <option value="$PROJECT_DIR$/eBay/src/test/java/Search/SignInPageTest.java" />
-        <option value="$PROJECT_DIR$/eBay/src/test/java/Search/InputHome.java" />
-        <option value="$PROJECT_DIR$/eBay/src/test/java/Search/TestSearch.java" />
-        <option value="$PROJECT_DIR$/eBay/src/main/java/Main/SignInPage.java" />
-        <option value="$PROJECT_DIR$/eBay/target/test-classes/EBayTestRunner.xml" />
-        <option value="$PROJECT_DIR$/eBay/src/test/java/Search/SignUpPageTest.java" />
-        <option value="$PROJECT_DIR$/eBay/src/test/resources/EBayTestRunner.xml" />
-        <option value="$PROJECT_DIR$/eBay/src/main/java/Main/SignUpPage.java" />
-        <option value="$PROJECT_DIR$/eBay/src/main/java/Main/HomePage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/MSNBC/pom.xml" />
-        <option value="$PROJECT_DIR$/MSNBC/src/test/java/home/TestHomePage.java" />
-        <option value="$PROJECT_DIR$/MSNBC/src/test/resources/EBayTestRunner.xml" />
-        <option value="$PROJECT_DIR$/MSNBC/src/test/resources/MSNBCTestRunner.xml" />
-        <option value="$PROJECT_DIR$/eBay/pom.xml" />
-        <option value="$PROJECT_DIR$/eBay/src/test/java/Search/homePageTest.java" />
-        <option value="$PROJECT_DIR$/instagram/src/main/java/HomePageFunction.java" />
-        <option value="$PROJECT_DIR$/instagram/pom.xml" />
-        <option value="$PROJECT_DIR$/instagram/src/test/java/HomePageTest/homepagetest.java" />
-        <option value="$PROJECT_DIR$/Facebook/pom.xml" />
-        <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml.xsl" />
-        <option value="$PROJECT_DIR$/instagram/src/main/java/HomePageFunction/homepage.java" />
-        <option value="$PROJECT_DIR$/instagram/src/main/java/SearchPackage/searchpackage.java" />
-        <option value="$PROJECT_DIR$/instagram/src/test/java/SearchPackagetest/searchbox.java" />
-        <option value="$PROJECT_DIR$/instagram/src/test/java/SearchPackagetest/searchboxtest.java" />
-        <option value="$PROJECT_DIR$/instagram/src/main/java/SearchPackage/searchbox.java" />
-        <option value="$PROJECT_DIR$/instagram/src/main/java/LoginPackage/login.java" />
+        <option value="$PROJECT_DIR$/Walgreens/src/main/java/HomePage/HomeObject.java" />
+        <option value="$PROJECT_DIR$/Walgreens/src/main/java/signInpagePackage/GoogleSheetsPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/test/java/LoginPackageTest/loginpagetest.java" />
-        <option value="$PROJECT_DIR$/instagram/src/test/resources/instagramtestRunner.xml" />
-        <option value="$PROJECT_DIR$/instagram/src/test/java/LoginPackageTest/logintest.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/main/java/productsPageObjects/ProductsPage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/resources/WalgreenTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/LoginPackageTest/loginPagetest.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/HomePageFunctionTest/homePagetestTest.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/CreateAccountPackageTest/createAccounttest.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/main/java/CreateAccountPackageTest/createAccount.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/main/java/signInPageObjects/ByInputFromExls.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/main/java/HomePageObjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/main/java/KeyWordDriven/Features.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/main/java/signInPageObjects/GoogleSheetsPage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/main/java/signInPageObjects/SignInPage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/testGetHelPPageObjects/TestGetHelpHerePage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/testHomePageObjects/TestHomePage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/testProductsPageObjects/TestProductPage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/SinInUsingDataProviderPageTest.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestByInputFromExls.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestSignInPage.java" />
+        <option value="$PROJECT_DIR$/Walgreen/src/main/java/getHelpPageObjects/GetHelpHerePage.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/main/java/HomePageFunction/homePage.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/main/java/LoginPackage/loginPage.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/main/java/signInPageObject/GoogleSheetsPage.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/main/java/signInPageObject/SignInPage.java" />
       </list>
     </option>
   </component>
@@ -358,29 +489,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eBay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eBay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Facebook" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Walgreen" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Facebook" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="instagram" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="instagram" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Walgreen" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
@@ -400,10 +522,33 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
-    <option name="y" value="44" />
-    <option name="width" value="1386" />
-    <option name="height" value="774" />
+    <option name="x" value="191" />
+    <option name="y" value="29" />
+    <option name="width" value="1172" />
+    <option name="height" value="821" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MavenModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -412,6 +557,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,73 +569,6 @@
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="EBAY" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="eBay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="Facebook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -511,6 +591,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CreateAccountPackageTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePageFunction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -526,35 +624,14 @@
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="Facebook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginPackageTest" type="462c0819:PsiDirectoryNode" />
+              <item name="signInPageObject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="Browser-Driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -589,25 +666,74 @@
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="googleAPIs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reporting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name=".credentials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name=".credentials" type="462c0819:PsiDirectoryNode" />
+              <item name="sheets-googleapis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -615,14 +741,59 @@
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="getHelpPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="KeyWordDriven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="productsPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="signInPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -630,60 +801,102 @@
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePageTest" type="462c0819:PsiDirectoryNode" />
+              <item name="testGetHelPPageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="instagram" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginPackageTest" type="462c0819:PsiDirectoryNode" />
+              <item name="testHomePageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="MSNBC" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testKeyWordDriven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testProductsPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testSignInPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Walgreen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="mo&#9;ACTION&#9;ActivateMongoExplorerToolWindow" />
     <property name="ToolWindowCoverage.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537584429712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538926654068" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/instagram" />
-      <recent name="$PROJECT_DIR$/MSNBC/src/test" />
-      <recent name="$PROJECT_DIR$/Generic/Browser-Driver/Mac" />
-      <recent name="$PROJECT_DIR$/eBay" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java/reporting" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="utility" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="signInPageObjects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Facebook/src/test/resources" />
-      <recent name="$PROJECT_DIR$/Facebook/src/test/java" />
-      <recent name="$PROJECT_DIR$/Facebook/src/main/java" />
-      <recent name="$PROJECT_DIR$/Facebook/src/test" />
-      <recent name="$PROJECT_DIR$/instagram/src/test" />
+      <recent name="$PROJECT_DIR$/Walgreen/src/test" />
+      <recent name="$PROJECT_DIR$/Walgreens" />
+      <recent name="$PROJECT_DIR$/Walgreens/src/test" />
+      <recent name="$PROJECT_DIR$/BestBuy/src/test" />
+      <recent name="$PROJECT_DIR$/BestBuy" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testGetHelPPageObjects" />
+      <recent name="getHelpPageObjects" />
+      <recent name="utility" />
+      <recent name="googleAPIs" />
+      <recent name="signInpagePackage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Walgreen" />
+      <recent name="$PROJECT_DIR$/Walgreen/src/test/resources" />
+      <recent name="$PROJECT_DIR$/Walgreen/src/main/java" />
+      <recent name="$PROJECT_DIR$/Walgreen/src/test/java" />
+      <recent name="$PROJECT_DIR$/Walgreen/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -698,10 +911,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.logintest.lginfbtest">
-    <configuration name="/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/instagram/src/test/resources/instagramtestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="instagram" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/instagram/src/test/resources/instagramtestRunner.xml" />
+  <component name="RunManager" selected="TestNG./Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Walgreen/src/test/resources/WalgreenTestRunner.xml">
+    <configuration name="Facebook-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/Facebook/target/Facebook-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="instagram-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/instagram/target/instagram-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SinInUsingDataProviderPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walgreen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSignInPageObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSignInPageObjects" />
+      <option name="MAIN_CLASS_NAME" value="testSignInPageObjects.SinInUsingDataProviderPageTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestByInputFromExls" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walgreen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSignInPageObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSignInPageObjects" />
+      <option name="MAIN_CLASS_NAME" value="testSignInPageObjects.TestByInputFromExls" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGoogleSheetsPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walgreen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSignInPageObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSignInPageObjects" />
+      <option name="MAIN_CLASS_NAME" value="testSignInPageObjects.TestGoogleSheetsPage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProductPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walgreen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testProductsPageObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testProductsPageObjects" />
+      <option name="MAIN_CLASS_NAME" value="testProductsPageObjects.TestProductPage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Facebook/src/test/resources/FacebookTestRunner.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <module name="Facebook" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -709,70 +994,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homepagetest.homepagetest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="instagram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomePageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HomePageTest" />
-      <option name="MAIN_CLASS_NAME" value="HomePageTest.homepagetest" />
-      <option name="METHOD_NAME" value="homepagetest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration name="/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Walgreen/src/test/resources/WalgreenTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walgreen" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Walgreen/src/test/resources/WalgreenTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="loginpagetest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LoginPackageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LoginPackageTest" />
-      <option name="MAIN_CLASS_NAME" value="LoginPackageTest.loginpagetest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="logintest.findsometest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="instagram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LoginPackageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LoginPackageTest" />
-      <option name="MAIN_CLASS_NAME" value="LoginPackageTest.logintest" />
-      <option name="METHOD_NAME" value="findsometest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="logintest.lginfbtest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="instagram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LoginPackageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LoginPackageTest" />
-      <option name="MAIN_CLASS_NAME" value="LoginPackageTest.logintest" />
-      <option name="METHOD_NAME" value="lginfbtest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration name="/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/instagram/target/test-classes/instagramtestRunner.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/instagram/target/test-classes/instagramtestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -780,19 +1014,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.logintest.lginfbtest" />
-      <item itemvalue="TestNG.logintest.findsometest" />
-      <item itemvalue="TestNG.loginpagetest" />
-      <item itemvalue="TestNG./Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/instagram/src/test/resources/instagramtestRunner.xml" />
-      <item itemvalue="TestNG.homepagetest.homepagetest" />
+      <item itemvalue="TestNG./Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Facebook/src/test/resources/FacebookTestRunner.xml" />
+      <item itemvalue="TestNG./Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/instagram/target/test-classes/instagramtestRunner.xml" />
+      <item itemvalue="JAR Application.Facebook-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.instagram-1.0-SNAPSHOT.jar" />
+      <item itemvalue="TestNG.TestByInputFromExls" />
+      <item itemvalue="TestNG./Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Walgreen/src/test/resources/WalgreenTestRunner.xml" />
+      <item itemvalue="TestNG.TestProductPage" />
+      <item itemvalue="TestNG.TestGoogleSheetsPage" />
+      <item itemvalue="TestNG.SinInUsingDataProviderPageTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.logintest.lginfbtest" />
-        <item itemvalue="TestNG.homepagetest.homepagetest" />
-        <item itemvalue="TestNG.logintest.findsometest" />
-        <item itemvalue="TestNG./Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/instagram/src/test/resources/instagramtestRunner.xml" />
-        <item itemvalue="TestNG.loginpagetest" />
+        <item itemvalue="TestNG./Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Walgreen/src/test/resources/WalgreenTestRunner.xml" />
+        <item itemvalue="TestNG.SinInUsingDataProviderPageTest" />
+        <item itemvalue="TestNG.TestByInputFromExls" />
+        <item itemvalue="TestNG.TestGoogleSheetsPage" />
+        <item itemvalue="TestNG.TestProductPage" />
       </list>
     </recent_temporary>
   </component>
@@ -810,70 +1048,102 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="logintest_lginfbtest - 2018.09.21 at 22h 09m 40s.xml">
-      <configuration name="logintest.lginfbtest" configurationId="TestNG" />
+    <history-entry file="TestHomePage - 2018.10.06 at 17h 13m 44s.xml">
+      <configuration name="TestHomePage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="logintest_lginfbtest - 2018.09.21 at 22h 10m 17s.xml">
-      <configuration name="logintest.lginfbtest" configurationId="TestNG" />
+    <history-entry file="_Users_ismayatikiran_Documents_Web-Automation-FrameWork_group1_Web-Automation-FrameWork_Facebook_src_test_resources_FacebookTestRunner_xml - 2018.10.06 at 18h 16m 49s.xml">
+      <configuration name="/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="logintest_findsometest - 2018.09.21 at 22h 12m 51s.xml">
-      <configuration name="logintest.findsometest" configurationId="TestNG" />
+    <history-entry file="_Users_ismayatikiran_Documents_Web-Automation-FrameWork_group1_Web-Automation-FrameWork_Walgreen_src_test_resources_WalgreenTestRunner_xml - 2018.10.06 at 19h 42m 37s.xml">
+      <configuration name="/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Walgreen/src/test/resources/WalgreenTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="logintest_lginfbtest - 2018.09.21 at 22h 14m 51s.xml">
-      <configuration name="logintest.lginfbtest" configurationId="TestNG" />
+    <history-entry file="_Users_ismayatikiran_Documents_Web-Automation-FrameWork_group1_Web-Automation-FrameWork_Walgreen_src_test_resources_WalgreenTestRunner_xml - 2018.10.06 at 19h 43m 51s.xml">
+      <configuration name="/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Walgreen/src/test/resources/WalgreenTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="logintest_lginfbtest - 2018.09.21 at 22h 16m 31s.xml">
-      <configuration name="logintest.lginfbtest" configurationId="TestNG" />
+    <history-entry file="TestProductPage - 2018.10.06 at 19h 47m 46s.xml">
+      <configuration name="TestProductPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="logintest_lginfbtest - 2018.09.21 at 22h 16m 55s.xml">
-      <configuration name="logintest.lginfbtest" configurationId="TestNG" />
+    <history-entry file="TestByInputFromExls - 2018.10.06 at 19h 57m 58s.xml">
+      <configuration name="TestByInputFromExls" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="loginpagetest - 2018.09.21 at 22h 17m 39s.xml">
-      <configuration name="loginpagetest" configurationId="TestNG" />
+    <history-entry file="TestGoogleSheetsPage - 2018.10.07 at 10h 56m 21s.xml">
+      <configuration name="TestGoogleSheetsPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_ismayatikiran_Documents_Web-Automation-FrameWork_group1_Web-Automation-FrameWork_instagram_src_test_resources_instagramtestRunner_xml - 2018.09.21 at 22h 22m 26s.xml">
-      <configuration name="/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/instagram/src/test/resources/instagramtestRunner.xml" configurationId="TestNG" />
+    <history-entry file="SinInUsingDataProviderPageTest - 2018.10.07 at 10h 58m 26s.xml">
+      <configuration name="SinInUsingDataProviderPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="logintest_findsometest - 2018.09.21 at 22h 26m 21s.xml">
-      <configuration name="logintest.findsometest" configurationId="TestNG" />
+    <history-entry file="TestByInputFromExls - 2018.10.07 at 10h 59m 33s.xml">
+      <configuration name="TestByInputFromExls" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="logintest_findsometest - 2018.09.21 at 22h 28m 27s.xml">
-      <configuration name="logintest.findsometest" configurationId="TestNG" />
+    <history-entry file="SinInUsingDataProviderPageTest - 2018.10.07 at 10h 59m 49s.xml">
+      <configuration name="SinInUsingDataProviderPageTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="44" width="1386" height="774" extended-state="0" />
+    <frame x="191" y="29" width="1172" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.374502" side_tool="true" weight="0.26978418" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4989154" visible="true" weight="0.20089285" />
-      <window_info id="Structure" order="6" sideWeight="0.5010846" side_tool="true" visible="true" weight="0.20089285" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.33056325" side_tool="true" weight="0.44281915" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" weight="0.3079179" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.625498" visible="true" weight="0.32389382" />
+      <window_info id="Structure" order="6" sideWeight="0.15618221" side_tool="true" weight="0.20089285" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.3295129" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.3311874" side_tool="true" weight="0.3101983" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" weight="0.30790567" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.16715543" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.66943675" weight="0.32991204" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49953833" weight="0.4516129" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.6688126" visible="true" weight="0.3101983" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49953833" weight="0.45042494" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3240469" />
-      <window_info anchor="right" auto_hide="true" id="Coverage" internal_type="SLIDING" order="0" type="SLIDING" weight="0.32898697" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.59695816" weight="0.3186969" />
+      <window_info anchor="right" auto_hide="true" id="Coverage" internal_type="SLIDING" order="0" type="SLIDING" weight="0.0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.3298611" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.3065476" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.32889733" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.0" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.24974924" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24930748" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.374502" side_tool="true" weight="0.26978418" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.625498" visible="true" weight="0.26180258" />
+      <window_info id="Structure" order="6" sideWeight="0.15618221" side_tool="true" weight="0.20089285" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3295129" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.3311874" side_tool="true" visible="true" weight="0.3101983" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49919224" weight="0.30790567" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.16715543" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6688126" visible="true" weight="0.3101983" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49953833" weight="0.4513889" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.59695816" weight="0.31948423" />
+      <window_info anchor="right" auto_hide="true" id="Coverage" internal_type="SLIDING" order="0" type="SLIDING" weight="0.036121674" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.32889733" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24930748" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -904,327 +1174,380 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+    <entry file="file://$PROJECT_DIR$/Walgreens/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/Search/searchItems.java" />
-    <entry file="file://$PROJECT_DIR$/eBay/target/test-classes/Search/InputSearch.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/base/Preconditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/base/Preconditions.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/service/DriverService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0-sources.jar!/org/openqa/selenium/remote/service/DriverService.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/Extent-Report/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" />
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/Search/InputHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/target/test-classes/EBayTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/Search/SignUpPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/EBAY/SignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/Search/TestSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="-165">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/Search/SignInPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/EBAY/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar!/org/openqa/selenium/remote/ErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0-sources.jar!/org/openqa/selenium/remote/http/JsonHttpResponseCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IdeaIC2018.2/temp-testng-customsuite.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0-sources.jar!/org/openqa/selenium/remote/ErrorHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="213" column="7" lean-forward="true" selection-start-line="213" selection-start-column="7" selection-end-line="213" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MSNBC/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0-sources.jar!/org/openqa/selenium/remote/service/DriverCommandExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="148">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MSNBC/src/test/java/home/TestHomePage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0-sources.jar!/org/openqa/selenium/remote/http/AbstractHttpResponseCodec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="148">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="420" selection-start-line="420" selection-end-line="420" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#11385#11386#0" expanded="true" />
+            <element signature="e#11422#11423#0" expanded="true" />
+            <element signature="e#14906#14907#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MSNBC/src/test/resources/MSNBCTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/test/resources/WalgreenTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/EBAY/SignInPage.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-388" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/src/main/java/HomePageFunction.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/LoginPackageTest/loginPagetest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <caret column="2" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/java/Search/homePageTest.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/HomePageFunctionTest/homePagetestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/CreateAccountPackageTest/createAccounttest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObject/TestByInputFromExls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1400#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Walgreen/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="46" column="12" selection-start-line="12" selection-start-column="3" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/test/resources/EBayTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/src/main/java/HomePageFunction/homepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/src/test/java/SearchPackagetest/searchbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/src/test/java/SearchPackagetest/searchboxtest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/src/main/java/SearchPackage/searchbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/Browser-Driver/geckodriver">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/CreateAccountPackage/craeteaccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/HomePageFunctionTest/homepagetest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/HomePageFunction/homepage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/src/test/resources/instagramtestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/LoginPackageTest/loginpagetest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+        <state relative-caret-position="553">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        <state relative-caret-position="165">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/LoginPackage/loginpage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Walgreen/.credentials/sheets-googleapis/StoredCredential">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/src/test/java/HomePageTest/homepagetest.java">
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/testsearchplaces (10.03.2018-19:47PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/testSignInWithInvalidIdAndPassword (10.06.2018-17:11PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/signInWithInvalidIdAndPassword (10.06.2018-17:10PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/signInWithInvalidIdAndPassword (10.06.2018-19:57PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/signInWithInvalidIdAndPassword (10.07.2018-10:59AM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/signInWithInvalidIdTest (10.03.2018-21:35PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/signInWithInvalidIdTest (10.03.2018-21:39PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/signInWithInvalidIdTest (10.03.2018-21:42PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/signInWithInvalidIdTest (10.03.2018-21:44PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/testLogInByInvalidIdPassUsingGoogleSheet (10.06.2018-17:07PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/testLogInByInvalidIdPassUsingGoogleSheet (10.06.2018-17:08PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/testsearchplaces (10.03.2018-19:45PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/screenshots/testsearchplaces (10.06.2018-17:13PM).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/main/java/HomePageObjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="138">
+          <caret line="110" column="36" selection-start-line="110" selection-start-column="36" selection-end-line="110" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/src/main/java/LoginPackage/login.java">
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/main/java/KeyWordDriven/Features.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="-208">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/main/java/productsPageObjects/ProductsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instagram/src/test/java/LoginPackageTest/logintest.java">
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/main/java/signInPageObjects/ByInputFromExls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="63">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/main/java/signInPageObjects/GoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="61" column="124" selection-start-line="61" selection-start-column="124" selection-end-line="61" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/main/java/signInPageObjects/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testProductsPageObjects/TestProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestByInputFromExls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/main/java/getHelpPageObjects/GetHelpHerePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/TestSignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testKeyWordDriven/TestFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testHomePageObjects/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testGetHelPPageObjects/TestGetHelpHerePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/CreateAccountPackageTest/createAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/HomePageFunction/homePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/LoginPackage/loginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObject/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObject/GoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walgreen/src/test/java/testSignInPageObjects/SinInUsingDataProviderPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1283,7 +1606,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>instagram</last-edited>
+          <last-edited>Walgreen</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1306,6 +1629,20 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

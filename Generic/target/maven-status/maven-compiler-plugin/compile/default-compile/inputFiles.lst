@@ -3,8 +3,9 @@
 /Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/reporting/ExtentTestManager.java
 /Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/databases/User.java
 /Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/base/CommonAPI.java
-/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/utility/DataReader.java
 /Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/databases/ConnectToMongoDB.java
+/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/utility/Xls_Reader.java
+/Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/utility/XlsDataReaderUtil.java
 /Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/reporting/ApplicationLog.java
 /Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/reporting/TestLogger.java
 /Users/ismayatikiran/Documents/Web-Automation-FrameWork_group1/Web-Automation-FrameWork/Generic/src/main/java/reporting/ExtentManager.java

@@ -8,15 +8,14 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.instagram.com/"/>
+    <parameter name="url" value="https://www.instagram.com/accounts/login/?source=auth_switcher/"/>
 
 
     <test name="Search Items">
         <parameter name="browserName" value="chrome"/>
-
         <classes>
-            <class name="HomePageTest.homepagetest"/>
-            <class name="LoginPackageTest.logintest"/>
+            <class name="HomePageTest.IhomePagetest"/>
+            <class name="LoginPackageTest.Ilogintest"/>
         </classes>
     </test>
 
