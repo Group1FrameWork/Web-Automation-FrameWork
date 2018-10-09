@@ -44,13 +44,12 @@ public class GoogleSheetReader {
     }
     /**
      * Creates an authorized Credential object.
-     *
      * @return an authorized Credential object.
      * @throws IOException
      */
     public static Credential authorize() throws IOException {
         // Load client secrets.
-        InputStream in = GoogleSheetReader.class.getResourceAsStream("/client_secret_3.json");
+        InputStream in = GoogleSheetReader.class.getResourceAsStream("/client_secret.json");
         GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader(in));
         // Build flow and trigger user authorization request.
         GoogleAuthorizationCodeFlow flow = new GoogleAuthorizationCodeFlow.Builder(
@@ -64,7 +63,6 @@ public class GoogleSheetReader {
     }
     /**
      * Build and return an authorized Sheets API client service.
-     *
      * @return an authorized Sheets API client service
      * @throws IOException
      */

@@ -14,7 +14,7 @@ public class TestSearch extends CommonAPI {
     @Test
     public void searchData()throws IOException{
         TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        HomePage homePage = PageFactory.initElements(CommonAPI.driver, HomePage.class);
     homePage.searchItemsAndSubmitButton();
     }
 }

@@ -11,19 +11,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static googleAPIs.GoogleSheetReader.getSheetsService;
-import static org.openqa.selenium.support.How.XPATH;
+import static org.openqa.selenium.support.How.CSS;
 
 public class GoogleSheetsPage extends CommonAPI {
-    @FindBy(how = XPATH, using = "//*[@id=\"userid\"]")
-    public static WebElement account;
-    @FindBy(how = XPATH, using = "//*[@id=\"pass\"]")
-    public static WebElement password;
-    @FindBy(how = XPATH, using = "//*[@id=\"errf\"]")
-    public static WebElement signInErrorMesage;
-    @FindBy(how = XPATH, using = "//*[@id=\"gh-ac\"]")
-    public static WebElement searchBox;
-    @FindBy(how = XPATH, using = "//*[@id=\"gh-btn\"]")
-    public static WebElement searchButton;
+    @FindBy(how = CSS, using = "#app > div:nth-child(2) > div > header > section.css-1waixk9.eid77k2 > div.css-pbg2l9.e1uwo0ec1 > button" )
+    public static WebElement signIn;
+    @FindBy(how = CSS, using = "#username")
+    public static WebElement userName;
+    @FindBy(how = CSS, using = "#password" )
+    public static WebElement passWord;
 
     //ALI_GS_TC1
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
@@ -47,14 +43,14 @@ public class GoogleSheetsPage extends CommonAPI {
         List<String> actual = new ArrayList<>();
         for (List row : col2Value) {
             sleepFor(1);
-            inputValueInTextBoxByWebElement(account, row.get(1).toString());
-            inputValueInTextBoxByWebElement(password, row.get(2).toString());
+            inputValueInTextBoxByWebElement(userName, row.get(1).toString());
+            inputValueInTextBoxByWebElement(passWord, row.get(2).toString());
             sleepFor(1);
             //actual.add(getCurrentPageTitle());
-            actual.add(getTextByWebElement(signInErrorMesage));
-            System.out.println(getTextByWebElement(signInErrorMesage));
-            clearInputBox(account);
-            clearInputBox(password);
+            //actual.add(getTextByWebElement(signInErrorMesage));
+            //System.out.println(getTextByWebElement(signInErrorMesage));
+            clearInputBox(userName);
+            clearInputBox(passWord);
             sleepFor(1);
         }
         return actual;
@@ -62,15 +58,14 @@ public class GoogleSheetsPage extends CommonAPI {
     public List<String> searchItemsByName() throws IOException, InterruptedException, Exception {
         List<List<Object>> values = getSpreadSheetRecords("1HUSUQqCG0SZrXz3BmdOaf7g4ramQfoGiPpZtNW8-k4g", "Sheet1!A2:B");
         List<String> actual = new ArrayList<>();
-
         for (List row : values) {
             int i = 0;
             sleepFor(2);
             if (i <= row.size()) {
-                inputValueInTextBoxByWebElement(searchBox, row.get(i).toString());
+                //inputValueInTextBoxByWebElement(searchBox, row.get(i).toString());
                 sleepFor(2);
                 //actual.add(getCurrentPageUrl());
-                clearInputBox(searchBox);
+                //clearInputBox(searchBox);
                 sleepFor(2);
                 i++;
             }

@@ -34,39 +34,30 @@ public class NextPage {
     public void inputSearch() {
         inputSearch.sendKeys();
     }
-
     public void setSearch() {
         search.click();
     }
-
     public void setAfricaSelection() {
         africaSelection.click();
     }
-
     public void setAmericasSelection() {
         americasSelection.click();
     }
-
     public void setAsiaSelection() {
         asiaSelection.click();
     }
-
     public void setAustrliaSelection() {
         austrliaSelection.click();
     }
-
     public void setEuropeSelection() {
         europeSelection.click();
     }
-
     public void setMiddleEastSelection() {
         middleEastSelection.click();
     }
-
     public void setSelection() {
         selectionW.click();
     }
-
     public void setWorldSection() {
         worldSection.click();
     }

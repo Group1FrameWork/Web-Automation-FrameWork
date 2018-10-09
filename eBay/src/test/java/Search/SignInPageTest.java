@@ -44,6 +44,4 @@ public class SignInPageTest extends SignInPage {
         clickSignIn();
         noEmailNoPasswordUse("","");
     }
-
-
 }

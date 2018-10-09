@@ -63,7 +63,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#gh-p-4 > a");
         }
-
     }
 
     public void clickOnCoupons() throws InterruptedException {
@@ -72,8 +71,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#w1-w0 > ul > li:nth-child(1) > a");
         }
-
-
     }
 
     public void clickOnDigitalGiftsAndCoupons() throws InterruptedException {
@@ -82,7 +79,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#w1-w0 > ul > li:nth-child(2) > a");
         }
-
     }
 
     public void clickOneBayGiftsCards() throws InterruptedException {
@@ -91,7 +87,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#w1-w0 > ul > li:nth-child(3) > a");
         }
-
     }
 
     public void clickOngCards() throws InterruptedException {
@@ -100,7 +95,6 @@ public class GiftCards extends CommonAPI {
         } catch (Exception e) {
             clickOnCss("#w1-w0 > ul > li:nth-child(4) > a");
         }
-
     }
 
     public void clickOngiftCertificates() throws InterruptedException {

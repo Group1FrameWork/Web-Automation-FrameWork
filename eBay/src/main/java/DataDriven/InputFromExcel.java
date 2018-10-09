@@ -24,7 +24,6 @@ public class InputFromExcel extends CommonAPI {
     @FindBy(how = How.CSS, using = "#gh-ug > a")
     public static WebElement SignInLink;
 
-
     DataReader dtr = new DataReader();
 
     //
@@ -87,6 +86,4 @@ public class InputFromExcel extends CommonAPI {
     public void ClickOnSignIn(){
         SignInLink.click();
     }
-
-
 }

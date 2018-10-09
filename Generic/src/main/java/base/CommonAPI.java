@@ -91,7 +91,7 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
     public String browserstack_username = "your user name";
     public String browserstack_accesskey = "your access key";
     public String saucelabs_username = "mursalin3152";
@@ -113,7 +113,6 @@ public class CommonAPI {
          } catch (Exception e) {
              System.out.println("Exception while taking screenshot " + e.getMessage());
          }
-
      }
 
     public static String convertToString(String st) {
@@ -227,14 +226,15 @@ public class CommonAPI {
 
     @AfterMethod
     public void cleanUp()throws InterruptedException {
-        Thread.sleep(10000);
+        sleepFor(5);
             driver.quit();
     }
     /*public void clickOnCss(String locator) throws InterruptedException {
         Thread.sleep(10000);
         driver.findElement(By.cssSelector(locator)).click();
     }*/
-    public void clickOnCss(String locator) {
+    public void clickOnCss(String locator) throws InterruptedException {
+        sleepFor(5);
         driver.findElement(By.cssSelector(locator)).click();
     }
 
@@ -544,4 +544,13 @@ public class CommonAPI {
         driver.findElement(By.xpath(locator)).clear();
     }
 
+    public String converToString(String st){
+        String splitString ;
+        splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
+        System.out.println(splitString);
+        return splitString;
+    }
+    public void inputValueInTextBox(WebElement webElement, String value){
+        webElement.sendKeys(value );
+    }
 }

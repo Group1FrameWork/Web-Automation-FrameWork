@@ -21,7 +21,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("/Users/subhra/Maven/Group1_Web_automation/Web-Automation-FrameWork/Generic/secret.properties");
+        InputStream ism = new FileInputStream("/Users/admin/Web-Automation-FrameWork/Generic/secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -162,7 +162,7 @@ public class ConnectToSqlDB {
             connectToSqlDatabase();
             ps = connect.prepareStatement("DROP TABLE IF EXISTS `" + tableName + "`;");
             ps.executeUpdate();
-            ps = connect.prepareStatement("CREATE TABLE `" + tableName + "` (`search` varchar(33) NOT NULL);");
+            ps = connect.prepareStatement("CREATE TABLE `" + tableName + "` (`"+columnName+"` varchar(33) NOT NULL);");
             ps.executeUpdate();
             for (Object st : list) {
                 ps = connect.prepareStatement("INSERT INTO " + tableName + " ( " + columnName + " ) VALUES(?)");
@@ -184,7 +184,7 @@ public class ConnectToSqlDB {
         try {
             connectToSqlDatabase();
                 ps = connect.prepareStatement("INSERT INTO "+tableName+" ( " + columnName1 + "," + columnName2 + " ) VALUES(?,?)");
-                ps.setString(1,"Ankita Sing");
+                ps.setString(1,"Sufi Alam ");
                 ps.setInt(2,3590);
                 ps.executeUpdate();
 

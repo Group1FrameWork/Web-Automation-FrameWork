@@ -41,10 +41,8 @@ public class Xls_Reader {
             int number = sheet.getLastRowNum() + 1;
             return number;
         }
-
     }
     // returns the data from a cell
-
 
     public String getCellData(String sheetName, String colName, int rowNum) {
         try {
@@ -95,8 +93,6 @@ public class Xls_Reader {
                     //System.out.println(cellText);
 
                 }
-
-
                 return cellText;
             } else if (cell.getCellType() == Cell.CELL_TYPE_BLANK)
                 return "";
@@ -109,8 +105,6 @@ public class Xls_Reader {
             return "row " + rowNum + " or column " + colName + " does not exist in xls";
         }
     }
-
-
     // returns the data from a cell
     public String getCellData(String sheetName, int colNum, int rowNum) {
         try {
@@ -121,7 +115,6 @@ public class Xls_Reader {
 
             if (index == -1)
                 return "";
-
 
             sheet = workbook.getSheetAt(index);
             row = sheet.getRow(rowNum - 1);
@@ -151,8 +144,6 @@ public class Xls_Reader {
                     // System.out.println(cellText);
 
                 }
-
-
                 return cellText;
             } else if (cell.getCellType() == Cell.CELL_TYPE_BLANK)
                 return "";
@@ -191,8 +182,6 @@ public class Xls_Reader {
             return -1;
 
         return row.getLastCellNum();
-
-
     }
 }
 

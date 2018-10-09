@@ -80,20 +80,12 @@ public class FrontPage extends CommonAPI {
         String Actual = "sports";
         Assert.assertEquals(Actual, Expected);
     }
-
-    public void setTopToday() { topToday.click();
-    }
-    public void setTopNyWeather() { topNyWeather.click();
-    }
-    public void setTopEnglish() { topEnglish.click();
-    }
-    public void setTopSpanish() { topSpanish.click();
-    }
-    public void setTopChinese() { topChinese.click();
-    }
-    public void setTabWorld() {
-        tabWorld.click();
-    }
+    public void setTopToday() { topToday.click(); }
+    public void setTopNyWeather() { topNyWeather.click(); }
+    public void setTopEnglish() { topEnglish.click(); }
+    public void setTopSpanish() { topSpanish.click(); }
+    public void setTopChinese() { topChinese.click(); }
+    public void setTabWorld() { tabWorld.click(); }
     public void setTabUS() {
         tabUS.click();
     }

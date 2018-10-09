@@ -14,7 +14,7 @@
 <test name="Search Items">
     <classes>
         <!--<class name="TestAuthenticationPage.TestLogInPage"/>-->
-        <class name="Front.TestNextPage"></class>
+        <class name="TestAuthenticationPage.TestLogInPage"></class>
     </classes>
 </test>
 
