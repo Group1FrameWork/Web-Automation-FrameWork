@@ -1,17 +1,19 @@
 package JSONServer;
 
+import base.CommonAPI;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class PostsResource  {
 
     @Test
     public void postsTest(){
-        //TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
@@ -26,14 +28,15 @@ public class PostsResource  {
     }
     @Test
     public void deletePost() {
+        TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         RequestSpecification request = RestAssured.given();
-
         Response response = request.delete("http://localhost:3000/posts/105");
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 200);
     }
     @Test
     public void putPost(){
+        TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
@@ -48,6 +51,7 @@ public class PostsResource  {
     }
     @Test
     public void putNullPost() {
+        TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
@@ -61,6 +65,7 @@ public class PostsResource  {
     }
     @Test
     public void getPost() {
+        TestLogger.log(getClass().getSimpleName()+":"+ CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         RequestSpecification request = RestAssured.given();
         request.header("Content-Type", "application/json");
         Response response = request.get("http://localhost:3000/posts");

@@ -11,7 +11,7 @@
     <parameter name="url" value="https://www.msnbc.com/"/>
 
 
-<test name="Search Items">
+<test name="search Items">
     <parameter name="browserName" value="chrome"/>
 
     <classes>

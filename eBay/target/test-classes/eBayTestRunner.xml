@@ -11,12 +11,23 @@
     <parameter name="url" value="https://www.eBay.com/"/>
 
 
-<test name="Search Items">
+<test name="search Items">
     <parameter name="browserName" value="chrome"/>
 
     <classes>
 
-        <class name="Search.HomePageTest"/>
+        <class name="search.TestSearch"/>
+        <class name="search.DailyDealsTest"/>
+        <class name="search.GiftCardsTest"/>
+        <class name="search.HomePageTest"/>
+        <class name="search.InputHome"/>
+        <class name="search.SignInPageTest"/>
+        <class name="search.SignUpPageTest"/>
+        <class name="search.HelpAndContactTest"/>
+        <class name="databaseTest.DBSearchTest"/>
+        <class name="dataDrivenTest.InputFromExcelTest"/>
+        <class name="googleSheetTest.TestGoogleSheetsPage"/>
+        <class name="keyWordDrivenTest.TestFeatures"/>
 
     </classes>
 </test>
