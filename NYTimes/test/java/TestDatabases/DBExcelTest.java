@@ -27,7 +27,6 @@ public class DBExcelTest extends CommonAPI {
         ArrayList<Object[]> testData =
                 XlsDataReaderUtil.getDataFromExcel();
         return testData.iterator();
-
     }
     //@Test(dataProvider = "supplyData")
     public void signIn(String email, String passCode, String message) throws InterruptedException {
