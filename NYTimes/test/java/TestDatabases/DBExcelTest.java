@@ -57,6 +57,7 @@ public class DBExcelTest extends CommonAPI {
     @Test
     public void testing(){
         dBExcel.test();
+
     }
     @Test(dataProvider = "supplyData")
     public void testsignInWithExcel(String email, String passCode, String message) throws InterruptedException {

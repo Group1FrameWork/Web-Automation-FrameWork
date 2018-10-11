@@ -6,27 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e6b7705e-ff36-4de6-b36c-5574cfbe7015" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/NYTimes-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/NYTimes-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/test-classes/TestDatabases/LogInUsingDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/test-classes/TestDatabases/LogInUsingDataProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBExcelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/DataDriven/InputFromExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/DataDriven/InputFromExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/GoogleSheet/GoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/GoogleSheet/GoogleSheetsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/KeyWordDriven/Features.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/KeyWordDriven/Features.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/PageObjectModel/GiftCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/PageObjectModel/GiftCards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/PageObjectModel/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/PageObjectModel/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/PageObjectModel/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/PageObjectModel/SignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/eBay-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/eBay-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/DataDrivenTest/InputFromExcelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/DataDrivenTest/InputFromExcelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/GoogleSheetTest/TestGoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/GoogleSheetTest/TestGoogleSheetsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/KeyWordDrivenTest/TestFeatures.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/KeyWordDrivenTest/TestFeatures.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/Search/homePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/Search/homePageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,8 +78,9 @@
     <session id="752594558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="2" />
@@ -110,8 +90,9 @@
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -120,7 +101,7 @@
           <entry key="class" value="30" />
           <entry key="html" value="7" />
           <entry key="iml" value="2" />
-          <entry key="java" value="412" />
+          <entry key="java" value="413" />
           <entry key="json" value="1" />
           <entry key="png" value="3" />
           <entry key="properties" value="3" />
@@ -133,7 +114,7 @@
           <entry key="HTML" value="7" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="412" />
+          <entry key="JAVA" value="413" />
           <entry key="JSON" value="1" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="57" />
@@ -143,14 +124,14 @@
         <counts>
           <entry key="NYTimesTestRunner" value="47" />
           <entry key="dummy" value="56" />
-          <entry key="java" value="9103" />
+          <entry key="java" value="9106" />
           <entry key="properties" value="26" />
           <entry key="xml" value="192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9103" />
+          <entry key="JAVA" value="9106" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="Properties" value="26" />
           <entry key="XML" value="239" />
@@ -159,115 +140,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-282">
-              <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1766#1767#0" expanded="true" />
-                <element signature="e#1800#1801#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestAuthenticationPage/TestLogInPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBExcel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1047">
-              <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBExcelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-319">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBGoogleSheet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBSearchForNYT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestTopPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYTimes/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -316,7 +189,6 @@
         <option value="$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBGoogleSheetTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/eBay/src/main/java/GoogleSheet/GoogleSheetsPage.java" />
-        <option value="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java" />
         <option value="$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBExcel.java" />
         <option value="$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBGoogleSheet.java" />
         <option value="$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBSearchForNYT.java" />
@@ -333,6 +205,7 @@
         <option value="$PROJECT_DIR$/NYTimes/pom.xml" />
         <option value="$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBExcelTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" />
+        <option value="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java" />
       </list>
     </option>
   </component>
@@ -383,12 +256,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="eBay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="eBay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -415,6 +300,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -527,7 +421,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -536,7 +429,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="ToolWindowCoverage.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539121920145" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539129326406" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Walmart/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -728,17 +621,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.3312721" side_tool="true" weight="0.4815864" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" visible="true" weight="0.30878186" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" visible="true" weight="0.30878186" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.56373936" />
@@ -1000,10 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#2906#2907#0" expanded="true" />
-            <element signature="e#2940#2941#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/GoogleSheet/GoogleSheetsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eBay/src/main/java/Database/DBsearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
@@ -1072,9 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,9 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,10 +1032,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eBay/src/main/java/GoogleSheet/GoogleSheetsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="86">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,9 +1058,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBExcelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="255">
           <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1181,24 +1078,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
+        <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBExcel.java">
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBGoogleSheet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1047">
-          <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        <state relative-caret-position="408">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1207,7 +1097,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBSearchForNYT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1215,25 +1105,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBGoogleSheet.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java">
+    <entry file="file://$PROJECT_DIR$/NYTimes/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="15" column="71" lean-forward="true" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1766#1767#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>

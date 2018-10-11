@@ -1,6 +1,7 @@
 package TestDatabases;
 
 import DataBases.DBGoogleSheet;
+import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,7 +10,7 @@ import reporting.TestLogger;
 import java.io.IOException;
 import java.util.List;
 
-public class DBGoogleSheetTest extends DBGoogleSheet {
+public class DBGoogleSheetTest extends CommonAPI {
     DBGoogleSheet dbGoogleSheet;
     @BeforeMethod
     public void initialization(){

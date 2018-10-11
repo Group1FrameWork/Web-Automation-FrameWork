@@ -4,7 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import utility.DataReader;
+import utility.DataRead;
 
 import java.io.IOException;
 
@@ -24,7 +24,7 @@ public class InputFromExcel extends CommonAPI {
     @FindBy(how = How.CSS, using = "#gh-ug > a")
     public static WebElement SignInLink;
 
-    DataReader dtr = new DataReader();
+    DataRead dtr = new DataRead();
 
     //
     public String[] getDataCol2(String fileName) throws IOException {

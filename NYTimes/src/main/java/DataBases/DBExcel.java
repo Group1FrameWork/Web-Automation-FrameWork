@@ -4,7 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
-import utility.DataReader;
+import utility.DataRead;
 
 import java.io.IOException;
 
@@ -27,7 +27,7 @@ public class DBExcel extends CommonAPI {
     @FindBy(how =XPATH, using = "//*[@id=\"formBox\"]/div/div/div/div/div[4]/div[2]/span/text()")
     public static WebElement ErrorMessage;
 
-    DataReader dtr = new DataReader();
+    DataRead dtr = new DataRead();
     //
     public String[] getDataCol2(String fileName) throws IOException {
         String path = "../NYTimes/Data/" + fileName;
