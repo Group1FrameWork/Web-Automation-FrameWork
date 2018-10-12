@@ -22,13 +22,14 @@ public class LogInPage extends CommonAPI {
     @FindBy(how = XPATH, using = "//*[@id=\"formBox\"]/div/div/div/div/div[4]/div[2]/span")
     public static WebElement readError;
 
+
     public void logInPage() throws InterruptedException {
        userName.sendKeys("bigm3152@aol.com");
        passWord.sendKeys("264451154");
        signInSubmit.click();
    }
     public void clickSignIn() {
-        clickByXpath("//*[@id=\"gh-ug\"]/a");
+        clickByXpath("//*[@id=\"app\"]/div[2]/div/header/section[1]/div[4]/button");
     }
     // verifying the we are in sign in page
     public void verifySignIn() {

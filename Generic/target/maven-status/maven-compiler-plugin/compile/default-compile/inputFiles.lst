@@ -1,7 +1,6 @@
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/reporting/ExtentManager.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/reporting/ApplicationLog.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/reporting/TestLogger.java
-/Users/admin/Web-Automation-FrameWork/Generic/src/main/java/utility/DataReader.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/DataReader/Xls_Reader.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/googleAPIs/GoogleSheetReader.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/base/CommonAPI.java
@@ -10,4 +9,5 @@
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/databases/ConnectToSqlDB.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/DataReader/XlsDataReaderUtil.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/reporting/ExtentTestManager.java
+/Users/admin/Web-Automation-FrameWork/Generic/src/main/java/utility/DataRead.java
 /Users/admin/Web-Automation-FrameWork/Generic/src/main/java/databases/Student.java

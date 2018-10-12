@@ -1,6 +1,10 @@
+Database/DBsearch.class
+GoogleSheet/GoogleSheetsPage.class
 PageObjectModel/HomePage.class
 PageObjectModel/SignUpPage.class
 PageObjectModel/HelpAndContact.class
 PageObjectModel/SignInPage.class
 PageObjectModel/DailyDeals.class
+KeyWordDriven/Features.class
 PageObjectModel/GiftCards.class
+DataDriven/InputFromExcel.class

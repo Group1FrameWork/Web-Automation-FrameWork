@@ -3,11 +3,11 @@ base/CommonAPI.class
 reporting/ExtentTestManager.class
 reporting/TestLogger.class
 databases/ConnectToSqlDB.class
+utility/DataRead.class
 reporting/ExtentManager.class
 databases/ConnectToMongoDB.class
 databases/Student.class
 DataReader/XlsDataReaderUtil.class
 reporting/ApplicationLog.class
-utility/DataReader.class
 databases/User.class
 DataReader/Xls_Reader.class

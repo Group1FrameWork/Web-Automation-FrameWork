@@ -98,7 +98,7 @@ public class CommonAPI {
     public String saucelabs_accesskey = "771b22f0-2a70-4565-a661-866e70cf029f";
 
     public static void sleepFor(int sec) throws InterruptedException {
-        Thread.sleep(sec * 1000);
+        Thread.sleep(sec*1000);
     }
 
      public static void captureScreenshot(WebDriver driver, String screenshotName) {
