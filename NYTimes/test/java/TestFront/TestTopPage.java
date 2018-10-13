@@ -17,20 +17,26 @@ public class TestTopPage extends CommonAPI {
     }
     @Test
     public void goSearchBar(){
+        frontPage.searchBar1();
     }
     @Test
     public void goToday(){
+        frontPage.setTopToday();
     }
     @Test
     public void goNyWeather(){
+        frontPage.setTopNyWeather();
     }
     @Test
     public void goEnglish(){
+        frontPage.setTopEnglish();
     }
     @Test
     public void goSpanish(){
+        frontPage.setTopSpanish();
     }
     @Test
     public void goChinese(){
+        frontPage.setTopChinese();
     }
 }

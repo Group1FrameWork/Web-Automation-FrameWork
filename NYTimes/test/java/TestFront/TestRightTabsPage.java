@@ -12,29 +12,38 @@ public class TestRightTabsPage extends CommonAPI {
     public void init(){frontPage = PageFactory.initElements(driver, FrontPage.class); }
     @Test
     public void clickOnVideo() {
+        frontPage.setTabVideo();
     }
     @Test
     public void clickOnRealEstate(){
+        frontPage.setTabRealEstate();
     };
     @Test
     public void clickOnTMagazine(){
+        frontPage.setTabTMagazine();
     }
     @Test
     public void clickOnMagazine(){
+        frontPage.setTabMagazine();
     }
     @Test
     public void clickOnTravel(){
+        frontPage.setTabTravel();
     }
     @Test
     public void clickOnFood(){
+        frontPage.setTabFood();
     }
     @Test
     public void clickOnStyle(){
+        frontPage.setTabStyle();
     }
     @Test
-    public void clickOnBooks(){;
+    public void clickOnBooks(){
+        frontPage.setTabBooks();
     }
     @Test
     public void clickOnArt(){
+        frontPage.setTabArt();
     }
 }

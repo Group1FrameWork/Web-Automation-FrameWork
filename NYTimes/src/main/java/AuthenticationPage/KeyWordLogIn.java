@@ -1,7 +1,6 @@
 package AuthenticationPage;
 
 import DataBases.DBExcel;
-import Front.FrontPage;
 import base.CommonAPI;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.PageFactory;
@@ -11,9 +10,8 @@ import java.io.IOException;
 
 public class KeyWordLogIn extends CommonAPI {
 
-    FrontPage frontPage = PageFactory.initElements(CommonAPI.driver, FrontPage.class);
-    LogInPage logInPage = PageFactory.initElements(CommonAPI.driver,LogInPage.class);
-    DBExcel dbExcel =PageFactory.initElements(CommonAPI.driver,DBExcel.class);
+    LogInPage logInPage = PageFactory.initElements(driver,LogInPage.class);
+    DBExcel dbExcel =PageFactory.initElements(driver,DBExcel.class);
 
     public void clickLogIn(){
         logInPage.clickSignIn();

@@ -13,8 +13,16 @@
 
 <test name="Search Items">
     <classes>
-        <!--<class name="TestAuthenticationPage.TestLogInPage"/>-->
         <class name="TestAuthenticationPage.TestLogInPage"></class>
+        <class name="TestAuthenticationPage.TestLogInPage"></class>
+        <class name="TestDatabases.DBExcelTest"></class>
+        <class name="TestDatabases.DBGoogleSheetTest"></class>
+        <class name="TestDatabases.DBSearchTest"></class>
+        <class name="TestFront.TestLeftTabsPage"></class>
+        <class name="TestFront.TestNavPage"></class>
+        <class name="TestFront.TestNextPage"></class>
+        <class name="TestFront.TestRightTabsPage"></class>
+        <class name="TestFront.TestTopPage"></class>
     </classes>
 </test>
 

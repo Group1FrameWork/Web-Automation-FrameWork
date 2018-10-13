@@ -16,29 +16,38 @@ public class TestLeftTabsPage extends CommonAPI {
     }
     @Test
     public void clickOnWorld(){
+        frontPage.setTabWorld();
     }
     @Test
     public void clickOnUS(){
+        frontPage.setTabUS();
     }
     @Test
     public void clickOnPolitics(){
+        frontPage.setTabPolitics();
     }
     @Test
     public void clickOnNY(){
+        frontPage.setTabNY();
     }
     @Test
     public void clickOnBusiness(){
+        frontPage.setTabBusiness();
     }
     @Test
     public void clickOnTech(){
+        frontPage.setTabTech();
     }
     @Test
     public void clickOnScience(){
+        frontPage.setTabScience();
     }
     @Test
     public void clickOnHealth(){
+        frontPage.setTabHealth();
     }
     @Test
     public void clickOnSports(){
+        frontPage.setTabSports();
     }
 }

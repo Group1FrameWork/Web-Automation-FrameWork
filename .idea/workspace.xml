@@ -5,113 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6b7705e-ff36-4de6-b36c-5574cfbe7015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NYTimes/Data/KeyWord1.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NYTimes/test/java/TestAuthenticationPage/TestKeyWordLogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTApi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTApi/src/test/java/JSONServer/PostsResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RESTApi/src/test/java/OpenWeatherMap/GetRequestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/googleAPIs/GoogleSheetReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/googleAPIs/GoogleSheetReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/MSNBC-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/MSNBC-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MSNBC/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/TEST-home.TestHomePage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/home.TestHomePage.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/junitreports/TEST-home.TestHomePage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSNBC/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/Data/DataFile2.xls" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/Data/DataFile2.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYTimes/.credentials/sheets-googleapis/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/.credentials/sheets-googleapis/StoredCredential" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NYTimes/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/NYTimes-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/NYTimes-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/classes/AuthenticationPage/LogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/classes/AuthenticationPage/LogInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/classes/DataBases/DBExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/classes/DataBases/DBExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/test-classes/TestDatabases/DBExcelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/test-classes/TestDatabases/DBExcelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/test-classes/TestDatabases/DBGoogleSheetTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/test-classes/TestDatabases/DBGoogleSheetTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/test-classes/TestDatabases/DBGoogleSheetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/test-classes/TestDatabases/DBGoogleSheetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/test-classes/TestFront/TestLeftTabsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/test-classes/TestFront/TestLeftTabsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/test-classes/TestFront/TestNavPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/test-classes/TestFront/TestNavPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/test-classes/TestFront/TestRightTabsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/test-classes/TestFront/TestRightTabsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYTimes/target/test-classes/TestFront/TestTopPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/target/test-classes/TestFront/TestTopPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/classes/DataDriven/InputFromExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/classes/DataDriven/InputFromExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/eBay-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/eBay-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Search Items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Search Items.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/junitreports/TEST-Search.DailyDealsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/junitreports/TEST-Search.GiftCardsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/junitreports/TEST-Search.HelpAndContactTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/junitreports/TEST-Search.HomePageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/junitreports/TEST-Search.InputHome.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/junitreports/TEST-Search.SignUpPageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/junitreports/TEST-Search.TestSearch.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /Search Items.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestLeftTabsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestLeftTabsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestRightTabsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestRightTabsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestTopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestTopPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYTimes/test/resources/NYTimesTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYTimes/test/resources/NYTimesTestRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -209,11 +109,11 @@
           <entry key="class" value="43" />
           <entry key="html" value="7" />
           <entry key="iml" value="2" />
-          <entry key="java" value="472" />
+          <entry key="java" value="495" />
           <entry key="json" value="1" />
           <entry key="png" value="3" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="65" />
+          <entry key="xml" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -222,27 +122,27 @@
           <entry key="HTML" value="7" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="472" />
+          <entry key="JAVA" value="495" />
           <entry key="JSON" value="1" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="67" />
+          <entry key="XML" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="NYTimesTestRunner" value="47" />
           <entry key="dummy" value="56" />
-          <entry key="java" value="9891" />
+          <entry key="java" value="10094" />
           <entry key="properties" value="26" />
-          <entry key="xml" value="323" />
+          <entry key="xml" value="359" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9891" />
+          <entry key="JAVA" value="10094" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="Properties" value="26" />
-          <entry key="XML" value="370" />
+          <entry key="XML" value="406" />
         </counts>
       </usages-collector>
     </session>
@@ -250,117 +150,112 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java">
+        <entry file="file://$PROJECT_DIR$/NYTimes/test/resources/NYTimesTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="360">
+              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBGoogleSheetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java">
+        <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1767#1768#0" expanded="true" />
-                <element signature="e#1801#1802#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#1928#1929#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestNextPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+        <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestNavPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="246" selection-start-line="246" selection-end-line="246" />
+            <state relative-caret-position="165">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/Front/NextPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestLeftTabsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/Front/FrontPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-898">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBGoogleSheet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="279" selection-start-line="279" selection-end-line="279" />
-              <folding>
-                <element signature="e#11078#11079#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#1191#1192#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="490" selection-start-line="490" selection-end-line="490" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataRead.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="220" selection-start-line="220" selection-end-line="220" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/poifs/filesystem/NPOIFSFileSystem.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.jar!/org/apache/poi/util/POILogFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#561#562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -409,15 +304,11 @@
         <option value="$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBsearchTest.java" />
         <option value="$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBSearchTest.java" />
         <option value="$PROJECT_DIR$/NYTimes/test/java/TestAuthenticationPage/TestLogInPage.java" />
-        <option value="$PROJECT_DIR$/NYTimes/test/resources/NYTimesTestRunner.xml" />
         <option value="$PROJECT_DIR$/NYTimes/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" />
         <option value="$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBExcelTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataRead.java" />
         <option value="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestNavPage.java" />
-        <option value="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestRightTabsPage.java" />
-        <option value="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestLeftTabsPage.java" />
-        <option value="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestTopPage.java" />
         <option value="$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBGoogleSheetTest.java" />
         <option value="$PROJECT_DIR$/RESTApi/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -430,9 +321,13 @@
         <option value="$PROJECT_DIR$/NYTimes/src/main/java/DataBases/KeyWordLogIn.java" />
         <option value="$PROJECT_DIR$/NYTimes/test/java/TestAuthenticationPage/TestKeyWordLogIn.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java" />
         <option value="$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBExcel.java" />
+        <option value="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java" />
         <option value="$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java" />
+        <option value="$PROJECT_DIR$/NYTimes/test/resources/NYTimesTestRunner.xml" />
+        <option value="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestRightTabsPage.java" />
+        <option value="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestTopPage.java" />
+        <option value="$PROJECT_DIR$/NYTimes/test/java/TestFront/TestLeftTabsPage.java" />
       </list>
     </option>
   </component>
@@ -480,7 +375,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="98" />
     <option name="y" value="23" />
     <option name="width" value="1083" />
@@ -544,12 +439,6 @@
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="NYTimes" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="NYTimes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -566,24 +455,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="NYTimes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="AuthenticationPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="NYTimes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DataBases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -599,21 +470,6 @@
               <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="NYTimes" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="NYTimes" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Automation-FrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="NYTimes" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestAuthenticationPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Automation-FrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -644,7 +500,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="ToolWindowCoverage.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539315874977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539388472588" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Walmart/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -689,25 +545,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestKeyWordLogIn.testLogIn">
-    <configuration name="DBSearchTest.testSearchByDB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NYTimes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestDatabases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestDatabases" />
-      <option name="MAIN_CLASS_NAME" value="TestDatabases.DBSearchTest" />
-      <option name="METHOD_NAME" value="testSearchByDB" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/admin/Web-Automation-FrameWork/NYTimes/test/resources/NYTimesTestRunner.xml">
     <configuration name="PostsResource.postTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RESTApi" />
       <extension name="coverage">
@@ -720,6 +558,22 @@
       <option name="MAIN_CLASS_NAME" value="JSONServer.PostsResource" />
       <option name="METHOD_NAME" value="postTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKeyWordLogIn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NYTimes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestAuthenticationPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestAuthenticationPage" />
+      <option name="MAIN_CLASS_NAME" value="TestAuthenticationPage.TestKeyWordLogIn" />
       <properties />
       <listeners />
       <method v="2">
@@ -774,18 +628,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG./Users/admin/Web-Automation-FrameWork/NYTimes/test/resources/NYTimesTestRunner.xml" />
-      <item itemvalue="TestNG.DBSearchTest.testSearchByDB" />
       <item itemvalue="TestNG.PostsResource.postTest" />
       <item itemvalue="TestNG.TestLogInPage.ClickOnLogIn" />
       <item itemvalue="TestNG.TestKeyWordLogIn.testLogIn" />
+      <item itemvalue="TestNG.TestKeyWordLogIn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/admin/Web-Automation-FrameWork/NYTimes/test/resources/NYTimesTestRunner.xml" />
+        <item itemvalue="TestNG.TestKeyWordLogIn" />
         <item itemvalue="TestNG.TestKeyWordLogIn.testLogIn" />
         <item itemvalue="TestNG.TestLogInPage.ClickOnLogIn" />
         <item itemvalue="TestNG.PostsResource.postTest" />
-        <item itemvalue="TestNG./Users/admin/Web-Automation-FrameWork/NYTimes/test/resources/NYTimesTestRunner.xml" />
-        <item itemvalue="TestNG.DBSearchTest.testSearchByDB" />
       </list>
     </recent_temporary>
   </component>
@@ -803,18 +657,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestKeyWordLogIn_testLogIn - 2018.10.11 at 23h 17m 06s.xml">
-      <configuration name="TestKeyWordLogIn.testLogIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestKeyWordLogIn_testLogIn - 2018.10.11 at 23h 19m 23s.xml">
-      <configuration name="TestKeyWordLogIn.testLogIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestKeyWordLogIn_testLogIn - 2018.10.11 at 23h 24m 58s.xml">
-      <configuration name="TestKeyWordLogIn.testLogIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestKeyWordLogIn_testLogIn - 2018.10.11 at 23h 25m 15s.xml">
-      <configuration name="TestKeyWordLogIn.testLogIn" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestKeyWordLogIn_testLogIn - 2018.10.11 at 23h 28m 27s.xml">
       <configuration name="TestKeyWordLogIn.testLogIn" configurationId="TestNG" />
     </history-entry>
@@ -833,24 +675,37 @@
     <history-entry file="TestKeyWordLogIn_testLogIn - 2018.10.11 at 23h 40m 51s.xml">
       <configuration name="TestKeyWordLogIn.testLogIn" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestKeyWordLogIn_testLogIn - 2018.10.11 at 23h 45m 06s.xml">
+      <configuration name="TestKeyWordLogIn.testLogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestKeyWordLogIn - 2018.10.12 at 18h 39m 47s.xml">
+      <configuration name="TestKeyWordLogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestKeyWordLogIn_testLogIn - 2018.10.12 at 18h 39m 57s.xml">
+      <configuration name="TestKeyWordLogIn.testLogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_admin_Web-Automation-FrameWork_NYTimes_test_resources_NYTimesTestRunner_xml - 2018.10.12 at 19h 54m 40s.xml">
+      <configuration name="/Users/admin/Web-Automation-FrameWork/NYTimes/test/resources/NYTimesTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="23" width="1083" height="693" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24111432" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20274636" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.3312721" side_tool="true" weight="0.4815864" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" weight="0.29027963" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49919224" weight="0.23968042" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.56373936" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.66872793" weight="0.36495176" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49953833" visible="true" weight="0.40836012" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.563249" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.66872793" weight="0.3648469" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49953833" weight="0.40745673" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -860,7 +715,7 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.3295053" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.23054755" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.19386107" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24974924" />
@@ -941,25 +796,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java</url>
-          <line>40</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java</url>
-          <line>39</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
@@ -1032,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/resources/NYTimesTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eBay/src/main/java/GoogleSheet/GoogleSheetsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -1074,75 +910,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBExcelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestLeftTabsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBGoogleSheetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestNavPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestNextPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestRightTabsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestTopPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1196,71 +963,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBGoogleSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/LogInUsingDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/Front/FrontPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/Front/NextPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestAuthenticationPage/TestLogInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBSearchForNYT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestAuthenticationPage/TestKeyWordLogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,32 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1767#1768#0" expanded="true" />
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1928#1929#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -1379,6 +1059,222 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/LogInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1928#1929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBSearchForNYT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/AuthenticationPage/KeyWordLogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/LogInUsingDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBExcelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestAuthenticationPage/TestKeyWordLogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/resources/NYTimesTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/DataBases/DBGoogleSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBGoogleSheetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestRightTabsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/Front/FrontPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-898">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestTopPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestDatabases/DBSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/src/main/java/Front/NextPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestLeftTabsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestNextPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYTimes/test/java/TestFront/TestNavPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
