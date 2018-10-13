@@ -13,7 +13,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class TestSignIn extends SignIn {
-
     SignIn elementsOfSignIn;
     @BeforeMethod
     public void ObjOfSignIn(){
@@ -21,13 +20,9 @@ public class TestSignIn extends SignIn {
         }
     @DataProvider
     public Iterator<Object[]> supplyData(){
-
-        ArrayList<Object[]> testData =
-                XlsDataReaderUtil.getDataFromExcel();
-
+        ArrayList<Object[]> testData = XlsDataReaderUtil.getDataFromExcel();
         return testData.iterator();
     }
-
     @Test
     public void signin(){clickInSignIn();}
 
@@ -36,15 +31,13 @@ public class TestSignIn extends SignIn {
         TestLogger.log("onlineid " + onlineid);
         TestLogger.log("passcord: " + passcode);
         TestLogger.log("message: " + message);
-
         TestLogger.log("In Sign In Page");
-        elementsOfSignIn.OnlineIdbox.sendKeys(onlineid,Keys.ENTER);
+        elementsOfSignIn.SingnInButton.click();
+        TestLogger.log("Test Passed");
+        elementsOfSignIn.OnlineIdbox.sendKeys(onlineid, Keys.ENTER);
         Thread.sleep(2000);
         elementsOfSignIn.Passcode.sendKeys(passcode, Keys.ENTER);
         Thread.sleep(2000);
-        elementsOfSignIn.SingnInButton.click();
-        TestLogger.log("Test Passed");
 
     }
-
 }

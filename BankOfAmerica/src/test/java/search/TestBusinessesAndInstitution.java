@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.AboutUs;
 import pages.BusinessesAndInstitutions;
+import reporting.TestLogger;
 
 public class TestBusinessesAndInstitution extends BusinessesAndInstitutions {
     BusinessesAndInstitutions objOfBusinessesAndInstitutions ;
@@ -13,7 +14,8 @@ public class TestBusinessesAndInstitution extends BusinessesAndInstitutions {
         objOfBusinessesAndInstitutions = PageFactory.initElements(driver, BusinessesAndInstitutions.class);
     }
     @Test
-    public void clickInNavber(){clickinBusinesses(); }
-
-
+    public void clickInNavber(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickinBusinesses();
+    }
 }

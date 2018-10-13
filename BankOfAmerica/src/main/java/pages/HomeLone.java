@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class HomeLone extends CommonAPI {
-    @FindBy(css = "#navHomeLoans > span.title")
+    @FindBy(xpath = "//a[@id='homeLoansAssistance']")
     public static WebElement clickInHomeLone;
 
     public void HomeLone(){

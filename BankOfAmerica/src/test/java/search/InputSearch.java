@@ -13,7 +13,6 @@ public class InputSearch extends CommonAPI {
     public  void Pages(){
         SearchPages searchPages = PageFactory.initElements(driver,SearchPages.class);
         searchPages.setSearchPages();
-
     }
 
 }

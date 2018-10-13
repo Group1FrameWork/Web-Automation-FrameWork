@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class SignIn extends CommonAPI {
     @FindBy(css = "#signIn")
@@ -12,11 +13,16 @@ public class SignIn extends CommonAPI {
     public static WebElement OnlineIdbox;
     @FindBy(css = "#passcode1")
     public static WebElement Passcode;
-
     public void clickInSignIn() {
-       OnlineIdbox.sendKeys("abcd", Keys.ENTER);
-        Passcode.sendKeys("1234", Keys.ENTER);
         SingnInButton.click();
+        OnlineIdbox.sendKeys("abcd", Keys.ENTER);
+        Passcode.sendKeys("1234", Keys.ENTER);
+    }
+    public void clickInOnlineId(){
+        OnlineIdbox.sendKeys("aabcd",Keys.ENTER);
+    }
+    public void clickPasscode(){
+        Passcode.sendKeys("1234",Keys.ENTER);
     }
 }
 

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="eBay API Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
@@ -13,16 +13,17 @@
     <test name="Search Items">
         <classes>
             <class name="search.InputSearch"/>
-            <class name="search.TestChecking"/>
-            <class name="search.TestSmallBusiness"/>
-            <class name="search.TestAboutUs"/>
-            <class name="search.TestSignIn"/>
-            <class name="search.TestHomeLone"/>
-            <class name="search.TestBusinessesAndInstitution"/>
-            <class name="search.TestContuctUs"/>
-
-
+            <!--<class name="search.TestChecking"/>-->
+            <!--<class name="search.TestSmallBusiness"/>-->
+            <!--<class name="search.TestAboutUs"/>-->
+            <!--<class name="search.TestSignIn"/>-->
+            <!--<class name="search.TestHomeLone"/>-->
+            <!--<class name="search.TestBusinessesAndInstitution"/>-->
+            <!--<class name="search.TestContuctUs"/>-->
+            <!--<class name="search.TestGoogleSheetApi"/>-->
+            <!--<class name="testHomepage.TestFindLocation"/>-->
+            <!--<class name="testOpenNewAccount.testNewAccount"/>-->
+            <!--<class name="testSavingPage.TestSaving"/>-->
         </classes>
     </test>
-
 </suite>

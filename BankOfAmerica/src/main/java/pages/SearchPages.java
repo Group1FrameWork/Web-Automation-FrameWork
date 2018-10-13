@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 public class SearchPages extends CommonAPI{
     @FindBy(css = "#nav-search-query")
     public static WebElement SearchPages;
-
     public  WebElement getSearchPages() {
         return SearchPages;
     }

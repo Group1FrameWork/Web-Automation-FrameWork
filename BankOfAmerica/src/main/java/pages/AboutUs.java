@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class AboutUs extends CommonAPI {
     @FindBy( css = "#NAV_ABOUT_US")
@@ -16,13 +17,10 @@ public class AboutUs extends CommonAPI {
    public static WebElement WhatGuidesUs;
 
     public void clickAboutUs(){
-       AboutUsCss.click();
+        AboutUsCss.click();
     }
-
    public void  OurCompany(){
        Actions actions = new Actions(driver);
        actions.moveToElement(OurCompanyCss).click().perform();
    }
-
-
 }

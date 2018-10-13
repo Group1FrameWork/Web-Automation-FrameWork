@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.AboutUs;
 import pages.SmallBusiness;
+import reporting.TestLogger;
 
 import javax.swing.*;
 
@@ -19,12 +20,15 @@ public class TestAboutUs extends AboutUs {
         }
     @Test
     public void hoverWhoAreYou(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         WebElement element = WhoWeAreCss;
         Actions action = new Actions(driver);
         ObjOfAboutUS.clickAboutUs();
         action.moveToElement(element).perform();
         }
-
     @Test
-    public void Company(){OurCompany();}
+    public void Company(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        OurCompany();
+    }
 }

@@ -3,6 +3,7 @@ package pages;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class ContuctUs extends CommonAPI {
     @FindBy(css ="#NAV_CONTACT_US")
@@ -11,11 +12,8 @@ public class ContuctUs extends CommonAPI {
     public static  WebElement inputeInSelectState;
     @FindBy(xpath = "//*[@id=\"submitState\"]/fieldset/div/a")
     public static WebElement clickInGoButton;
-
-
     public void ContactUs(){
          clickInContactUs.click();
          inputeInSelectState.click();
-
     }
 }

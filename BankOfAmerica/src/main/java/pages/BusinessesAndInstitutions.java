@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class BusinessesAndInstitutions extends CommonAPI {
     @FindBy(css = "#NAV_BUSINESS_INSTITUTIONS")
@@ -22,5 +23,4 @@ public class BusinessesAndInstitutions extends CommonAPI {
         navigateBack();
         inportinfInSearch.sendKeys("Account", Keys.ENTER);
     }
-
 }
