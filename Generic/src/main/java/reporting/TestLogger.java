@@ -1,5 +1,4 @@
 package reporting;
-
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.WebDriver;

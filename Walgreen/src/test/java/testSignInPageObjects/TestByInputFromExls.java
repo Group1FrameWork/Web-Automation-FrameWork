@@ -10,8 +10,6 @@ import signInPageObjects.SignInPage;
 
 import java.io.IOException;
 
-import static base.CommonAPI.sleepFor;
-
 public class TestByInputFromExls extends ByInputFromExls {
     HomePage homePage;
     SignInPage signInPage;
@@ -42,4 +40,5 @@ public class TestByInputFromExls extends ByInputFromExls {
         //implicitWait(driver, 20);
     }
 }
+
 

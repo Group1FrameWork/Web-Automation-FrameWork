@@ -1,4 +1,4 @@
-/*package LoginPackageTest;
+package LoginPackageTest;
 
 import LoginPackage.loginPage;
 import org.testng.annotations.Test;
@@ -22,14 +22,11 @@ public class loginPagetest extends loginPage {
         validemailpassword("//*[@id=\"u_0_2\"]");
         driver.close() ;
     }
-     *//*@Test
+     @Test
     public void notifiactontest(){
         this.checknotification("#fbRequestsFlyout");
-}*//*
-
-
-
-    }*/
+}
+}
 
 
 

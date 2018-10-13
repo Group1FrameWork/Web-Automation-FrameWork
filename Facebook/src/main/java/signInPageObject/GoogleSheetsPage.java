@@ -1,3 +1,4 @@
+/*
 package signInPageObject;
 
 import base.CommonAPI;
@@ -56,3 +57,4 @@ public class GoogleSheetsPage extends CommonAPI {
         return actual;
     }
 }
+*/

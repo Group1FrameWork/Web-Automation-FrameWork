@@ -17,13 +17,15 @@ public class TestHomePage extends HomePage {
     public void initializationOfElements() {
         homePage = PageFactory.initElements(driver, HomePage.class);
         signInPage = PageFactory.initElements(driver, SignInPage.class);
-       // objOfProductsPage = PageFactory.initElements(driver, ProductsPage.class);
+        productsPage = PageFactory.initElements(driver, ProductsPage.class);
+
     }
     // T1-WAL Home Page
     @Test(priority = 1, enabled = true)
-    public void testgetPage() {
-        homePage.getPage();
-    }
+        public void testgetPage() {
+            homePage.getPage();
+        }
+
     //T2-WAL Search Options
     @Test(priority = 2, enabled = true)
     public void testsearchplaces() {

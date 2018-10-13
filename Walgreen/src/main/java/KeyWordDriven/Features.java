@@ -9,6 +9,7 @@ import signInPageObjects.SignInPage;
 
 import java.io.IOException;
 
+
 public class Features extends CommonAPI {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     SignInPage signInPage = PageFactory.initElements(driver, SignInPage.class);
@@ -18,6 +19,7 @@ public class Features extends CommonAPI {
     public void clickSignIn() throws InterruptedException {
         homePage.clikSignIn();
     }
+
     //KeyWord SwitchToSignForm
     public void switchToSignInForm() {
         signInPage.switchToSignInForm();
@@ -27,8 +29,8 @@ public class Features extends CommonAPI {
         signInPage.signIn();
     }
     public void searchProduct(){
-      //  homePage.searchProduct();
-        System.out.println("Search for Jahid");
+       // homePage.;
+        System.out.println("test search");
     }
     public void selectAction(String featureName) throws IOException, InterruptedException {
         switch (featureName) {

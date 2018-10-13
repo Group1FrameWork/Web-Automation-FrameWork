@@ -1,17 +1,11 @@
 
-/*
+
 package signInPageObject;
 
 import base.CommonAPI;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-
-import java.util.NoSuchElementException;
 
 public class SignInPage extends CommonAPI {
-    @FindBy(xpath = "//*[@id=\"thirdpart-login\"]/a[1]")
+    /*@FindBy(xpath = "//*[@id=\"thirdpart-login\"]/a[1]")
     public static WebElement signInByFacebookIcon;
     @FindBy(xpath = "//*[@id=\"thirdpart-login\"]/a[2]")
     public static WebElement signInByGoogleIcon;
@@ -99,9 +93,5 @@ public class SignInPage extends CommonAPI {
     }
 
    */
-/* protected String signIn() {
-    }*//*
-
 }
 
-*/

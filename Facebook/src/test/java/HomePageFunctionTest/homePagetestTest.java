@@ -1,13 +1,11 @@
-/*
 package HomePageFunctionTest;
 
 
 import HomePageFunction.homePage;
 import org.testng.annotations.Test;
 
-
+@Test
 public class homePagetestTest {
-
     public class homePagetest extends homePage {
         public homePagetest() { }
         @Test
@@ -36,4 +34,4 @@ public class homePagetestTest {
         }
     }
 }
-*/
+

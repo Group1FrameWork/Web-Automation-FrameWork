@@ -12,11 +12,9 @@
         <module>Generic</module>
         <module>eBay</module>
         <module>MSNBC</module>
-        <module>instagram</module>
         <module>Facebook</module>
-        <module>BestBuy</module>
-        <module>Walgreens</module>
-        <module>Walgreen</module>
+        <module>RestApi</module>
+        <module>Amazon</module>
     </modules>
     <dependencyManagement>
     <dependencies>
@@ -71,11 +69,6 @@
             <version>3.1.0</version>
         </dependency>
         <dependency>
-            <groupId>com.google.api-client</groupId>
-            <artifactId>google-api-client</artifactId>
-            <version>1.23.0</version>
-        </dependency>
-        <dependency>
             <groupId>com.google.oauth-client</groupId>
             <artifactId>google-oauth-client-jetty</artifactId>
             <version>1.23.0</version>
@@ -95,21 +88,21 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.4</version>
+                <version>3.7.0</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>HTTPClient</groupId>
                 <artifactId>HTTPClient</artifactId>
                 <version>0.3-3</version>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.20.1</version>
+                <version>2.22.0</version>
                 <configuration>
                 </configuration>
             </plugin>

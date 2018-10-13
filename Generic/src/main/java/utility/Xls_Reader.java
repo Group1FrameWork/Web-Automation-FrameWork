@@ -152,7 +152,6 @@ public class Xls_Reader {
 
                 }
 
-
                 return cellText;
             } else if (cell.getCellType() == Cell.CELL_TYPE_BLANK)
                 return "";

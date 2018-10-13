@@ -6,9 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class HomePage extends CommonAPI {
 
     @FindBy(xpath = "/html//input[@id='ntt-placeholder']")
@@ -54,9 +51,9 @@ public class HomePage extends CommonAPI {
     //Login Page
     @FindBy(xpath = "/html/body")
     public static WebElement Loginpage;
-    @FindBy(xpath = "//*[@id=\"userName-phoneNo\"]")
+    @FindBy(xpath = "//*[@id=\"continueBtn\"]")
     public static WebElement Loginbox;
-    @FindBy(xpath = "/html//button[@id='continueBtn']")
+    @FindBy(css = "/html//button[@id='continueBtn']")
     public static WebElement loginContinuebutton;
 
     @FindBy(xpath = "//*[@id=\"menu-healthinfo\"]/a")
@@ -103,9 +100,9 @@ public class HomePage extends CommonAPI {
     }
     //5-WAL ClicksingIN
     public void clikSignIn() throws InterruptedException {
-        sleepFor(4);
-        Loginpage.click();
         sleepFor(2);
+        Loginpage.click();
+        sleepFor(1);
         Loginbox.click();
         sleepFor(2);
         loginContinuebutton.click();

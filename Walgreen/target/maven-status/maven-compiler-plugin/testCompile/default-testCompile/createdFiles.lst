@@ -1,0 +1,5 @@
+testSignInPageObjects/SinInUsingDataProviderPageTest.class
+testHomePageObjects/TestHomePage.class
+testSignInPageObjects/TestSignInPage.class
+testProductsPageObjects/TestProductPage.class
+testKeyWordDriven/TestFeatures.class

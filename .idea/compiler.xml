@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BestBuy" />
+        <module name="Amazon" />
         <module name="eBay" />
         <module name="Facebook" />
         <module name="Generic" />
-        <module name="instagram" />
         <module name="MSNBC" />
-        <module name="Walgreen" />
+        <module name="RestApi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="amazon" target="1.8" />
+      <module name="Amazon" target="1.8" />
+      <module name="BestBuy" target="1.8" />
+      <module name="instagram" target="1.8" />
+      <module name="Walgreen" target="1.8" />
       <module name="Walgreens" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Facebook API Automation Script " parallel="false">
+<suite name="Walgreen API Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -17,6 +17,12 @@
         <classes>
             <class name="testHomePageObjects.TestHomePage"/>
             <class name="testProductsPageObjects.TestProductPage"/>
+            <class name="testKeyWordDriven.TestFeatures"/>
+            <class name="testSignInPageObjects.SinInUsingDataProviderPageTest"/>
+            <class name="testSignInPageObjects.TestByInputFromExls"/>
+            <!--<class name="testSignInPageObjects.TestGoogleSheetsPage"/>-->
+            <class name="testSignInPageObjects.TestSignInPage"/>
+
         </classes>
     </test>
 

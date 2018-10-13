@@ -24,19 +24,19 @@ public class ByInputFromExls extends CommonAPI {
     //T3ALI_BE _TC01
     public String[] getDataCol2(String fileName) throws IOException {
         String path = "../Walgreens/Data/DataFile2.xls" + fileName;
-        String[] output = dtr.fileReader2(path,1); //col 2 = email
+        String[] output = dtr.fileReader2(path,2); //col 2 = email
         return output;
     }
     //T3ALI_BE _TC01
     public String[] getDataCol3(String fileName) throws IOException {
         String path = "../Walgreens/Data/DataFile2.xls" + fileName;
-        String[] output = dtr.fileReader2(path, 2); //col 3 = password
+        String[] output = dtr.fileReader2(path, 3); //col 3 = password
         return output;
     }
     //T3ALI_BE _TC01
     public String[] getAssertData(String fileName) throws IOException {
         String path = "../Walgreens/Data/DataFile2.xls" + fileName;
-        String[] output = dtr.fileReader2(path, 3);
+        String[] output = dtr.fileReader2(path, 4);
         return output;
     }
 
@@ -48,7 +48,7 @@ public class ByInputFromExls extends CommonAPI {
         for (int i = 0; i < col2Value.length; i++) {
             inputValueInTextBoxByWebElement(account, col2Value[i]);
             sleepFor(5);
-          //  inputValueInTextBoxByWebElement(password, col3Value[i]);
+           // inputValueInTextBoxByWebElement(password, col1Value[i]);
             sleepFor(5);
             actual[i] = getCurrentPageUrl();
             actual[i] = getTextByWebElement(signInErrorMesage);
@@ -61,8 +61,9 @@ public class ByInputFromExls extends CommonAPI {
     }
     public String[] getDataFromSignInKeyword(String fileName) throws IOException {
         String path = "../Walgreens/Data/DataFile2.xls" + fileName;
-        String[] output = dtr.fileReader2(path, 3); //col 2 = email
+        String[] output = dtr.fileReader2(path, 2); //col 2 = email
         return output;
     }
 }
+
 

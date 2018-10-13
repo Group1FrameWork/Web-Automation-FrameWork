@@ -1,12 +1,11 @@
 
 package testProductsPageObjects;
 
+import HomePageObjects.HomePage;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import productsPageObjects.ProductsPage;
-import HomePageObjects.HomePage;
 
 public class TestProductPage extends ProductsPage {
     HomePage homePage;
@@ -17,7 +16,7 @@ public class TestProductPage extends ProductsPage {
         homePage = PageFactory.initElements(driver, HomePage.class);
         productsPage = PageFactory.initElements(driver, ProductsPage.class);
     }
-     //filter search
+     //// T3ALI_PP_TC01 Select tols and filter search
     @Test(priority = 2, enabled =false)
     public void testCategories() throws InterruptedException {
         homePage.rxrefills();
