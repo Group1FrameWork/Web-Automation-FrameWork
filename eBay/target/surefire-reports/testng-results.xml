@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/subhraroy/Web-Automation-FrameWork/eBay/target/surefire-reports/html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-12-23T11:10:26Z" name="eBay API Automation Script " finished-at="2020-12-23T11:10:49Z" duration-ms="22632">
+    <groups>
+    </groups>
+    <test started-at="2020-12-23T11:10:26Z" name="Search Items" finished-at="2020-12-23T11:10:49Z" duration-ms="22632">
+      <class name="Search.homePageTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:26Z" name="extentSetup" finished-at="2020-12-23T11:10:26Z" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3fc79729]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/subhraroy/Web-Automation-FrameWork/eBay/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:26Z" name="setUp" finished-at="2020-12-23T11:10:29Z" duration-ms="2458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Big Sur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.eBay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:29Z" name="startExtent" finished-at="2020-12-23T11:10:29Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Search.homePageTest.getCategories()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="getCategories()[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:29Z" name="getCategories" finished-at="2020-12-23T11:10:29Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCategories -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:29Z" name="afterEachTestMethod" finished-at="2020-12-23T11:10:29Z" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCategories status=SUCCESS method=homePageTest.getCategories()[pri:0, instance:Search.homePageTest@6b8ca3c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:29Z" name="cleanUp" finished-at="2020-12-23T11:10:30Z" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:30Z" name="setUp" finished-at="2020-12-23T11:10:33Z" duration-ms="3063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Big Sur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.eBay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchItems()[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:33Z" name="searchItems" finished-at="2020-12-23T11:10:47Z" duration-ms="13944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:33Z" name="startExtent" finished-at="2020-12-23T11:10:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Search.homePageTest.searchItems() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:47Z" name="afterEachTestMethod" finished-at="2020-12-23T11:10:47Z" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItems status=SUCCESS method=homePageTest.searchItems()[pri:0, instance:Search.homePageTest@6b8ca3c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:47Z" name="cleanUp" finished-at="2020-12-23T11:10:47Z" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:47Z" name="setUp" finished-at="2020-12-23T11:10:49Z" duration-ms="2037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Big Sur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.eBay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEbay()[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:49Z" name="verifyEbay" finished-at="2020-12-23T11:10:49Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEbay -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:49Z" name="startExtent" finished-at="2020-12-23T11:10:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Search.homePageTest.verifyEbay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:49Z" name="afterEachTestMethod" finished-at="2020-12-23T11:10:49Z" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEbay status=SUCCESS method=homePageTest.verifyEbay()[pri:0, instance:Search.homePageTest@6b8ca3c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:49Z" name="cleanUp" finished-at="2020-12-23T11:10:49Z" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:Search.homePageTest@6b8ca3c8]" started-at="2020-12-23T11:10:49Z" name="generateReport" finished-at="2020-12-23T11:10:49Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- Search.homePageTest -->
+    </test> <!-- Search Items -->
+  </suite> <!-- eBay API Automation Script  -->
+</testng-results>
