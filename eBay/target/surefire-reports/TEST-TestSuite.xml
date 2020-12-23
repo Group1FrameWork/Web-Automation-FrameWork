@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="46.977" tests="9" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/subhraroy/Web-Automation-FrameWork/eBay/target/test-classes:/Users/subhraroy/Web-Automation-FrameWork/eBay/target/classes:/Users/subhraroy/Web-Automation-FrameWork/Generic/target/Generic-1.0-SNAPSHOT.jar:/Users/subhraroy/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/subhraroy/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/subhraroy/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/subhraroy/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/subhraroy/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/subhraroy/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/subhraroy/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/subhraroy/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/subhraroy/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/subhraroy/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/subhraroy/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/subhraroy/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/subhraroy/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/subhraroy/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/subhraroy/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/subhraroy/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/subhraroy/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/subhraroy/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-server/3.11.0/selenium-server-3.11.0.jar:/Users/subhraroy/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/subhraroy/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/Users/subhraroy/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/subhraroy/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/subhraroy/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/subhraroy/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.24/cssparser-0.9.24.jar:/Users/subhraroy/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.29/htmlunit-2.29.jar:/Users/subhraroy/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.28/htmlunit-core-js-2.28.jar:/Users/subhraroy/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.28/neko-htmlunit-2.28.jar:/Users/subhraroy/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/subhraroy/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.7.v20171121/jetty-repacked-9.4.7.v20171121.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-client/9.4.7.v20170914/jetty-client-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-http/9.4.8.v20171121/jetty-http-9.4.8.v20171121.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-io/9.4.8.v20171121/jetty-io-9.4.8.v20171121.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-util/9.4.8.v20171121/jetty-util-9.4.8.v20171121.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.7.v20170914/jetty-xml-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.29.0/htmlunit-driver-2.29.0.jar:/Users/subhraroy/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.7.v20170914/websocket-api-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.7.v20170914/websocket-client-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.7.v20170914/websocket-common-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/subhraroy/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/subhraroy/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/subhraroy/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/subhraroy/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/subhraroy/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/subhraroy/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/subhraroy/.m2/repository/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0.jar:/Users/subhraroy/.m2/repository/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0.jar:/Users/subhraroy/.m2/repository/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.jar:/Users/subhraroy/.m2/repository/com/google/http-client/google-http-client-jackson2/1.22.0/google-http-client-jackson2-1.22.0.jar:/Users/subhraroy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.jar:/Users/subhraroy/.m2/repository/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar:/Users/subhraroy/.m2/repository/org/mongodb/mongo-java-driver/3.6.0-beta1/mongo-java-driver-3.6.0-beta1.jar:/Users/subhraroy/.m2/repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar:/Users/subhraroy/.m2/repository/com/aventstack/extentreports/3.0.7/extentreports-3.0.7.jar:/Users/subhraroy/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/subhraroy/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/subhraroy/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/subhraroy/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/subhraroy/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/subhraroy/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/subhraroy/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/subhraroy/.m2/repository/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar:/Users/subhraroy/.m2/repository/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar:/Users/subhraroy/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar:/Users/subhraroy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/subhraroy/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/subhraroy/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/subhraroy/.m2/repository/io/rest-assured/json-path/3.1.0/json-path-3.1.0.jar:/Users/subhraroy/.m2/repository/org/codehaus/groovy/groovy-json/2.4.12/groovy-json-2.4.12.jar:/Users/subhraroy/.m2/repository/io/rest-assured/rest-assured-common/3.1.0/rest-assured-common-3.1.0.jar:/Users/subhraroy/.m2/repository/io/rest-assured/xml-path/3.1.0/xml-path-3.1.0.jar:/Users/subhraroy/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/subhraroy/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/subhraroy/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/subhraroy/Web-Automation-FrameWork/eBay/target/surefire/surefirebooter13218986736340153598.jar /Users/subhraroy/Web-Automation-FrameWork/eBay/target/surefire 2020-11-18T21-05-37_068-jvmRun1 surefire6048704029008593304tmp surefire_04812665390731633897tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/subhraroy/Web-Automation-FrameWork/eBay/target/test-classes:/Users/subhraroy/Web-Automation-FrameWork/eBay/target/classes:/Users/subhraroy/Web-Automation-FrameWork/Generic/target/Generic-1.0-SNAPSHOT.jar:/Users/subhraroy/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/subhraroy/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/subhraroy/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/subhraroy/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/subhraroy/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/subhraroy/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/subhraroy/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/subhraroy/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/subhraroy/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/subhraroy/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/subhraroy/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/subhraroy/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/subhraroy/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/subhraroy/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/subhraroy/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/subhraroy/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/subhraroy/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/subhraroy/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/selenium-server/3.11.0/selenium-server-3.11.0.jar:/Users/subhraroy/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/subhraroy/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/Users/subhraroy/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/subhraroy/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/subhraroy/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/subhraroy/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.24/cssparser-0.9.24.jar:/Users/subhraroy/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.29/htmlunit-2.29.jar:/Users/subhraroy/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.28/htmlunit-core-js-2.28.jar:/Users/subhraroy/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.28/neko-htmlunit-2.28.jar:/Users/subhraroy/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/subhraroy/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.7.v20171121/jetty-repacked-9.4.7.v20171121.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-client/9.4.7.v20170914/jetty-client-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-http/9.4.8.v20171121/jetty-http-9.4.8.v20171121.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-io/9.4.8.v20171121/jetty-io-9.4.8.v20171121.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-util/9.4.8.v20171121/jetty-util-9.4.8.v20171121.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.7.v20170914/jetty-xml-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.29.0/htmlunit-driver-2.29.0.jar:/Users/subhraroy/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.7.v20170914/websocket-api-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.7.v20170914/websocket-client-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.7.v20170914/websocket-common-9.4.7.v20170914.jar:/Users/subhraroy/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/subhraroy/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/subhraroy/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/subhraroy/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/subhraroy/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/subhraroy/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/subhraroy/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/subhraroy/.m2/repository/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0.jar:/Users/subhraroy/.m2/repository/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0.jar:/Users/subhraroy/.m2/repository/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.jar:/Users/subhraroy/.m2/repository/com/google/http-client/google-http-client-jackson2/1.22.0/google-http-client-jackson2-1.22.0.jar:/Users/subhraroy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.jar:/Users/subhraroy/.m2/repository/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar:/Users/subhraroy/.m2/repository/org/mongodb/mongo-java-driver/3.6.0-beta1/mongo-java-driver-3.6.0-beta1.jar:/Users/subhraroy/.m2/repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar:/Users/subhraroy/.m2/repository/com/aventstack/extentreports/3.0.7/extentreports-3.0.7.jar:/Users/subhraroy/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/subhraroy/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/subhraroy/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/subhraroy/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/subhraroy/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/subhraroy/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/subhraroy/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/subhraroy/.m2/repository/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar:/Users/subhraroy/.m2/repository/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar:/Users/subhraroy/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar:/Users/subhraroy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/subhraroy/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/subhraroy/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/subhraroy/.m2/repository/io/rest-assured/json-path/3.1.0/json-path-3.1.0.jar:/Users/subhraroy/.m2/repository/org/codehaus/groovy/groovy-json/2.4.12/groovy-json-2.4.12.jar:/Users/subhraroy/.m2/repository/io/rest-assured/rest-assured-common/3.1.0/rest-assured-common-3.1.0.jar:/Users/subhraroy/.m2/repository/io/rest-assured/xml-path/3.1.0/xml-path-3.1.0.jar:/Users/subhraroy/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/subhraroy/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/subhraroy/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/subhraroy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/subhraroy/Web-Automation-FrameWork/eBay"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/subhraroy/Web-Automation-FrameWork/eBay/target/surefire/surefirebooter13218986736340153598.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.1+9"/>
+    <property name="user.name" value="subhraroy"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/subhraroy/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/r8/pjs64d4x1kzf3kd8ylr4bxr00000gn/T/"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="/Users/subhraroy/Web-Automation-FrameWork/eBay"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/subhraroy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="getCategories" classname="Search.homePageTest" time="0.157"/>
+  <testcase name="getCategories" classname="Search.homePageTest" time="0.182"/>
+  <testcase name="getCategories" classname="Search.homePageTest" time="0.409"/>
+  <testcase name="searchItems" classname="Search.homePageTest" time="0.513">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: MicrosoftEdge=86.0.622.69)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;subhras-MBP.attlocal.net&apos;, ip: &apos;2600:1700:2f90:4980:0:0:0:21%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.0.1&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 86.0.622.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60730}, msedge: {msedgedriverVersion: 86.0.622.69 (19046d7b09a04b..., userDataDir: /var/folders/r8/pjs64d4x1kz...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bc68a325fb23d17709999663d88d7f0e" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=86.0.622.69)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'subhras-MBP.attlocal.net', ip: '2600:1700:2f90:4980:0:0:0:21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.0.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 86.0.622.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60730}, msedge: {msedgedriverVersion: 86.0.622.69 (19046d7b09a04b..., userDataDir: /var/folders/r8/pjs64d4x1kz...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc68a325fb23d17709999663d88d7f0e
+	at Search.homePageTest.searchItems(homePageTest.java:26)
+</failure>
+    <system-err><![CDATA[1605751548467	Marionette	DEBUG	0 -> [0,8,"WebDriver:CloseWindow",{}]
+1605751548467	Marionette	DEBUG	0 <- [1,8,null,[]]
+1605751548469	Marionette	DEBUG	0 -> [0,9,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1605751548469	Marionette	INFO	Stopped listening on port 60466
+1605751548667	Marionette	TRACE	Received observer notification quit-application
+1605751548682	Marionette	DEBUG	0 <- [1,9,null,{"cause":"shutdown"}]
+1605751548800	Marionette	DEBUG	Closed connection 0
+1605751549039	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1605751549039	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1605751549040	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1605751549040	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1605751549040	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1605751549040	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1605751549040	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1605751549040	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1605751549040	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1605751549041	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1605751549041	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1605751549041	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1605751549041	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1605751549041	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1605751549041	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1605751549041	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1605751549041	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1605751549041	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1605751549041	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1605751549041	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1605751549041	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1605751549042	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1605751549042	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1605751549042	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1605751549042	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1605751549042	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1605751549042	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1605751549043	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1605751549043	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1605751549043	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1605751549043	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1605751549044	Marionette	DEBUG	Marionette stopped listening
+1605751549540	geckodriver	INFO	geckodriver 0.21.0
+1605751549548	geckodriver	INFO	Listening on 127.0.0.1:38222
+1605751549563	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/r8/pjs64d4x1kzf3kd8ylr4bxr00000gn/T/rust_mozprofile.OAHRKTMe9Rrg"
+1605751550446	Marionette	TRACE	Marionette enabled
+Nov 18, 2020 9:05:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1605751550577	Marionette	TRACE	Received observer notification toplevel-window-ready
+2020-11-18 21:05:52.128 firefox-bin[22939:1328380] Warning: Expected min height of view: (<NSButton: 0x13278ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:05:52.129 firefox-bin[22939:1328380] Warning: Expected min height of view: (<NSButton: 0x13cecfc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:05:52.130 firefox-bin[22939:1328380] Warning: Expected min height of view: (<NSButton: 0x13cecbc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:05:52.130 firefox-bin[22939:1328380] Warning: Expected min height of view: (<NSButton: 0x13cecb800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:05:52.131 firefox-bin[22939:1328380] Warning: Expected min height of view: (<NSButton: 0x13ced0800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:05:52.132 firefox-bin[22939:1328380] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13cf09400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:05:52.133 firefox-bin[22939:1328380] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13cf0f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1605751553849	Marionette	TRACE	Received observer notification marionette-startup-requested
+1605751553849	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1605751553871	Marionette	TRACE	All scripts recorded.
+1605751553871	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1605751553872	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1605751553872	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1605751553872	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1605751553872	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1605751553874	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1605751553874	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1605751553874	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1605751553874	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1605751553875	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1605751553875	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1605751553875	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1605751553875	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1605751553875	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1605751553876	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1605751553876	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1605751553876	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1605751553876	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1605751553876	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1605751553876	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1605751553877	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1605751553877	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1605751553878	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1605751553878	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1605751553878	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1605751553878	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1605751553878	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1605751553878	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1605751553878	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1605751553879	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1605751553882	Marionette	INFO	Listening on port 60836
+1605751553886	Marionette	DEBUG	Marionette is listening
+1605751553969	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:60998
+1605751553986	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1605751553987	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605751553998	Marionette	TRACE	[19] Frame script loaded
+1605751554060	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"339cf5f0-68cf-b14b-82fb-be5cf97ec0bf","capabilities":{"browserName":"firefox","browserVersion":"83.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+Nov 18, 2020 9:05:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1605751554114	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":10000}]
+1605751554115	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1605751554140	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"pageLoad":25000}]
+1605751554140	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1605751554165	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"https://www.eBay.com/"}]
+1605751554186	Marionette	TRACE	Received message beforeunload for about:blank
+1605751554416	Marionette	TRACE	Received message pagehide for about:blank
+1605751556210	Marionette	TRACE	Received message DOMContentLoaded for https://www.ebay.com/
+1605751556375	Marionette	TRACE	Received message pageshow for https://www.ebay.com/
+1605751556375	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1605751556414	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"#gh-ac"}]
+1605751556481	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"723d4ece-163d-a74c-979f-3534364a0e22"}}]
+JavaScript error: , line 0: NetworkError: A network error occurred.
+1605751556494	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"#gh-ac"}]
+JavaScript error: , line 0: NetworkError: A network error occurred.
+1605751556509	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"723d4ece-163d-a74c-979f-3534364a0e22"}}]
+1605751556516	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"723d4ece-163d-a74c-979f-3534364a0e22","text":"Java Book","value":["J","a","v","a"," ","B","o","o","k"]}]
+1605751556607	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1605751556608	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementClear",{"id":"723d4ece-163d-a74c-979f-3534364a0e22"}]
+1605751556632	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1605751556636	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"#gh-btn"}]
+1605751556677	Marionette	DEBUG	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2e001632-63cc-7e49-b19e-75088fd3092d"}}]
+1605751556679	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"using":"css selector","value":"#gh-ac"}]
+1605751556688	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"723d4ece-163d-a74c-979f-3534364a0e22"}}]
+1605751556691	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementClick",{"id":"2e001632-63cc-7e49-b19e-75088fd3092d"}]
+JavaScript error: https://ir.ebaystatic.com/rs/c/desk1021_3.js, line 78: TypeError: a is undefined
+1605751556762	Marionette	TRACE	Received DOM event click for [object HTMLInputElement]
+1605751556772	Marionette	TRACE	Received message beforeunload for https://www.ebay.com/
+]]></system-err>
+  </testcase>
+  <testcase name="searchItems" classname="Search.homePageTest" time="1.841">
+    <failure message="The element reference of &lt;input id=&quot;gh-ac&quot; class=&quot;gh-tb ui-autocomplete-input&quot; name=&quot;_nkw&quot; type=&quot;text&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;subhras-MBP.attlocal.net&apos;, ip: &apos;2600:1700:2f90:4980:0:0:0:21%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.0.1&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:headless: false, moz:processID: 22939, moz:profile: /var/folders/r8/pjs64d4x1kz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.1.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 339cf5f0-68cf-b14b-82fb-be5cf97ec0bf" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+The element reference of <input id="gh-ac" class="gh-tb ui-autocomplete-input" name="_nkw" type="text"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'subhras-MBP.attlocal.net', ip: '2600:1700:2f90:4980:0:0:0:21%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.0.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:headless: false, moz:processID: 22939, moz:profile: /var/folders/r8/pjs64d4x1kz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.1.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 339cf5f0-68cf-b14b-82fb-be5cf97ec0bf
+	at Search.homePageTest.searchItems(homePageTest.java:26)
+]]></failure>
+    <system-out><![CDATA[Screenshot captured
+]]></system-out>
+    <system-err><![CDATA[1605751557285	Marionette	TRACE	Received message pagehide for https://www.ebay.com/
+Starting MSEd160geDriver 86.0.622575.69 1558045	Mario(19nett046d7b09a04b7b7bbc3274e	TRACE	Rece823ived messa22bc48fge DOMContentLoadbfffc9) oedn po fort r https42://www.ebay.759
+Only lcom/n/all-coacal ctegorionnections are allowed.
+Please es
+see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+MSEdgeDriver was started successfully.
+1605751558196	Marionette	TRACE	Received message pageshow for https://www.ebay.com/n/all-categories
+1605751558197	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1605751558203	Marionette	DEBUG	0 -> [0,12,"WebDriver:ElementSendKeys",{"id":"723d4ece-163d-a74c-979f-3534364a0e22","text":"Laptop","value":["L","a","p","t","o","p"]}]
+1605751558227	Marionette	DEBUG	0 <- [1,12,{"error":"stale element reference","message":"The element reference of <input id=\"gh-ac\" class=\"gh-tb ui-autocomplet ... ch/</req<@chrome://marionette/content/listener.js:101:29\ndispatch/<@chrome://marionette/content/listener.js:100:15\n"},null]
+1605751558228	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"using":"css selector","value":"#gh-ac"}]
+]]></system-err>
+  </testcase>
+  <testcase name="searchItems" classname="Search.homePageTest" time="11.024"/>
+  <testcase name="verifyEbay" classname="Search.homePageTest" time="0.116"/>
+  <testcase name="verifyEbay" classname="Search.homePageTest" time="0.129"/>
+  <testcase name="verifyEbay" classname="Search.homePageTest" time="0.145">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at Search.homePageTest.verifyEbay(homePageTest.java:20)
+</failure>
+    <system-out><![CDATA[false
+]]></system-out>
+    <system-err><![CDATA[1605751575478	Marionette	DEBUG	0 -> [0,57,"WebDriver:CloseWindow",{}]
+1605751575479	Marionette	DEBUG	0 <- [1,57,null,[]]
+1605751575490	Marionette	DEBUG	0 -> [0,58,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1605751575491	Marionette	INFO	Stopped listening on port 60836
+1605751575738	Marionette	TRACE	Received observer notification quit-application
+1605751575742	Marionette	DEBUG	0 <- [1,58,null,{"cause":"shutdown"}]
+1605751575847	Marionette	DEBUG	Closed connection 0
+1605751576228	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1605751576228	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1605751576228	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1605751576229	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1605751576229	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1605751576229	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1605751576230	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1605751576230	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1605751576231	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1605751576231	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1605751576231	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1605751576231	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1605751576231	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1605751576231	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1605751576231	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1605751576232	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1605751576232	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1605751576232	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1605751576232	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1605751576232	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1605751576232	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1605751576233	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1605751576233	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1605751576233	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1605751576233	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1605751576233	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1605751576233	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1605751576233	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1605751576233	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1605751576234	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1605751576235	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1605751576236	Marionette	DEBUG	Marionette stopped listening
+1605751576971	geckodriver	INFO	geckodriver 0.21.0
+1605751576983	geckodriver	INFO	Listening on 127.0.0.1:46483
+1605751577007	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/r8/pjs64d4x1kzf3kd8ylr4bxr00000gn/T/rust_mozprofile.iHeHcSoI2laY"
+1605751577957	Marionette	TRACE	Marionette enabled
+1605751578114	Marionette	TRACE	Received observer notification toplevel-window-ready
+2020-11-18 21:06:20.087 firefox-bin[23035:1330478] Warning: Expected min height of view: (<NSButton: 0x13176b400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:06:20.088 firefox-bin[23035:1330478] Warning: Expected min height of view: (<NSButton: 0x13176b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:06:20.088 firefox-bin[23035:1330478] Warning: Expected min height of view: (<NSButton: 0x13176c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:06:20.089 firefox-bin[23035:1330478] Warning: Expected min height of view: (<NSButton: 0x131775400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:06:20.089 firefox-bin[23035:1330478] Warning: Expected min height of view: (<NSButton: 0x131774400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:06:20.090 firefox-bin[23035:1330478] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131775000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2020-11-18 21:06:20.091 firefox-bin[23035:1330478] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1317e1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1605751581186	Marionette	TRACE	Received observer notification marionette-startup-requested
+1605751581187	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1605751581202	Marionette	TRACE	All scripts recorded.
+1605751581202	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1605751581202	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1605751581203	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1605751581203	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1605751581203	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1605751581204	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1605751581204	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1605751581204	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1605751581204	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1605751581205	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1605751581205	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1605751581205	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1605751581205	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1605751581205	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1605751581206	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1605751581206	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1605751581206	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1605751581206	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1605751581206	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1605751581206	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1605751581207	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1605751581207	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1605751581207	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1605751581208	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1605751581208	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1605751581208	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1605751581208	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1605751581208	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1605751581208	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1605751581209	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1605751581211	Marionette	INFO	Listening on port 61362
+1605751581211	Marionette	DEBUG	Marionette is listening
+1605751581296	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:61461
+1605751581307	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1605751581307	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605751581316	Marionette	TRACE	[19] Frame script loaded
+1605751581326	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"18a12e07-c98b-d642-86e4-9ae1bb45d444","capabilities":{"browserName":"firefox","browserVersion":"83.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+Nov 18, 2020 9:06:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1605751581345	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":10000}]
+1605751581345	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1605751581355	Marionette	DEBUG	0 -> [0,3,"WebDriver:SetTimeouts",{"pageLoad":25000}]
+1605751581355	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1605751581360	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"https://www.eBay.com/"}]
+1605751581372	Marionette	TRACE	Received message beforeunload for about:blank
+1605751581608	Marionette	TRACE	Received message pagehide for about:blank
+1605751583007	Marionette	TRACE	Received message DOMContentLoaded for https://www.ebay.com/
+1605751583158	Marionette	TRACE	Received message pageshow for https://www.ebay.com/
+1605751583158	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1605751583201	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"#gh-logo"}]
+1605751583261	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"93e5257b-20e8-4c45-af96-f97ff2cb56eb"}}]
+1605751583305	Marionette	DEBUG	0 -> [0,6,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"93e5257b-20e8-4c45-af96-f97ff2cb56eb"}],"newS ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1605751583318	Marionette	DEBUG	0 <- [1,6,null,{"value":false}]
+]]></system-err>
+  </testcase>
+</testsuite>

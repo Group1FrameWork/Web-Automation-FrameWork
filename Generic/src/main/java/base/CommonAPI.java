@@ -7,6 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -37,7 +38,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
-    /*//ExtentReport
+   //ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) {
@@ -78,7 +79,7 @@ public class CommonAPI {
         if (result.getStatus() == ITestResult.FAILURE) {
             captureScreenshot(driver, result.getName());
         }
-        driver.quit();
+       // driver.quit();
     }
     @AfterSuite
     public void generateReport() {
@@ -88,7 +89,7 @@ public class CommonAPI {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
-    }*/
+    }
 
     public WebDriver driver = null;
     public String browserstack_username = "your user name";
@@ -100,7 +101,7 @@ public class CommonAPI {
         Thread.sleep(sec * 1000);
     }
 
-   /* public static void captureScreenshot(WebDriver driver, String screenshotName) {
+   public static void captureScreenshot(WebDriver driver, String screenshotName) {
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
@@ -115,7 +116,7 @@ public class CommonAPI {
         }
 
     }
-*/
+
     public static String convertToString(String st) {
         String splitString;
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
@@ -154,7 +155,7 @@ public class CommonAPI {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
 
     }
 
@@ -188,7 +189,14 @@ public class CommonAPI {
             System.setProperty("webdriver.ie.driver", "../Generic/Browser-Driver/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
+        else if (browserName.equalsIgnoreCase("edge")) {
+
+                System.setProperty("webdriver.edge.driver", "../Generic/Browser-Driver/msedgedriver");
+
+            driver = new EdgeDriver();
+        }
         return driver;
+
     }
 
     public WebDriver getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String os_version, String browserName, String browserVersion) throws IOException {
