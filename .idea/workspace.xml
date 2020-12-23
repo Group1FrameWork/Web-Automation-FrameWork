@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e6b7705e-ff36-4de6-b36c-5574cfbe7015" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/resources/EBayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/resources/EBayTestRunner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
