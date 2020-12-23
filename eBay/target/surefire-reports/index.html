@@ -112,7 +112,7 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-eBay_API_Automation_Script_" title="Search.homePageTest" class="method navigator-link" hash-for-method="verifyEbay">verifyEbay</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-eBay_API_Automation_Script_" title="Search.homePageTest" class="method navigator-link" hash-for-method="searchItems">searchItems</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-eBay_API_Automation_Script_ -->
@@ -141,7 +141,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-eBay_API_Automation_Script_" title="Search.homePageTest" class="method navigator-link" hash-for-method="searchItems">searchItems</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-eBay_API_Automation_Script_" title="Search.homePageTest" class="method navigator-link" hash-for-method="verifyEbay">verifyEbay</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -177,14 +177,13 @@
                   <a name="searchItems">
                   </a> <!-- searchItems -->
                   <span class="method-name">searchItems</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: MicrosoftEdge=86.0.622.69)
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;input id=&quot;gh-btn&quot; class=&quot;btn btn-prim gh-spr&quot; type=&quot;submit&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;subhras-MBP.attlocal.net&apos;, ip: &apos;2600:1700:2f90:4980:0:0:0:21%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.0.1&apos;, java.version: &apos;15.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 86.0.622.69, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60730}, msedge: {msedgedriverVersion: 86.0.622.69 (19046d7b09a04b..., userDataDir: /var/folders/r8/pjs64d4x1kz...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bc68a325fb23d17709999663d88d7f0e
+System info: host: &apos;subhras-MBP.attlocal.net&apos;, ip: &apos;2600:1700:2f90:4980:0:0:0:21%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:headless: false, moz:processID: 23020, moz:profile: /var/folders/r8/pjs64d4x1kz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.1.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9e799b85-f424-fe40-8e01-aeec1f5fe3a9
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -192,16 +191,16 @@ Session ID: bc68a325fb23d17709999663d88d7f0e
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.clear(Unknown Source)
-	at Main.HomePage.clearInput(HomePage.java:47)
-	at Main.HomePage.searchItemsAndSubmitButton(HomePage.java:64)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at Main.HomePage.submitSearchButton(HomePage.java:37)
+	at Main.HomePage.searchItemsAndSubmitButton(HomePage.java:63)
 	at Search.homePageTest.searchItems(homePageTest.java:26)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -211,13 +210,12 @@ Session ID: bc68a325fb23d17709999663d88d7f0e
                   <a name="searchItems">
                   </a> <!-- searchItems -->
                   <span class="method-name">searchItems</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;input id=&quot;gh-ac&quot; class=&quot;gh-tb ui-autocomplete-input&quot; name=&quot;_nkw&quot; type=&quot;text&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;subhras-MBP.attlocal.net&apos;, ip: &apos;2600:1700:2f90:4980:0:0:0:21%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.0.1&apos;, java.version: &apos;15.0.1&apos;
+System info: host: &apos;subhras-MBP.attlocal.net&apos;, ip: &apos;2600:1700:2f90:4980:0:0:0:21%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;12.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:headless: false, moz:processID: 22939, moz:profile: /var/folders/r8/pjs64d4x1kz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.1.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 339cf5f0-68cf-b14b-82fb-be5cf97ec0bf
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:headless: false, moz:processID: 23020, moz:profile: /var/folders/r8/pjs64d4x1kz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.1.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9e799b85-f424-fe40-8e01-aeec1f5fe3a9
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -225,32 +223,50 @@ Session ID: 339cf5f0-68cf-b14b-82fb-be5cf97ec0bf
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
-	at Main.HomePage.serachFor(HomePage.java:33)
-	at Main.HomePage.searchItemsAndSubmitButton(HomePage.java:62)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at Main.HomePage.submitSearchButton(HomePage.java:37)
+	at Main.HomePage.searchItemsAndSubmitButton(HomePage.java:63)
 	at Search.homePageTest.searchItems(homePageTest.java:26)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyEbay">
-                  </a> <!-- verifyEbay -->
-                  <span class="method-name">verifyEbay</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at Search.homePageTest.verifyEbay(homePageTest.java:20)
+                  <a name="searchItems">
+                  </a> <!-- searchItems -->
+                  <span class="method-name">searchItems</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;input id=&quot;gh-btn&quot; class=&quot;btn btn-prim gh-spr&quot; type=&quot;submit&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;subhras-MBP.attlocal.net&apos;, ip: &apos;2600:1700:2f90:4980:0:0:0:21%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;12.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:headless: false, moz:processID: 23020, moz:profile: /var/folders/r8/pjs64d4x1kz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.1.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9e799b85-f424-fe40-8e01-aeec1f5fe3a9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at Main.HomePage.submitSearchButton(HomePage.java:37)
+	at Main.HomePage.searchItemsAndSubmitButton(HomePage.java:63)
+	at Search.homePageTest.searchItems(homePageTest.java:26)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 22 stack frames
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -285,9 +301,9 @@ Session ID: 339cf5f0-68cf-b14b-82fb-be5cf97ec0bf
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchItems">
-                  </a> <!-- searchItems -->
-                  <span class="method-name">searchItems</span>
+                  <a name="verifyEbay">
+                  </a> <!-- verifyEbay -->
+                  <span class="method-name">verifyEbay</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -388,44 +404,44 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchItems')
 data.setCell(0, 2, 'Search.homePageTest')
-data.setCell(0, 3, 18953);
+data.setCell(0, 3, 20019);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchItems')
 data.setCell(1, 2, 'Search.homePageTest')
-data.setCell(1, 3, 8894);
+data.setCell(1, 3, 18052);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'searchItems')
 data.setCell(2, 2, 'Search.homePageTest')
-data.setCell(2, 3, 5441);
+data.setCell(2, 3, 12518);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'getCategories')
 data.setCell(3, 2, 'Search.homePageTest')
-data.setCell(3, 3, 409);
+data.setCell(3, 3, 158);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'getCategories')
+data.setCell(4, 1, 'verifyEbay')
 data.setCell(4, 2, 'Search.homePageTest')
-data.setCell(4, 3, 181);
+data.setCell(4, 3, 79);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'getCategories')
 data.setCell(5, 2, 'Search.homePageTest')
-data.setCell(5, 3, 152);
+data.setCell(5, 3, 77);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyEbay')
 data.setCell(6, 2, 'Search.homePageTest')
-data.setCell(6, 3, 144);
+data.setCell(6, 3, 57);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyEbay')
+data.setCell(7, 1, 'getCategories')
 data.setCell(7, 2, 'Search.homePageTest')
-data.setCell(7, 3, 129);
+data.setCell(7, 3, 51);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyEbay')
 data.setCell(8, 2, 'Search.homePageTest')
-data.setCell(8, 3, 118);
+data.setCell(8, 3, 25);
 window.suiteTableData['eBay_API_Automation_Script_']= { tableData: data, tableDiv: 'times-div-eBay_API_Automation_Script_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
               <div id="times-div-eBay_API_Automation_Script_">
               </div> <!-- times-div-eBay_API_Automation_Script_ -->
             </div> <!-- times-div -->
@@ -453,198 +469,198 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Search.homePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@3f6b0be5)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@404bbcbd)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Big Sur, chrome, 83, https://www.eBay.com/)</span>
-                <span class="method-start">191 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Big Sur, edge, 83, https://www.eBay.com/)</span>
-                <span class="method-start">191 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, Big Sur, Firefox, 83, https://www.eBay.com/)</span>
-                <span class="method-start">191 ms</span>
+                <span class="method-start">203 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">startExtent(public void Search.homePageTest.getCategories())</span>
-                <span class="method-start">5870 ms</span>
+                <span class="method-name">setUp(false, browserstack, OS X, Big Sur, edge, 83, https://www.eBay.com/)</span>
+                <span class="method-start">203 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">getCategories</span>
-                <span class="method-start">5879 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=getCategories status=SUCCESS method=homePageTest.getCategories()[pri:0, instance:Se...)</span>
-                <span class="method-start">6036 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">6385 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, Big Sur, chrome, 83, https://www.eBay.com/)</span>
-                <span class="method-start">6875 ms</span>
+                <span class="method-start">203 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void Search.homePageTest.getCategories())</span>
-                <span class="method-start">8602 ms</span>
+                <span class="method-start">2961 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getCategories</span>
-                <span class="method-start">8604 ms</span>
+                <span class="method-start">2968 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=getCategories status=SUCCESS method=homePageTest.getCategories()[pri:0, instance:Se...)</span>
-                <span class="method-start">8786 ms</span>
+                <span class="method-start">3128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void Search.homePageTest.getCategories())</span>
+                <span class="method-start">3416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">3520 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getCategories</span>
+                <span class="method-start">3520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getCategories status=SUCCESS method=homePageTest.getCategories()[pri:0, instance:Se...)</span>
+                <span class="method-start">3571 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">8847 ms</span>
+                <span class="method-start">3606 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, Big Sur, edge, 83, https://www.eBay.com/)</span>
-                <span class="method-start">8960 ms</span>
+                <span class="method-start">3663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Big Sur, chrome, 83, https://www.eBay.com/)</span>
+                <span class="method-start">3927 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void Search.homePageTest.getCategories())</span>
-                <span class="method-start">10046 ms</span>
+                <span class="method-start">5970 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getCategories</span>
-                <span class="method-start">10047 ms</span>
+                <span class="method-start">5971 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=getCategories status=SUCCESS method=homePageTest.getCategories()[pri:0, instance:Se...)</span>
-                <span class="method-start">10457 ms</span>
+                <span class="method-start">6049 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">10561 ms</span>
+                <span class="method-start">6097 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void Search.homePageTest.searchItems() throws java.io.IOException)</span>
-                <span class="method-start">11433 ms</span>
+                <span class="method-start">6654 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">searchItems</span>
-                <span class="method-start">11435 ms</span>
+                <span class="method-start">6655 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Big Sur, Firefox, 83, https://www.eBay.com/)</span>
-                <span class="method-start">11627 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
                 <span class="method-name">startExtent(public void Search.homePageTest.searchItems() throws java.io.IOException)</span>
-                <span class="method-start">13549 ms</span>
+                <span class="method-start">6704 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">searchItems</span>
-                <span class="method-start">13549 ms</span>
+                <span class="method-start">6705 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Big Sur, Firefox, 83, https://www.eBay.com/)</span>
+                <span class="method-start">7314 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
                 <span class="method-name">startExtent(public void Search.homePageTest.searchItems() throws java.io.IOException)</span>
-                <span class="method-start">18488 ms</span>
+                <span class="method-start">12189 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">searchItems</span>
-                <span class="method-start">18489 ms</span>
+                <span class="method-start">12189 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=searchItems status=FAILURE method=homePageTest.searchItems()[pri:0, instance:Search...)</span>
-                <span class="method-start">19001 ms</span>
+                <span class="method-start">24718 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">20015 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(false, browserstack, OS X, Big Sur, edge, 83, https://www.eBay.com/)</span>
-                <span class="method-start">20085 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=searchItems status=FAILURE method=homePageTest.searchItems()[pri:0, instance:Search...)</span>
-                <span class="method-start">20330 ms</span>
+                <span class="method-start">24718 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">21577 ms</span>
+                <span class="method-start">25503 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, Big Sur, chrome, 83, https://www.eBay.com/)</span>
-                <span class="method-start">21998 ms</span>
+                <span class="method-start">25676 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">startExtent(public void Search.homePageTest.verifyEbay())</span>
-                <span class="method-start">25457 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyEbay</span>
-                <span class="method-start">25458 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=verifyEbay status=SUCCESS method=homePageTest.verifyEbay()[pri:0, instance:Search.h...)</span>
-                <span class="method-start">25577 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">25632 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">startExtent(public void Search.homePageTest.verifyEbay())</span>
-                <span class="method-start">26429 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyEbay</span>
-                <span class="method-start">26430 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=verifyEbay status=SUCCESS method=homePageTest.verifyEbay()[pri:0, instance:Search.h...)</span>
-                <span class="method-start">26559 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">26610 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=searchItems status=SUCCESS method=homePageTest.searchItems()[pri:0, instance:Search...)</span>
-                <span class="method-start">37444 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">37560 ms</span>
+                <span class="method-start">26002 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, OS X, Big Sur, Firefox, 83, https://www.eBay.com/)</span>
-                <span class="method-start">39040 ms</span>
+                <span class="method-start">26724 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">startExtent(public void Search.homePageTest.verifyEbay())</span>
-                <span class="method-start">45274 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyEbay</span>
-                <span class="method-start">45275 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterEachTestMethod([TestResult name=verifyEbay status=FAILURE method=homePageTest.verifyEbay()[pri:0, instance:Search.h...)</span>
-                <span class="method-start">45419 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=searchItems status=FAILURE method=homePageTest.searchItems()[pri:0, instance:Search...)</span>
+                <span class="method-start">26725 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">46056 ms</span>
+                <span class="method-start">27299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Big Sur, edge, 83, https://www.eBay.com/)</span>
+                <span class="method-start">27356 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void Search.homePageTest.verifyEbay())</span>
+                <span class="method-start">27827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEbay</span>
+                <span class="method-start">27827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=verifyEbay status=SUCCESS method=homePageTest.verifyEbay()[pri:0, instance:Search.h...)</span>
+                <span class="method-start">27852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">27884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void Search.homePageTest.verifyEbay())</span>
+                <span class="method-start">29908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEbay</span>
+                <span class="method-start">29908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=verifyEbay status=SUCCESS method=homePageTest.verifyEbay()[pri:0, instance:Search.h...)</span>
+                <span class="method-start">29987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">30007 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void Search.homePageTest.verifyEbay())</span>
+                <span class="method-start">31020 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEbay</span>
+                <span class="method-start">31020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=verifyEbay status=SUCCESS method=homePageTest.verifyEbay()[pri:0, instance:Search.h...)</span>
+                <span class="method-start">31077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">31103 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">46567 ms</span>
+                <span class="method-start">31626 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
