@@ -20,7 +20,7 @@
 
     </classes>
 </test>
-
+    <!--    <test name="Adding a commentgit >-->
 <!--    <test name="Input home">-->
 <!--        <parameter name="browserName" value="Firefox"/>-->
 
