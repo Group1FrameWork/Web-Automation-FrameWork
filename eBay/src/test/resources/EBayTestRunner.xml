@@ -11,16 +11,16 @@
     <parameter name="url" value="https://www.eBay.com/"/>
 
 
-<!--<test name="Search Items">-->
-<!--    <parameter name="browserName" value="chrome"/>-->
+<test name="Search Items">
+    <parameter name="browserName" value="chrome"/>
 
-<!--    <classes>-->
+    <classes>
 
-<!--<class name="Search.homePageTest"/>-->
+<class name="Search.homePageTest"/>
 
-<!--    </classes>-->
-<!--</test>-->
-
+    </classes>
+</test>
+    <!--    <test name="Adding a comment git>-->
 <!--    <test name="Input home">-->
 <!--        <parameter name="browserName" value="Firefox"/>-->
 
