@@ -23,42 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6b7705e-ff36-4de6-b36c-5574cfbe7015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MSNBC/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eBay/screenshots/searchItems (12.23.2020-05:09AM).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/src/test/resources/EBayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/resources/EBayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Input home.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Input home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Input home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Input home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Search Items.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Search Items.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Search Items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Search Items.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Test Search.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Test Search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Test Search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /Test Search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/eBay API Automation Script /testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/junitreports/TEST-Search.homePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/junitreports/TEST-Search.homePageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/old/eBay API Automation Script /toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/eBayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/eBayTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +208,7 @@
       <screen x="0" y="25" width="1792" height="1045" />
     </state>
     <state x="492" y="125" width="1200" height="784" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1792.1045@0.25.1792.1045" timestamp="1605745376648" />
-    <state width="1358" height="363" key="GridCell.Tab.0.bottom" timestamp="1608718178390">
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom" timestamp="1608718575235">
       <screen x="0" y="25" width="1792" height="1045" />
     </state>
     <state width="1358" height="366" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1603847837225" />
@@ -252,11 +217,11 @@
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1033@0.25.1792.1033" timestamp="1607014422666" />
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1606526122844" />
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1043@0.25.1792.1043" timestamp="1605737005397" />
-    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1045@0.25.1792.1045" timestamp="1608718178390" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1045@0.25.1792.1045" timestamp="1608718575235" />
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1046@0.25.1792.1046" timestamp="1605753380710" />
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1047@0.25.1792.1047" timestamp="1605750873435" />
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1605745303094" />
-    <state width="1358" height="363" key="GridCell.Tab.0.center" timestamp="1608718178389">
+    <state width="1358" height="363" key="GridCell.Tab.0.center" timestamp="1608718575235">
       <screen x="0" y="25" width="1792" height="1045" />
     </state>
     <state width="1358" height="366" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1603847837224" />
@@ -265,11 +230,11 @@
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1033@0.25.1792.1033" timestamp="1607014422665" />
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1606526122843" />
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1043@0.25.1792.1043" timestamp="1605737005396" />
-    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1045@0.25.1792.1045" timestamp="1608718178389" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1045@0.25.1792.1045" timestamp="1608718575235" />
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1046@0.25.1792.1046" timestamp="1605753380709" />
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1047@0.25.1792.1047" timestamp="1605750873434" />
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1048@0.25.1792.1048" timestamp="1605745303093" />
-    <state width="1358" height="363" key="GridCell.Tab.0.left" timestamp="1608718178389">
+    <state width="1358" height="363" key="GridCell.Tab.0.left" timestamp="1608718575234">
       <screen x="0" y="25" width="1792" height="1045" />
     </state>
     <state width="1358" height="366" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1603847837224" />
@@ -278,11 +243,11 @@
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1033@0.25.1792.1033" timestamp="1607014422665" />
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1606526122843" />
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1043@0.25.1792.1043" timestamp="1605737005395" />
-    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1045@0.25.1792.1045" timestamp="1608718178389" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1045@0.25.1792.1045" timestamp="1608718575234" />
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1046@0.25.1792.1046" timestamp="1605753380709" />
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1047@0.25.1792.1047" timestamp="1605750873434" />
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1048@0.25.1792.1048" timestamp="1605745303091" />
-    <state width="1358" height="363" key="GridCell.Tab.0.right" timestamp="1608718178390">
+    <state width="1358" height="363" key="GridCell.Tab.0.right" timestamp="1608718575235">
       <screen x="0" y="25" width="1792" height="1045" />
     </state>
     <state width="1358" height="366" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1603847837224" />
@@ -291,7 +256,7 @@
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1033@0.25.1792.1033" timestamp="1607014422665" />
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1606526122844" />
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1043@0.25.1792.1043" timestamp="1605737005396" />
-    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1045@0.25.1792.1045" timestamp="1608718178390" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1045@0.25.1792.1045" timestamp="1608718575235" />
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1046@0.25.1792.1046" timestamp="1605753380709" />
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1047@0.25.1792.1047" timestamp="1605750873435" />
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1048@0.25.1792.1048" timestamp="1605745303093" />
