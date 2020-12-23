@@ -3,14 +3,68 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e6b7705e-ff36-4de6-b36c-5574cfbe7015" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/Browser-Driver/libc++.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/Browser-Driver/msedgedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eBay/screenshots/searchItems (11.18.2020-19:14PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eBay/screenshots/searchItems (11.18.2020-20:54PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eBay/screenshots/searchItems (11.18.2020-20:55PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eBay/screenshots/searchItems (11.18.2020-20:56PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eBay/screenshots/searchItems (11.18.2020-21:05PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eBay/screenshots/signUpForeBay (11.18.2020-16:59PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eBay/screenshots/verifyEbay (11.18.2020-17:01PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eBay/screenshots/verifyEbay (11.18.2020-20:54PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eBay/screenshots/verifyEbay (11.18.2020-21:06PM).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSNBC/target/MSNBC-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSNBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSNBC/target/test-classes/MSNBCTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSNBC/target/test-classes/home/TestHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/src/test/resources/EBayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/src/test/resources/EBayTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/target/eBay-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eBay/target/test-classes/eBayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eBay/target/test-classes/eBayTestRunner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +94,17 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectId" id="1jU48DILe9YsCm3N4uoxLUrvYER" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowCoverage.ShowToolbar" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537503609675" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -58,16 +113,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Generic/Browser-Driver" />
-      <recent name="$PROJECT_DIR$/Generic/Browser-Driver/Mac" />
-      <recent name="$PROJECT_DIR$/eBay" />
-      <recent name="$PROJECT_DIR$/Generic/Browser-Driver/Windows" />
-      <recent name="$PROJECT_DIR$/Amazon/src/test" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="utility" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MSNBC/src/test" />
       <recent name="$PROJECT_DIR$/Generic/Browser-Driver/Mac" />
@@ -75,8 +120,18 @@
       <recent name="$PROJECT_DIR$/Generic/src/main/java/reporting" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utility" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic/Browser-Driver" />
+      <recent name="$PROJECT_DIR$/Generic/Browser-Driver/Mac" />
+      <recent name="$PROJECT_DIR$/eBay" />
+      <recent name="$PROJECT_DIR$/Generic/Browser-Driver/Windows" />
+      <recent name="$PROJECT_DIR$/Amazon/src/test" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/admin/Web-Automation-FrameWork/MSNBC/src/test/resources/MSNBCTestRunner.xml">
+  <component name="RunManager" selected="TestNG./Users/subhra/WebPageAutomation/eBay/src/test/resources/EBayTestRunner.xml">
     <configuration name="SignInPageTest.NoEmailAndValidPasswordUse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eBay" />
       <extension name="coverage">
@@ -152,18 +207,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/subhra/WebPageAutomation/eBay/src/test/resources/EBayTestRunner.xml" />
       <item itemvalue="TestNG.SignInPageTest.NoEmailAndValidPasswordUse" />
-      <item itemvalue="TestNG.homePageTest.searchItems" />
-      <item itemvalue="TestNG.homePageTest.getCategories" />
       <item itemvalue="TestNG./Users/admin/Web-Automation-FrameWork/MSNBC/src/test/resources/MSNBCTestRunner.xml" />
+      <item itemvalue="TestNG./Users/subhra/WebPageAutomation/eBay/src/test/resources/EBayTestRunner.xml" />
+      <item itemvalue="TestNG.homePageTest.getCategories" />
+      <item itemvalue="TestNG.homePageTest.searchItems" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/subhra/WebPageAutomation/eBay/src/test/resources/EBayTestRunner.xml" />
         <item itemvalue="TestNG./Users/admin/Web-Automation-FrameWork/MSNBC/src/test/resources/MSNBCTestRunner.xml" />
         <item itemvalue="TestNG.homePageTest.getCategories" />
         <item itemvalue="TestNG.homePageTest.searchItems" />
-        <item itemvalue="TestNG./Users/subhra/WebPageAutomation/eBay/src/test/resources/EBayTestRunner.xml" />
         <item itemvalue="TestNG.SignInPageTest.NoEmailAndValidPasswordUse" />
       </list>
     </recent_temporary>
@@ -182,55 +237,78 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="_Users_subhra_WebPageAutomation_eBay_src_test_resources_EBayTestRunner_xml - 2018.09.20 at 16h 34m 50s.xml">
-      <configuration name="/Users/subhra/WebPageAutomation/eBay/src/test/resources/EBayTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_subhra_WebPageAutomation_eBay_src_test_resources_EBayTestRunner_xml - 2018.09.20 at 16h 40m 12s.xml">
-      <configuration name="/Users/subhra/WebPageAutomation/eBay/src/test/resources/EBayTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="homePageTest_searchItems - 2018.09.20 at 17h 14m 49s.xml">
-      <configuration name="homePageTest.searchItems" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="homePageTest_searchItems - 2018.09.20 at 17h 16m 50s.xml">
-      <configuration name="homePageTest.searchItems" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="homePageTest_getCategories - 2018.09.20 at 17h 24m 36s.xml">
-      <configuration name="homePageTest.getCategories" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="homePageTest_getCategories - 2018.09.20 at 17h 25m 44s.xml">
-      <configuration name="homePageTest.getCategories" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="homePageTest_getCategories - 2018.09.20 at 17h 38m 07s.xml">
-      <configuration name="homePageTest.getCategories" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="homePageTest_getCategories - 2018.09.20 at 17h 41m 13s.xml">
-      <configuration name="homePageTest.getCategories" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="homePageTest_getCategories - 2018.09.20 at 17h 54m 45s.xml">
-      <configuration name="homePageTest.getCategories" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_admin_Web-Automation-FrameWork_MSNBC_src_test_resources_MSNBCTestRunner_xml - 2018.09.21 at 00h 14m 58s.xml">
-      <configuration name="/Users/admin/Web-Automation-FrameWork/MSNBC/src/test/resources/MSNBCTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="366" key="GridCell.Tab.0.bottom" timestamp="1603845210207">
-      <screen x="0" y="23" width="1792" height="1046" />
+    <state x="492" y="125" width="1200" height="784" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605745376648">
+      <screen x="0" y="25" width="1792" height="1045" />
     </state>
-    <state width="1358" height="366" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1603845210207" />
-    <state width="1358" height="366" key="GridCell.Tab.0.center" timestamp="1603845210207">
-      <screen x="0" y="23" width="1792" height="1046" />
+    <state x="492" y="125" width="1200" height="784" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1792.1045@0.25.1792.1045" timestamp="1605745376648" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom" timestamp="1607014422666">
+      <screen x="0" y="25" width="1792" height="1033" />
     </state>
-    <state width="1358" height="366" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1603845210207" />
-    <state width="1358" height="366" key="GridCell.Tab.0.left" timestamp="1603845210206">
-      <screen x="0" y="23" width="1792" height="1046" />
+    <state width="1358" height="366" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1603847837225" />
+    <state width="1358" height="366" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1604594638781" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1029@0.25.1792.1029" timestamp="1605819686896" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1033@0.25.1792.1033" timestamp="1607014422666" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1034@0.25.1792.1034" timestamp="1606526122844" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1043@0.25.1792.1043" timestamp="1605737005397" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1045@0.25.1792.1045" timestamp="1605745426811" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1046@0.25.1792.1046" timestamp="1605753380710" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1047@0.25.1792.1047" timestamp="1605750873435" />
+    <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.25.1792.1048@0.25.1792.1048" timestamp="1605745303094" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center" timestamp="1607014422665">
+      <screen x="0" y="25" width="1792" height="1033" />
     </state>
-    <state width="1358" height="366" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1603845210206" />
-    <state width="1358" height="366" key="GridCell.Tab.0.right" timestamp="1603845210207">
-      <screen x="0" y="23" width="1792" height="1046" />
+    <state width="1358" height="366" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1603847837224" />
+    <state width="1358" height="366" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1604594638780" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1029@0.25.1792.1029" timestamp="1605819686895" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1033@0.25.1792.1033" timestamp="1607014422665" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1034@0.25.1792.1034" timestamp="1606526122843" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1043@0.25.1792.1043" timestamp="1605737005396" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1045@0.25.1792.1045" timestamp="1605745426811" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1046@0.25.1792.1046" timestamp="1605753380709" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1047@0.25.1792.1047" timestamp="1605750873434" />
+    <state width="1358" height="363" key="GridCell.Tab.0.center/0.25.1792.1048@0.25.1792.1048" timestamp="1605745303093" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left" timestamp="1607014422665">
+      <screen x="0" y="25" width="1792" height="1033" />
     </state>
-    <state width="1358" height="366" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1603845210207" />
+    <state width="1358" height="366" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1603847837224" />
+    <state width="1358" height="366" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1604594638780" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1029@0.25.1792.1029" timestamp="1605819686894" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1033@0.25.1792.1033" timestamp="1607014422665" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1034@0.25.1792.1034" timestamp="1606526122843" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1043@0.25.1792.1043" timestamp="1605737005395" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1045@0.25.1792.1045" timestamp="1605745426810" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1046@0.25.1792.1046" timestamp="1605753380709" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1047@0.25.1792.1047" timestamp="1605750873434" />
+    <state width="1358" height="363" key="GridCell.Tab.0.left/0.25.1792.1048@0.25.1792.1048" timestamp="1605745303091" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right" timestamp="1607014422665">
+      <screen x="0" y="25" width="1792" height="1033" />
+    </state>
+    <state width="1358" height="366" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1603847837224" />
+    <state width="1358" height="366" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1604594638781" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1029@0.25.1792.1029" timestamp="1605819686895" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1033@0.25.1792.1033" timestamp="1607014422665" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1034@0.25.1792.1034" timestamp="1606526122844" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1043@0.25.1792.1043" timestamp="1605737005396" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1045@0.25.1792.1045" timestamp="1605745426811" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1046@0.25.1792.1046" timestamp="1605753380709" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1047@0.25.1792.1047" timestamp="1605750873435" />
+    <state width="1358" height="363" key="GridCell.Tab.0.right/0.25.1792.1048@0.25.1792.1048" timestamp="1605745303093" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
