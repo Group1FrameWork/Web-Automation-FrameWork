@@ -93,6 +93,7 @@ public class HomePage extends CommonAPI {
         itemsList.add("ps4games");
         itemsList.add("macAir");
         itemsList.add("iPhone 12");
+        itemsList.add("Apple Air pod");
 
         return itemsList;
     }
