@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
-        <module name="MSNBC" />
         <module name="eBay" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MSNBC" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
