@@ -20,25 +20,25 @@
 
     </classes>
 </test>
-    <!--    <test name="Adding a comment git>-->
-<!--    <test name="Input home">-->
-<!--        <parameter name="browserName" value="Firefox"/>-->
 
-<!--        <classes>-->
+    <test name="Input home">
+        <parameter name="browserName" value="Firefox"/>
 
-<!--            <class name="Search.homePageTest"/>-->
+        <classes>
 
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Test Search">-->
-<!--        <parameter name="browserName" value="edge"/>-->
+            <class name="Search.homePageTest"/>
 
-<!--        <classes>-->
+        </classes>
+    </test>
+    <test name="Test Search">
+        <parameter name="browserName" value="edge"/>
 
-<!--            <class name="Search.homePageTest"/>-->
+        <classes>
 
-<!--        </classes>-->
-<!--    </test>-->
+            <class name="Search.homePageTest"/>
+
+        </classes>
+    </test>
 
 
 </suite>
