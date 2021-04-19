@@ -11,7 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>eBay</module>
-        <module>MSNBC</module>
+
     </modules>
     <dependencyManagement>
     <dependencies>
